@@ -4,10 +4,9 @@
 numerus textus is all about **numbers** and its **corresponding texts** 🤓.
 
 <img src="./images/readme/text2number_hello_world.gif" width="60%" style="max-width:100%;" alt="text2number hello world example">
+<img src="./images/readme/keypad.jpg" width="22%" style="max-width:100%;" alt="keypad">
 
 > Check out the <a href="https://www.numerus-textus.com" target="_blank">live demo</a>!
-
-<img src="./images/readme/keypad.jpg" width="22%" style="max-width:100%;" alt="keypad">
 
 
 
