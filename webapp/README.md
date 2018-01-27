@@ -22,10 +22,12 @@ Angular concepts/techniques used:
 
 ### number2text
 <img src="./images/readme/number2text_screenshot.jpg" width="60%" style="max-width:100%;" alt="number2text screenshot">
+
 The computation- and memory-intensive task of number to text conversion is performed by the [numerus textus API](../api/) in the backend, which provides a JSON API.
 
 ### text2number
 <img src="./images/readme/text2number_screenshot.jpg" width="60%" style="max-width:100%;" alt="text2number screenshot">
+
 Since the conversion from text to number is a trivial task it is done by the [`TextToNumberService`](./src/app/numerus-textus/services/text-to-number/) in the client app.
 
 ### about
