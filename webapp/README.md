@@ -28,7 +28,7 @@ The computation- and memory-intensive task of number to text conversion is perfo
 ### text2number
 <img src="./images/readme/text2number_screenshot.jpg" width="60%" style="max-width:100%;" alt="text2number screenshot">
 
-Since the conversion from text to number is a trivial task it is done by the [`TextToNumberService`](./src/app/numerus-textus/services/text-to-number/) in the client app.
+Since the conversion from text to number is a trivial task it is done by the [`TextToNumberService`](./numerus-textus/src/app/numerus-textus/services/text-to-number) in the client app.
 
 ### about
 User-centric description of the numerus textus project.
