@@ -1,0 +1,15 @@
+<div *ngIf="isLoading" class="is-inline-block">
+  <span class="loader"></span>
+  <div class="icon slow-shake-animation">🤔</div>
+</div>
+<div *ngIf="error" class="error">
+  <div class="icon">🙈</div>
+  {{ error }}
+</div>
+<div *ngIf="!isLoading && !error" class="possible-words" [ngClass]="{ 'small': inputLength > 9 }">
+  <div *ngFor="let possibleWord of possibleWords" class="word">
+    <div *ngFor="let possibleSubWord of possibleWord" class="sub-word">
+      <span *ngFor="let possibleSubWordPart of possibleSubWord" class="sub-word-part">{{ possibleSubWordPart }}</span>
+    </div>
+  </div>
+</div>

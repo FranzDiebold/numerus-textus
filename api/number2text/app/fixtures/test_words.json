@@ -1,0 +1,27 @@
+[
+    {
+    	"model": "app.testlanguage",
+        "pk": "test",
+        "fields": {}
+    },
+    {
+    	"model": "app.testlanguage",
+        "pk": "kia",
+        "fields": {}
+    },
+    {
+    	"model": "app.testlanguage",
+        "pk": "jib",
+        "fields": {}
+    },
+    {
+    	"model": "app.testlanguage",
+        "pk": "ga",
+        "fields": {}
+    },
+    {
+    	"model": "app.testlanguage",
+        "pk": "ha",
+        "fields": {}
+    }
+]

@@ -1,0 +1,44 @@
+$item-color: rgba(255, 255, 255, 0.75);
+$item-active-color: #ffffff;
+
+nav.navbar {
+    background: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+    button.navbar-burger {
+        color: $item-color;
+    }
+
+    a.navbar-item {
+        color: $item-color;
+
+        &:hover,
+        &.is-active {
+            color: $item-active-color;
+            background-color: transparent;
+        }
+    }
+
+    @media screen and (max-width: 1023px) {
+        .navbar-menu {
+            background-color: transparent;
+        }
+    }
+}
+
+footer {
+    color: $item-color;
+    padding: 1rem;
+
+    a {
+        color: $item-color;
+
+        &:hover {
+            color: $item-active-color;
+        }
+
+        &:last-child {
+            margin-left: 1.2rem;
+        }
+    }
+}

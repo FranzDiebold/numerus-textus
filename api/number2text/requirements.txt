@@ -1,0 +1,4 @@
+psycopg2==2.7.3.2
+python-memcached==1.59
+django==2.0.1
+django-debug-toolbar==1.9.1

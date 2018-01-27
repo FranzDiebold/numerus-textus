@@ -1,0 +1,23 @@
+<section class="hero is-medium fill-to-full-height">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <div class="number-input">
+          <input
+            type="text"
+            placeholder="Type a number"
+            [formControl]="numberInput"
+            autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+            maxlength="16"
+            pattern="[0-9-/ ]*">
+        </div>
+        <div class="text-output">
+          <app-possible-words
+            [isLoading]="isLoading$ | async"
+            [possibleWords]="possibleWords$ | async"
+            [error]="error$ | async"
+            [inputLength]="inputLength$ | async">
+          </app-possible-words>
+        </div>
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,19 @@
+<section class="hero is-medium fill-to-full-height">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="text-input">
+        <input
+          type="text"
+          placeholder="Type a text"
+          [formControl]="textInput"
+          autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+          maxlength="32">
+      </div>
+      <div class="number-output">
+        <app-number-output
+          [numberOutput]="numberOutput$ | async">
+        </app-number-output>
+      </div>
+    </div>
+  </div>
+</section>

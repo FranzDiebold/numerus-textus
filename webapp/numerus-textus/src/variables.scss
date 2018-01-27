@@ -1,0 +1,12 @@
+$color-primary: #2196F3;
+// $color-secondary: #21f37e;
+// $color-tertiary: #f37e21;
+// $color-quaternary: #f32196;
+
+$color-gray: #575756;
+
+@mixin mobile {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}

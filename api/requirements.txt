@@ -1,0 +1,2 @@
+gunicorn==19.7.1
+-r number2text/requirements.txt

@@ -1,0 +1,54 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" routerLink="/">
+        <img src="assets/img/numerus-textus-Logo_white.svg" alt="numerus textus logo" width="33" height="33">
+      </a>
+      <div class="button navbar-burger" data-target="navMenu"
+        [ngClass]="{ 'is-active': mobileNavbarVisible }"
+        (click)="toggleMobileNavbar()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div class="navbar-menu"
+      id="navMenu"
+      [ngClass]="{ 'is-active': mobileNavbarVisible }"
+      (click)="hideMobileNavbar()">
+      <div class="navbar-end">
+        <a class="navbar-item" routerLink="/number-to-text" routerLinkActive="is-active">
+          number2text
+        </a>
+        <a class="navbar-item" routerLink="/text-to-number" routerLinkActive="is-active">
+          text2number
+        </a>
+        <a class="navbar-item" title="more info"
+          routerLink="/about" routerLinkActive="is-active">
+          <span class="icon">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer>
+  <div class="container">
+    <div class="columns is-mobile">
+      <div class="column has-text-left">
+        <small>&copy; 2018 numerus textus</small>
+      </div>
+      <div class="column has-text-right">
+        <a routerLink="/legal"><small>Legal</small></a>
+        <a routerLink="/privacy"><small>Privacy</small></a>
+      </div>
+    </div>
+  </div>
+</footer>

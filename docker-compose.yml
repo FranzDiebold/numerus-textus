@@ -1,0 +1,43 @@
+version: "3.4"
+
+services:
+  database:
+    image: postgres:10.1-alpine
+    volumes:
+      - "database_data:/var/lib/postgresql/data"
+
+  cache:
+    image: memcached:1.5.4-alpine
+
+  api:
+    build: ./api
+    ports:
+      - "8000:8000"
+    depends_on:
+      - database
+      - cache
+    volumes:
+      - app_data:/app
+    env_file: ./api/environment-variables.env
+
+  webapp:
+    build: ./webapp
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - app_data:/app
+    depends_on:
+      - api
+    env_file: ./webapp/prerender_credentials.txt
+
+  #chatbot:
+  #  build: ./chatbot
+  #  ports:
+  #    - "3978:3978"
+  #  depends_on:
+  #    - api
+
+volumes:
+  app_data:
+  database_data:

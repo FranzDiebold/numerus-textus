@@ -1,0 +1,100 @@
+@import "./variables";
+
+html,
+body {
+    background: linear-gradient(to right, $color-primary, lighten($color-primary, 8%));
+    color: #ffffff;
+}
+
+.fill-to-full-height {
+    min-height: calc(100vh - 3.25rem - 3.5rem);
+}
+
+input {
+    font-size: 2.3rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+    padding: 0.5rem 0.8rem;
+    border-width: 0 0 2px 0;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    max-width: 100%;
+
+    @include mobile {
+        font-size: 1.6rem;
+        letter-spacing: 3px;
+        padding: 0.3rem 0.5rem;
+    }
+
+    &::placeholder {
+        letter-spacing: 1px;
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    &:focus {
+        background-color: rgba(255, 255, 255, 0.12);
+        border-color: #ffffff;
+        outline: none;
+    }
+
+    &.ng-invalid {
+        border-color: rgba(255, 35, 0, 0.8);
+    }
+}
+
+.loader {
+    height: 3rem;
+    width: 3rem;
+    border-width: 4px;
+    border-bottom-color: #ffffff;
+    border-left-color: #ffffff;
+}
+
+p {
+    text-align: justify;
+}
+
+.contains-emphasize {
+    line-height: 1.6;
+}
+
+.emphasize {
+    background-color: #ffffff;
+    color: $color-gray;
+    padding: 0.4rem 0.8rem;
+    margin: 0 0.3rem;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+section.bright-gray-bg {
+    background: linear-gradient(to right, #f2f2f2, lighten(#f2f2f2, 2%));
+    color: $color-gray;
+
+    input {
+        background-color: rgba($color-primary, 0.08);
+        color: $color-primary;
+        border-color: rgba($color-primary, 0.5);
+    }
+
+    .subtitle {
+        color: $color-gray;
+    }
+
+    .emphasize {
+        background-color: $color-primary;
+        color: #ffffff;
+    }
+}
+
+div.subsection {
+    margin: 2rem 0;
+    padding: 0;
+
+    h4.subtitle.is-4 {
+        margin-bottom: 0;
+    }
+}

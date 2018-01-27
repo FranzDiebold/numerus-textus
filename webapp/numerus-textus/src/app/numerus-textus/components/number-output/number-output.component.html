@@ -1,0 +1,10 @@
+<span *ngFor="let numberOutputPart of numberOutput"
+  class="number-output-part"
+  [ngClass]="{
+    'empty': numberOutputPart.isEmpty,
+    'special-character': numberOutputPart.isSpecialCharacter,
+    'small': numberOutput.length > 9
+  }">
+    <div class="digit">{{ numberOutputPart.digit }}</div>
+    <div class="character">{{ numberOutputPart.character }}</div>
+</span>

@@ -1,0 +1,54 @@
+@import "../../../../variables";
+
+span.number-output-part {
+    display: inline-block;
+    margin: 0.7rem 0.5rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.1));
+
+    @include mobile {
+        margin: 0.4rem 0.2rem;
+        padding: 0.2rem 0.4rem;
+    }
+
+    &.empty {
+        border-color: transparent;
+        background: transparent;
+    }
+
+    &.special-character {
+        opacity: 0.6;
+    }
+
+    @include mobile {
+        &.small {
+            margin: 0.35rem 0.15rem;
+            padding: 0.15rem 0.35rem;
+
+            div.digit {
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    div.digit {
+        font-size: 3.2rem;
+        font-weight: 300;
+        text-align: center;
+
+        @include mobile {
+            font-size: 1.8rem;
+        }
+    }
+    
+    div.character {
+        font-size: 1.2rem;
+        text-align: center;
+
+        @include mobile {
+            font-size: 0.8rem;
+        }
+    }
+}

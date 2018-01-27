@@ -1,0 +1,5 @@
+SECURITY_GROUP=numerus-textus-sec-group
+INSTANCE_NAME=numerus-textus-aws
+INSTANCE_TYPE=t2.micro
+REGION=us-east-1
+ZONE=a
