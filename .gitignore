@@ -242,6 +242,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+.idea/
+
 
 ## numerus textus custom
-webapp/certs/*
+webapp/certs/
