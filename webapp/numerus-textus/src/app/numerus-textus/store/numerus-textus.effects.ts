@@ -59,7 +59,18 @@ export class NumerusTextusEffects {
           .loadPossibleWordsForNumber(number, 'en') // TODO
           .pipe(
             map((numberToTextResponse: NumberToTextResponse) => new LoadNumberToPossibleWordsSucceededAction(numberToTextResponse)),
-            catchError((error: any) => of(new LoadNumberToPossibleWordsFailedAction(error.error.error)))
+            catchError((errorResponse: any) => {
+                let errorMessage: string = errorResponse.error.error;
+                if (!errorMessage) {
+                  if (errorResponse.status === 504) {
+                    errorMessage = '😥 Puh, that was too much for the backend. Try again with a shorter number.';
+                  } else {
+                    errorMessage = '🤕 Sorry, but something went wrong. Try again later or with different number.';
+                  }
+                }
+                return of(new LoadNumberToPossibleWordsFailedAction(errorMessage));
+              }
+            )
           )
       )
     );
