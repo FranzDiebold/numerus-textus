@@ -25,7 +25,7 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 <img src="./api/images/readme/api_screenshot.jpg" width="60%" style="max-width:100%;" alt="number2text API screenshot">
 
-[number2text API](./api) - Django API backend
+:fast_forward: [number2text API](./api) - Django API backend
 
 
 
@@ -33,7 +33,7 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 <img src="./webapp/images/readme/number2text_screenshot.jpg" width="60%" style="max-width:100%;" alt="number2text screenshot">
 
-[numerus textus client](./webapp) - Angular client app
+:fast_forward: [numerus textus client](./webapp) - Angular client app
 
 
 
@@ -41,15 +41,15 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 <img src="./deployment/images/readme/numerus-textus-architecture.jpg" width="40%" style="max-width:100%;" alt="numerus textus architecture">
 
-[numerus textus architecture & deployment](./deployment) - Architecture and deployment scripts
+:fast_forward: [numerus textus architecture & deployment](./deployment) - Architecture and deployment scripts
 
 
 
 ## :balloon: numerus textus Design
 
-[numerus textus Design](./Design) - Colors and logo
+:fast_forward: [numerus textus Design](./Design) - Colors and logo
 
 
 
 ## :ballot_box_with_check:️ TODOs
-- [ ] chatbot
+- [ ] Add chatbot
