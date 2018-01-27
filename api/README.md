@@ -8,6 +8,7 @@ numerus textus server is the backend API for the **number to text** part of the 
 ## Number to text conversion
 
 Due to [letter mapping](https://en.wikipedia.org/wiki/Telephone_keypad#Letter_mapping) on phones every digit is mapped to several characters.
+
 <img src="../images/readme/keypad.jpg" width="22%" style="max-width:100%;" alt="keypad">
 
 For example the word <a href="https://www.numerus-textus.com/text-to-number/car" target="_blank">`car`</a> corresponds to the number `227`. But since the digits are mapped to several characters the *reverse mapping* from *number to text* is not unique.
@@ -126,7 +127,7 @@ For `69-8398`:
 
 
 ## Admin interface
-<img src="../images/readme/admin_screenshot.jpg" width="35%" style="max-width:100%;" alt="Admin interface screenshot">
+<img src="./images/readme/admin_screenshot.jpg" width="40%" style="max-width:100%;" alt="Admin interface screenshot">
 
 The Django admin interface can be accessed via <a href="https://api.numerus-textus.com/admin/" target="_blank">https://api.numerus-textus.com/admin/</a>.
 The associated code can be found in [number2text/app/admin.py](./number2text/app/admin.py).

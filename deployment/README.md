@@ -1,4 +1,4 @@
-<img src="./images/readme/numerus-textus-Logo.png" width="15%" style="max-width:100%;" alt="numerus textus logo">
+<img src="../images/readme/numerus-textus-Logo.png" width="15%" style="max-width:100%;" alt="numerus textus logo">
 
 # numerus textus architecture & deployment
 
@@ -6,7 +6,7 @@
 
 The architecture and interplay of components and (external) services is illustrated in the following image:
 
-<img src="./images/readme/numerus-textus-architecture.jpg" width="85%" style="max-width:100%;" alt="numerus textus architecture">
+<img src="./images/readme/numerus-textus-architecture.jpg" width="90%" style="max-width:100%;" alt="numerus textus architecture">
 
 ### Internal
 
@@ -32,6 +32,7 @@ In the [AWS console](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1
 **Inbound rules:**
 
 <img src="./images/readme/aws-security-group_inbound-rules.jpg" width="60%" style="max-width:100%;" alt="AWS security group inbound rules">
+
 - `HTTP` (port 80) and `HTTPS` (port 443) from anywhere
 - `SSH` (port 22) from your IP
 - `Docker machine` (port 2376) from your IP
@@ -39,6 +40,7 @@ In the [AWS console](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1
 **Outbound rules:**
 
 <img src="./images/readme/aws-security-group_outbound-rules.jpg" width="60%" style="max-width:100%;" alt="AWS security group outbound rules">
+
 - `HTTP` (port 80) and `HTTPS` (port 443) to anywhere
 
 
@@ -55,7 +57,9 @@ docker run -it --rm -p 443:443 -p 80:80 --name letsencrypt -v "/etc/letsencrypt:
 In order to speed up performance the reverse proxy and content delivery network (CDN) services by Cloudflare are used. However, it is only used for the static content via the `www` subdomain.
 The API traffic via the `api` subdomain is directly routed to AWS EC2 instance.
 The following DNS settings should be used.
+
 <img src="./images/readme/cloudflare_dns_settings.jpg" width="65%" style="max-width:100%;" alt="Cloudflare DNS settings">
+
 The IP of the AWS EC2 instance can be obtained from the [AWS console](https://console.aws.amazon.com/ec2/v2/home).
 
 
