@@ -23,7 +23,7 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 ## :computer: number2text API
 
-<img src="./api/images/readme/api_screenshot.jpg" width="60%" style="max-width:100%;" alt="number2text API screenshot">
+<img src="./api/images/readme/api_screenshot.jpg" width="45%" style="max-width:100%;" alt="number2text API screenshot">
 
 :fast_forward: [number2text API](./api) - Django API backend
 
@@ -31,7 +31,7 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 ## :iphone: numerus textus client
 
-<img src="./webapp/images/readme/number2text_screenshot.jpg" width="60%" style="max-width:100%;" alt="number2text screenshot">
+<img src="./webapp/images/readme/number2text_screenshot.jpg" width="45%" style="max-width:100%;" alt="number2text screenshot">
 
 :fast_forward: [numerus textus client](./webapp) - Angular client app
 

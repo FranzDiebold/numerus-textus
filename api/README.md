@@ -16,7 +16,7 @@ Hence, the number <a href="https://www.numerus-textus.com/number-to-text/227" ta
 
 Let the function ![\kappa](http://latex.codecogs.com/gif.latex?%5Ckappa) map numbers to characters, i.e. ![\kappa(3)=\left\{ \text{d}, \text{e}, \text{f} \right\}](http://latex.codecogs.com/gif.latex?%5Ckappa%283%29%3D%5Cleft%5C%7B%20%5Ctext%7Bd%7D%2C%20%5Ctext%7Be%7D%2C%20%5Ctext%7Bf%7D%20%5Cright%5C%7D).
 
-The process of the number to text conversion works as follows (see [number2text/app/core/number_to_words.py](./number2text/app/core/number_to_words.py)):
+The process of the number to text conversion works as follows (see [`number2text/app/core/number_to_words.py`](./number2text/app/core/number_to_words.py)):
 
 ![number2text process](./images/readme/number2text_process.jpg)
 
@@ -30,13 +30,13 @@ The process of the number to text conversion works as follows (see [number2text/
 
 
 ### :grey_question: Existence check
-All existing words of a language are listed in a dictionary (.txt files in [number2text/app/fixtures/](./number2text/app/fixtures), `82808` german words and `81879` english words), which are saved in a database. 
+All existing words of a language are listed in a *dictionary* (`*.txt` files in [`number2text/app/fixtures/`](./number2text/app/fixtures), containing `82808` german and `81879` english words), which are saved in a database. 
 Since database lookups are expensive, a custom-designed type of caching is used: the **hierarchical prefix caching**.
 
 
 #### :tada: Hierarchical prefix caching
 
-The **hierarchical prefix caching** uses prefix caches in a hierarchical structure (see [number2text/app/core/language_manager.py](./number2text/app/core/language_manager.py)).
+The **hierarchical prefix caching** uses prefix caches in a hierarchical structure (see [`number2text/app/core/language_manager.py`](./number2text/app/core/language_manager.py)).
 The main idea is to first check if words with a given prefix are existing at all, before regarding the remaining characters after the prefix.
 The hierarchical structure is due the fact that short prefixes are checked before checking longer prefixes.
 
