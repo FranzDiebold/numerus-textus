@@ -2,6 +2,10 @@
 
 # numerus textus server
 
+[![Django: v2](https://img.shields.io/badge/Django-v2-44B78B.svg)](./number2text/requirements.txt)
+<a href="https://www.numerus-textus.com" target="_blank"><img src="https://img.shields.io/badge/demo-online-2196F3.svg" alt="demo: online"></a>
+[![license: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE.md)
+
 numerus textus server is the backend API for the **number to text** part of the numerus textus app. It is a [Django](https://github.com/django/django) v2 app 😎.
 
 

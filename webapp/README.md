@@ -2,6 +2,10 @@
 
 # numerus textus client app
 
+[![Angular: v5](https://img.shields.io/badge/Angular-v5-DD0031.svg)](./numerus-textus/package.json)
+<a href="https://www.numerus-textus.com" target="_blank"><img src="https://img.shields.io/badge/demo-online-2196F3.svg" alt="demo: online"></a>
+[![license: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE.md)
+
 > Check out the [live demo](https://www.numerus-textus.com)!
 
 <img src="./images/readme/number2text_screenshot.jpg" width="60%" style="max-width:100%;" alt="number2text screenshot">
