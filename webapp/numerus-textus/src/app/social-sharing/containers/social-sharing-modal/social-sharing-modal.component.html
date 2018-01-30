@@ -1,0 +1,15 @@
+<div class="modal"
+  [ngClass]="{ 'is-active': showSocialSharingModal$ | async }">
+  <div class="modal-background"
+    (click)="hideSocialSharingModal()">
+  </div>
+  <div class="modal-content has-text-centered">
+    <app-social-sharing
+      *ngIf="socialSharingData$ | async as socialSharingData"
+      [sharingData]="socialSharingData">
+    </app-social-sharing>
+  </div>
+  <button class="modal-close is-large" aria-label="close"
+    (click)="hideSocialSharingModal()">
+  </button>
+</div>

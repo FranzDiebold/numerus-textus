@@ -1,9 +1,11 @@
 $color-primary: #2196F3;
-// $color-secondary: #21f37e;
+$color-secondary: #21f37e;
 // $color-tertiary: #f37e21;
 // $color-quaternary: #f32196;
 
 $color-gray: #575756;
+
+$linear-gradient-background: linear-gradient(142deg, $color-primary, mix($color-primary, $color-secondary, 30%));
 
 @mixin mobile {
     @media screen and (max-width: 768px) {

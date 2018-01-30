@@ -1,0 +1,27 @@
+@import "../../../../variables";
+
+.modal-content {
+    box-shadow: 0px 0px 2rem rgba(255, 255, 255, 0.8);
+}
+
+.modal-close {
+    $modal-close-size: 60px;
+    &.is-large {
+        height: $modal-close-size;
+        max-height: $modal-close-size;
+        max-width: $modal-close-size;
+        min-height: $modal-close-size;
+        min-width: $modal-close-size;
+        width: $modal-close-size;
+    }
+
+    &:before,
+    &:after {
+        background-color: $color-gray;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: #ffffff;
+    }
+}

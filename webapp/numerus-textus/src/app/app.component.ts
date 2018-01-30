@@ -1,5 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
 import { Router, RouterEvent, NavigationEnd } from '@angular/router';
+import { Observable } from 'rxjs/Observable';
+import { DOCUMENT } from '@angular/platform-browser';
+
+import { LayoutStoreService } from './layout/store/layout-store.service';
+import { SocialSharingStoreService } from './social-sharing/store/social-sharing-store.service';
 
 
 @Component({
@@ -8,11 +13,18 @@ import { Router, RouterEvent, NavigationEnd } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  mobileNavbarVisible = false;
+  showMobileNavbar$: Observable<boolean>;
 
-  constructor(private router: Router) {}
+  constructor(
+    private layoutStoreService: LayoutStoreService,
+    private socialSharingStoreService: SocialSharingStoreService,
+    private router: Router,
+    @Inject(DOCUMENT) private document: Document,
+  ) {}
 
   ngOnInit() {
+    this.showMobileNavbar$ = this.layoutStoreService.getShowMobileNavbar();
+
     this.router.events.subscribe((routerEvent: RouterEvent) => {
         if (!(routerEvent instanceof NavigationEnd)) {
             return;
@@ -22,10 +34,18 @@ export class AppComponent implements OnInit {
   }
 
   toggleMobileNavbar(): void {
-    this.mobileNavbarVisible = !this.mobileNavbarVisible;
+    this.layoutStoreService.dispatchToggleMobileNavbarAction();
   }
 
   hideMobileNavbar(): void {
-    this.mobileNavbarVisible = false;
+    this.layoutStoreService.dispatchHideMobileNavbarAction();
+  }
+
+  showSocialSharingModal(): void {
+    this.socialSharingStoreService.dispatchShowSocialSharingModalAction({
+      url: this.document.location.origin,
+      title: 'numerus textus',
+      description: 'numerus textus is all about numbers and its corresponding texts',
+    });
   }
 }

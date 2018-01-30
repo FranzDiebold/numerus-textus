@@ -5,8 +5,10 @@ nav.navbar {
     background: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 
-    button.navbar-burger {
+    .button.navbar-burger {
         color: $item-color;
+        background-color: transparent;
+        border: 0;
     }
 
     a.navbar-item {

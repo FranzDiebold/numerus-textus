@@ -39,11 +39,12 @@ User-centric description of the numerus textus project.
 
 
 ## 🎛 Configuration
-In `src/environments/environment.[prod].ts` you may change the `apiEndpoint` of the corresponding backend:
+In `src/environments/environment.[prod].ts` you may change the `apiEndpoint` of the corresponding backend and the `twitterAccount`:
 ```typescript
 export const environment = {
   ...,
   apiEndpoint: 'https://api.numerus-textus.com',
+  twitterAccount: 'numerustextus',
 };
 ```
 
@@ -54,10 +55,24 @@ $color-primary: #2196F3;
 
 
 ## :pray: Tests
+For running the tests:
 ```bash
 npm install
 ng test
 ```
+
+Or just testing the app locally:
+
+Serve app locally
+```bash
+npm install
+ng serve
+```
+and run [Chrome](https://www.google.com/chrome/) in *disabled web security* mode (for enabling CORS) and in *incognito* mode (on macOS):
+```bash
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security --user-data-dir -incognito
+```
+Your app is then running at [`http://localhost:4200`](http://localhost:4200).
 
 
 ## :rocket: Deployment

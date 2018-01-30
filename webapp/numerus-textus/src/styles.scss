@@ -2,7 +2,7 @@
 
 html,
 body {
-    background: linear-gradient(to right, $color-primary, lighten($color-primary, 8%));
+    background: $linear-gradient-background;
     color: #ffffff;
 }
 
@@ -96,5 +96,21 @@ div.subsection {
 
     h4.subtitle.is-4 {
         margin-bottom: 0;
+    }
+}
+
+div.social-sharing {
+    padding-top: 2rem;
+
+    a {
+        span.icon {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        &:hover {
+            span.icon {
+                color: #ffffff;
+            }
+        }
     }
 }

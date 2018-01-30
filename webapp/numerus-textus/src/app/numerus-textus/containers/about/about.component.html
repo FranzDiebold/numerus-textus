@@ -18,7 +18,7 @@
         <div class="column is-one-third-desktop is-offset-one-third-desktop">
           <div class="keypad">
             <div *ngFor="let keypadRow of keypad" class="keypad-row">
-                <div class="button" *ngFor="let keypadButton of keypadRow">
+                <div class="keypad-button" *ngFor="let keypadButton of keypadRow">
                   <div class="digit">{{ keypadButton.digit }}</div>
                   <div class="characters">
                     &nbsp;{{ keypadButton.characters }}&nbsp;

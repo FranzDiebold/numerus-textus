@@ -6,4 +6,5 @@
 export const environment = {
   production: false,
   apiEndpoint: 'https://api.numerus-textus.com',
+  twitterAccount: 'numerustextus',
 };

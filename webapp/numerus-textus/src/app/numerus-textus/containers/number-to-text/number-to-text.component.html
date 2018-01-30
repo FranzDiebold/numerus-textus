@@ -1,23 +1,34 @@
 <section class="hero is-medium fill-to-full-height">
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <div class="number-input">
-          <input
-            type="text"
-            placeholder="Type a number"
-            [formControl]="numberInput"
-            autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
-            maxlength="16"
-            pattern="[0-9-/ ]*">
-        </div>
-        <div class="text-output">
-          <app-possible-words
-            [isLoading]="isLoading$ | async"
-            [possibleWords]="possibleWords$ | async"
-            [error]="error$ | async"
-            [inputLength]="inputLength$ | async">
-          </app-possible-words>
-        </div>
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="number-input">
+        <input
+          type="text"
+          placeholder="Type a number"
+          [formControl]="numberInput"
+          autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+          maxlength="16"
+          pattern="[0-9-/ ]*">
       </div>
+      <div class="text-output">
+        <app-possible-words
+          [isLoading]="isLoading$ | async"
+          [possibleWords]="possibleWords$ | async"
+          [error]="error$ | async"
+          [inputLength]="inputLength$ | async">
+        </app-possible-words>
+      </div>
+      <div class="social-sharing container has-text-centered">
+          <a title="share it!"
+            *ngIf="possibleWords$ | async"
+            (click)="showSocialSharingModal()">
+            <span class="icon">
+              <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M21,11L14,4V8C7,9 4,14 3,19C5.5,15.5 9,13.9 14,13.9V18L21,11Z" />
+              </svg>
+            </span>
+          </a>
+        </div>
     </div>
-  </section>
+  </div>
+</section>

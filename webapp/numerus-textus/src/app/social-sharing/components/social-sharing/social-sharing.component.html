@@ -1,0 +1,21 @@
+<div class="share-card">
+  <div class="share-title">
+    <h2 class="is-size-2">❤️ Like it? <span class="emphasize">Share it! 👍</span></h2>
+  </div>
+  <div class="share-url">
+    <input [value]="sharingData.url" disabled>
+  </div>
+  <div class="share-buttons">
+    <a
+      *ngFor="let sharingOption of sharingOptions"
+      [href]="getFullEncodedUrl(sharingOption)"
+      target="_blank"
+      class="button is-rounded share-button">
+      <span class="icon">
+        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+          <path [attr.fill]="sharingOption.color" [attr.d]="sharingOption.icon" />
+        </svg>
+      </span>
+    </a>
+  </div>
+</div>

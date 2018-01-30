@@ -14,6 +14,18 @@
           [numberOutput]="numberOutput$ | async">
         </app-number-output>
       </div>
+      <div class="social-sharing container has-text-centered"
+        *ngIf="numberOutput$ | async as numberOutput">
+        <a title="share it!"
+          *ngIf="numberOutput.length"
+          (click)="showSocialSharingModal()">
+          <span class="icon">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M21,11L14,4V8C7,9 4,14 3,19C5.5,15.5 9,13.9 14,13.9V18L21,11Z" />
+            </svg>
+          </span>
+        </a>
+      </div>
     </div>
   </div>
 </section>

@@ -5,7 +5,7 @@
         <img src="assets/img/numerus-textus-Logo_white.svg" alt="numerus textus logo" width="33" height="33">
       </a>
       <div class="button navbar-burger" data-target="navMenu"
-        [ngClass]="{ 'is-active': mobileNavbarVisible }"
+        [ngClass]="{ 'is-active': showMobileNavbar$ | async }"
         (click)="toggleMobileNavbar()">
         <span></span>
         <span></span>
@@ -15,7 +15,7 @@
 
     <div class="navbar-menu"
       id="navMenu"
-      [ngClass]="{ 'is-active': mobileNavbarVisible }"
+      [ngClass]="{ 'is-active': showMobileNavbar$ | async }"
       (click)="hideMobileNavbar()">
       <div class="navbar-end">
         <a class="navbar-item" routerLink="/number-to-text" routerLinkActive="is-active">
@@ -32,6 +32,14 @@
             </svg>
           </span>
         </a>
+        <a class="navbar-item" title="Like it? Share it!"
+          (click)="showSocialSharingModal()">
+          <span class="icon">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M21,11L14,4V8C7,9 4,14 3,19C5.5,15.5 9,13.9 14,13.9V18L21,11Z" />
+            </svg>
+          </span>
+        </a>
         <a class="navbar-item" title="numerus textus is open source!" href="https://github.com/FranzDiebold/numerus-textus/" target="_blank">
           <span class="icon">
             <svg style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -45,6 +53,8 @@
 </nav>
 
 <router-outlet></router-outlet>
+
+<app-social-sharing-modal></app-social-sharing-modal>
 
 <footer>
   <div class="container">

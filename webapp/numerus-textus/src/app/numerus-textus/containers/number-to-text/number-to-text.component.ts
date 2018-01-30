@@ -1,11 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
+import { DOCUMENT } from '@angular/platform-browser';
 
 import { Observable } from 'rxjs/Observable';
 import { map, take, zip } from 'rxjs/operators';
 
 import { NumerusTextusStoreService } from '../../store/numerus-textus-store.service';
 import { SetNumberInputPayload } from '../../store/numerus-textus.payloads';
+import { SocialSharingStoreService } from '../../../social-sharing/store/social-sharing-store.service';
 
 
 @Component({
@@ -21,7 +23,11 @@ export class NumberToTextComponent implements OnInit {
   error$: Observable<string>;
   inputLength$: Observable<number>;
 
-  constructor(private numerusTextusStoreService: NumerusTextusStoreService) { }
+  constructor(
+    private numerusTextusStoreService: NumerusTextusStoreService,
+    private socialSharingStoreService: SocialSharingStoreService,
+    @Inject(DOCUMENT) private document: Document,
+  ) { }
 
   ngOnInit() {
     this.numerusTextusStoreService
@@ -53,5 +59,13 @@ export class NumberToTextComponent implements OnInit {
     this.inputLength$ = this.numberInput.valueChanges.pipe(
       map((numberInputValue: string) => numberInputValue.length)
     );
+  }
+
+  showSocialSharingModal(): void {
+    this.socialSharingStoreService.dispatchShowSocialSharingModalAction({
+      url: this.document.location.href,
+      title: 'numerus textus - number2text',
+      description: `So many possibilities for ${this.numberInput.value}!`,
+    });
   }
 }

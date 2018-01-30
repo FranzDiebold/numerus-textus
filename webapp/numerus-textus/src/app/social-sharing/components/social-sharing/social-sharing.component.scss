@@ -1,0 +1,42 @@
+@import "../../../../variables";
+
+.share-card {
+    background: $linear-gradient-background;
+    border-radius: 3px;
+    padding: 1rem;
+
+    .share-title {
+        h2 {
+            font-weight: 300;
+            margin-top: 2rem;
+        }
+    }
+
+    .share-url {
+        margin: 2rem 1rem 1rem 1rem;
+
+        input {
+            font-size: 1.1rem;
+            letter-spacing: 0;
+            padding: 0.2rem 0.4rem;
+            text-align: center;
+            width: 98%;
+        }
+    }
+    
+    .share-buttons {
+        $share-button-size: 3.3rem;
+    
+        a.share-button {
+            background-color: rgba(255, 255, 255, 0.92);
+            border: none;
+            width: $share-button-size;
+            height: $share-button-size;
+            margin: 1rem;
+    
+            &:hover {
+                background-color: #ffffff;
+            }
+        }
+    }
+}
