@@ -51,6 +51,7 @@ export const environment = {
 In `src/variables.scss` you may change the color scheme:
 ```scss
 $color-primary: #2196F3;
+$color-secondary: #21f37e;
 ```
 
 
@@ -83,5 +84,4 @@ The numerus textus client Angular app is built and served using the [multi-stage
 
 ## :ballot_box_with_check:️ TODOs
 - [ ] Add german language
-- [ ] Add social share feature
 - [ ] Use Bulma v0.6.3 when published (warning messages in build process, [Bulma issue #1190](https://github.com/jgthms/bulma/issues/1190)).

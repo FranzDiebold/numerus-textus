@@ -9,6 +9,10 @@
         h2 {
             font-weight: 300;
             margin-top: 2rem;
+
+            @include mobile {
+                margin-top: 1rem;
+            }
         }
     }
 
@@ -21,6 +25,7 @@
             padding: 0.2rem 0.4rem;
             text-align: center;
             width: 98%;
+            user-select: all;
         }
     }
     
