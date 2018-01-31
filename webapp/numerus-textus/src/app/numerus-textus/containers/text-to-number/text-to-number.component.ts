@@ -6,7 +6,7 @@ import { Observable } from 'rxjs/Observable';
 import { take } from 'rxjs/operators';
 
 import { NumerusTextusStoreService } from '../../store/numerus-textus-store.service';
-import { TextToNumberResult } from '../../services/text-to-number/text-to-number-result.model';
+import { TextToNumberResult, TextToNumberPart } from '../../services/text-to-number/text-to-number-result.model';
 import { SocialSharingStoreService } from '../../../social-sharing/store/social-sharing-store.service';
 
 
@@ -44,10 +44,19 @@ export class TextToNumberComponent implements OnInit {
   }
 
   showSocialSharingModal(): void {
-    this.socialSharingStoreService.dispatchShowSocialSharingModalAction({
-      url: this.document.location.href,
-      title: 'numerus textus - text2number',
-      description: `"${this.textInput.value}" means "number"`,
-    });
+    this.numberOutput$
+      .pipe(
+        take(1),
+      )
+      .subscribe((textToNumberResult: TextToNumberResult) => {
+        const numberResult: string = textToNumberResult
+          .map((textToNumberPart: TextToNumberPart) => textToNumberPart.digit || ' ')
+          .join('');
+        this.socialSharingStoreService.dispatchShowSocialSharingModalAction({
+          url: this.document.location.href,
+          title: 'numerus textus - text2number',
+          description: `"${this.textInput.value}" means "${numberResult}"`,
+        });
+      });
   }
 }
