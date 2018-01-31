@@ -5,6 +5,8 @@ numerus textus is all about **numbers** and its **corresponding texts** 🤓.
 
 <a href="https://www.numerus-textus.com" target="_blank"><img src="https://img.shields.io/badge/demo-online-2196F3.svg" alt="demo: online"></a>
 [![license: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE.md)
+[![tweet: #numerustextus](https://img.shields.io/badge/tweet-%23numerustextus-1DA1F2.svg)](https://twitter.com/intent/tweet?button_hashtag=numerustextus)
+[![follow: @numerustextus](https://img.shields.io/badge/follow-%40numerustextus-1DA1F2.svg)](https://twitter.com/numerustextus)
 
 <img src="./images/readme/text2number_hello_world.gif" width="60%" style="max-width:100%;" alt="text2number hello world example">
 
