@@ -1,7 +1,7 @@
 @import "../../../../variables";
 
 .share-card {
-    background: $linear-gradient-background;
+    background: linear-gradient(142deg, $color-primary, mix($color-primary, $color-secondary, 30%));;
     border-radius: 3px;
     padding: 1rem;
 

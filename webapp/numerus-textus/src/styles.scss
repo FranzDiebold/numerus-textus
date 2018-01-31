@@ -2,7 +2,7 @@
 
 html,
 body {
-    background: $linear-gradient-background;
+    background: linear-gradient(to right, $color-primary, mix($color-primary, $color-secondary, 50%));;
     color: #ffffff;
 }
 
