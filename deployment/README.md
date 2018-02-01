@@ -83,35 +83,40 @@ The following preparations must be completed before deploying the application:
 
 
 #### Build and set Docker Machine
-```
+```bash
 sh deployment/0_build_docker_machine_aws.sh
 sh deployment/1_set_docker_machine_aws.sh
 ```
 
 #### Build and start Docker containers and migrate and load data for the API backend
-```
+```bash
 sh deployment/2_build_and_start_docker.sh
 sh deployment/3_migrate_and_load_data.sh
 ```
 
 #### Fill the caches to prevent a cold start of the API backend
-```
+```bash
 sh deployment/4_fill_caches.sh
 ```
 
-#### Rebuild
-```
+#### Complete rebuild
+```bash
 sh deployment/5_stop_and_clean_docker.sh
 sh deployment/2_build_and_start_docker.sh
 ```
 
-#### :mag: Inspect containers
+### Rebuild single service
+```bash
+sh deployment/9_rebuild_service.sh <SERVICE_NAME>
 ```
+
+#### :mag: Inspect containers
+```bash
 docker-compose run --rm <CONTAINER_NAME> bash
 ```
 
 #### Checking logs
-```
+```bash
 docker-compose logs
 docker-compose logs <CONTAINER_NAME>
 ```
