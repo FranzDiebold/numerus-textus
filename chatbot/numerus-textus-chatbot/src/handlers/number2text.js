@@ -1,0 +1,94 @@
+'use strict';
+
+const clients = require('restify-clients');
+const errors = require('restify-errors');
+
+const API_HOST = 'http://api:8000';
+const LANG = 'en';
+const REQUEST_TIMEOUT = 15 * 1000;
+const client = clients.createJsonClient({
+    url: API_HOST,
+    requestTimeout: REQUEST_TIMEOUT
+});
+const MAX_LENGTH = 16;
+const MAX_NUM_RESULTS = 5;
+
+function resultsToMessages(possibleWords) {
+    const maxLen = Math.max(...possibleWords.map((possibleWord) => possibleWord.length));
+
+    const numResults = Math.min(maxLen, MAX_NUM_RESULTS);
+    let messages = ['Possible words are:'];
+    for (let i = 0; i < numResults; i++) {
+        let message = [];
+        for (let j = 0, len = possibleWords.length; j < len; j++) {
+            message.push(possibleWords[j][i % possibleWords[j].length].join(' '));
+        }
+        if (message.length > 0) {
+            messages.push(message.join(' - '));
+        }
+    }
+
+    return messages;
+}
+
+function number2text(inputNumber) {
+    return new Promise((resolve, reject) => {
+        if (inputNumber.length > MAX_LENGTH) {
+            resolve([
+                'Phew!',
+                'That\'s too long for me.'
+            ]);
+            return;
+        }
+
+        client.get(`/${LANG}/${inputNumber}/`, function(err, req, res, obj) {
+            let messages;
+            if (res.statusCode !== 200) {
+                if (res.statusCode === 408) {
+                    // 408: Request timeout
+                    messages = [
+                        'Phew!!!',
+                        'That was too complicated for me.',
+                        'Maybe you try a shorter number...',
+                        '... or come back later :D'
+                    ];
+                }
+                else {
+                    // Other error
+                    console.error(err);
+                    messages = [
+                        'Hm...',
+                        'Something went wrong.',
+                        ':-('
+                    ];
+                }
+            }
+            else {
+                const possibleWords = obj.possible_words;
+                if (possibleWords != null && possibleWords.length > 0) {
+                    messages = resultsToMessages(possibleWords);
+                }
+                else {
+                    messages = ['??'];
+                }
+            }
+            resolve(messages);
+        });
+    });
+}
+
+function handleNumber2TextRequest(parameters) {
+    return new Promise((resolve, reject) =>  {
+        if ('number' in parameters) {
+            const inputNumber = parameters['number'];
+            number2text(inputNumber)
+                .then((messages) => resolve(messages))
+                .catch((error) => reject(error));
+        }
+        else {
+            reject(new errors.BadRequestError('Bad request: parameter "number" missing.'));
+        }
+    });
+}
+
+module.exports = handleNumber2TextRequest;

@@ -1,0 +1,23 @@
+{
+  "name": "numerus-textus-chatbot",
+  "version": "0.0.1",
+  "description": "chatbot for numerus textus",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranzDiebold/numerus-textus.git"
+  },
+  "author": "Franz Diebold",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FranzDiebold/numerus-textus/issues"
+  },
+  "dependencies": {
+    "restify": "^6.3.4",
+    "restify-clients": "^1.5.2",
+    "restify-errors": "^5.0.0"
+  }
+}

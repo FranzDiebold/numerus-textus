@@ -31,12 +31,12 @@ services:
       - api
     env_file: ./webapp/prerender_credentials.txt
 
-  #chatbot:
-  #  build: ./chatbot
-  #  ports:
-  #    - "3978:3978"
-  #  depends_on:
-  #    - api
+  chatbot:
+    build: ./chatbot
+    ports:
+      - "8001:8001"
+    depends_on:
+      - api
 
 volumes:
   app_data:
