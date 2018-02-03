@@ -84,7 +84,7 @@ Due to Django's [design philosophies](https://docs.djangoproject.com/en/dev/misc
 
 **Response**
 
-For `en` and `69-8398`:
+For <a href="https://api.numerus-textus.com/en/69-8398/" target="_blank">`en` and `69-8398`</a>:
 ```json
 {
     "number": "69-8398",
@@ -118,7 +118,7 @@ where ![n_i](http://latex.codecogs.com/gif.latex?n_i) denotes the `i`th sub numb
 
 **Response**
 
-For `69-8398`:
+For <a href="https://api.numerus-textus.com/num-pos/69-8398/" target="_blank">`69-8398`</a>:
 ```json
 {
     "number": "69-8398",
@@ -133,10 +133,10 @@ For `69-8398`:
 ## Admin interface
 <img src="./images/readme/admin_screenshot.jpg" width="40%" style="max-width:100%;" alt="Admin interface screenshot">
 
-The Django admin interface can be accessed via <a href="https://api.numerus-textus.com/admin/" target="_blank">https://api.numerus-textus.com/admin/</a>.
+The Django admin interface can be accessed via <a href="https://api.numerus-textus.com/admin/" target="_blank">`https://api.numerus-textus.com/admin/</a>.
 The associated code can be found in [number2text/app/admin.py](./number2text/app/admin.py).
 
-
+``
 
 ## :rocket: Deployment
 The app is deployed using Docker ([Dockerfile](./Dockerfile)).
