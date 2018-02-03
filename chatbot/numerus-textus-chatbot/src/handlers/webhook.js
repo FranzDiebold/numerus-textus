@@ -4,6 +4,7 @@ const errors = require('restify-errors');
 
 const number2text = require('./number2text');
 const text2number = require('./text2number');
+const numberOfPossibilities = require('./number-of-possibilities');
 const messagesUtil = require('../util/messages');
 
 function handleRequest(req) {
@@ -19,8 +20,14 @@ function handleRequest(req) {
                     number2text(parameters)
                         .then((messages) => resolve(messagesUtil.getFulfillmentMessages(messages)))
                         .catch((error) => reject(error));;
-                } else if (action === 'text2number') {
+                }
+                else if (action === 'text2number') {
                     text2number(parameters)
+                        .then((messages) => resolve(messagesUtil.getFulfillmentMessages(messages)))
+                        .catch((error) => reject(error));
+                }
+                else if (action === 'number-of-possibilities') {
+                    numberOfPossibilities(parameters)
                         .then((messages) => resolve(messagesUtil.getFulfillmentMessages(messages)))
                         .catch((error) => reject(error));
                 }

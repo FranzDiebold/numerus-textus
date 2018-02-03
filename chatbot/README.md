@@ -11,7 +11,7 @@
 
 numerus textus chatbot is the backend API for the **chatbot** for the numerus textus app. It is a [Node.js](https://nodejs.org) app using the following packages:
 - [restify](https://github.com/restify/node-restify) for providing the RESTful interface.
-- [restify-clients](https://github.com/restify/clients) for making requests to the numerus textus number2text API.
+- [restify-clients](https://github.com/restify/clients) for making requests to the numerus textus [number2text API](../api).
 - [restify-errors](https://github.com/restify/errors) for handling HTTP errors.
 
 For handling the natural language processing (NLP) and the connections the numerous chat services ([Facebook Messenger](https://www.messenger.com), [Slack](https://slack.com), [Telegram](https://telegram.org), [Skype](https://www.skype.com)) the [Dialogflow](https://dialogflow.com) platform is used.
@@ -19,6 +19,8 @@ For handling the natural language processing (NLP) and the connections the numer
 
 
 ## [Dialogflow](https://dialogflow.com)
+
+The exported Dialogflow agent `numerus-textus` can be found in [/dialogflow-agent](./dialogflow-agent). It can also be used for re-import as ZIP-file in Dialogflow (in agent settings → `Export and Import` → `IMPORT FROM ZIP`).
 
 ### Intents, Actions & Parameters
 The following intents, [actions and parameters](https://dialogflow.com/docs/actions-and-parameters) are defined in Dialogflow:
@@ -116,13 +118,20 @@ With the body:
 
 
 
+## 🎛 Configuration
+In [`src/config.js`](./numerus-textus-chatbot/src/config.js) you may change the `apiHost` of the corresponding backend:
+```js
+config.apiHost = 'http://api:8000';
+```
+Please keep in mind that the API host is reachable within the Docker host.
+
+
 ## :rocket: Deployment
 The app is deployed using Docker ([Dockerfile](./Dockerfile)).
 
 
 
 ## :ballot_box_with_check:️ Problems/TODOs
-- [ ] Include exported Dialogflow agent (ZIP file)
 - [ ] Add german language
 - [ ] A Dialogflow webhook call has a timeout of just 5 seconds, which is too short for complex number2text calls. Maybe this could be done asynchronously?
 - [ ] Add a joke intent :grin:

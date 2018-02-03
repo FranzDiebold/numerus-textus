@@ -3,11 +3,12 @@
 const clients = require('restify-clients');
 const errors = require('restify-errors');
 
-const API_HOST = 'http://api:8000';
+const config = require('../config');
+
 const LANG = 'en';
 const REQUEST_TIMEOUT = 15 * 1000;
 const client = clients.createJsonClient({
-    url: API_HOST,
+    url: config.apiHost,
     requestTimeout: REQUEST_TIMEOUT
 });
 const MAX_LENGTH = 16;
