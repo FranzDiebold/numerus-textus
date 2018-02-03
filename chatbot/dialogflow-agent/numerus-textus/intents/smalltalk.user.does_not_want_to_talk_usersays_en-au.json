@@ -1,0 +1,104 @@
+[
+  {
+    "id": "5e203475-62a5-43e0-a088-e0b024e5fe4c",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "don",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027t want to talk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "78756567-ac28-48cd-b824-fa02fd1ef8b2",
+    "data": [
+      {
+        "text": "I\u0027m not talking to you anymore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3f6436e2-4fbf-40c6-90e7-da15db02034f",
+    "data": [
+      {
+        "text": "I\u0027m not in the mood for chatting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7721dc99-a86b-4f2e-b5de-519517d7c83e",
+    "data": [
+      {
+        "text": "let\u0027s not talk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e978bf1-2ea7-4228-9d7d-b75d6e88ae78",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "don\u0027t",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " want to talk to you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7af6a2b6-6251-4b9b-81fe-bb29babaa8c8",
+    "data": [
+      {
+        "text": "bad time for talking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "81056a57-70de-4858-b022-3f8135aa28e4",
+    "data": [
+      {
+        "text": "let\u0027s stop talking for a minute",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "8c5362aa-91c9-44bd-8f9c-120d0bd300fe",
+    "data": [
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " you just a ",
+        "userDefined": false
+      },
+      {
+        "text": "bot",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8f800753-cdd4-4c44-8ed7-520137c4af22",
+    "data": [
+      {
+        "text": "you\u0027re a robot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cb72380b-0ebd-4915-8f32-b5f0054b460a",
+    "data": [
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " you a program",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ee6739ff-c5f1-49e4-a6f4-e7b8eefeb9e8",
+    "data": [
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " you a ",
+        "userDefined": false
+      },
+      {
+        "text": "bot",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c9106300-6f37-4aec-8103-72fcff494da2",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " chatbot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3b8dc20d-71df-4192-8980-c6be4be8ea05",
+    "data": [
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " you a chatbot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "43efbf50-7343-4680-9773-87cee0d67658",
+    "data": [
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " you a robot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b6219f1f-bc31-49ca-aefa-2427855f0857",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "bot",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

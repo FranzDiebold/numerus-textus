@@ -1,0 +1,48 @@
+{
+  "id": "4daf80d9-89ca-4295-b81a-51483c08a11c",
+  "name": "number2text",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "number2text",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f13a93fd-7b8a-43f5-82d2-7bc5f3039091",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For which number?"
+            },
+            {
+              "lang": "en",
+              "value": "Ok, for which number?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517423291,
+  "fallbackIntent": false,
+  "events": []
+}

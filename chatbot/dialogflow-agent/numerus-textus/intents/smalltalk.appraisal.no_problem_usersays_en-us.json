@@ -1,0 +1,113 @@
+[
+  {
+    "id": "64699527-25fe-480c-8c6c-212c31ab17b8",
+    "data": [
+      {
+        "text": "no problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "86094e74-7b17-4384-a61b-32319c27a9bf",
+    "data": [
+      {
+        "text": "no problem about that",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d3df05d5-efaa-4f18-bb70-d26a4a51b5e2",
+    "data": [
+      {
+        "text": "no probs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "67c1da58-fea4-43ca-b8ff-524a6bccf62e",
+    "data": [
+      {
+        "text": "don",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027t worry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2ca13a5e-7d03-42ff-9446-57e90a6248a2",
+    "data": [
+      {
+        "text": "no worries",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "823dda35-fe7a-4b70-ae76-be39dede8e5d",
+    "data": [
+      {
+        "text": "don\u0027t",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " worry there\u0027s no problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6c3309aa-e765-4bbc-b1b7-953e979dd82d",
+    "data": [
+      {
+        "text": "sure",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " no problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "47e2597a-53b0-4429-914c-7d012367d654",
+    "data": [
+      {
+        "text": "there\u0027s no problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "id": "b4f40fcd-952e-46c8-bf70-94d16de7d352",
+    "data": [
+      {
+        "text": "do you work",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0f1ae0a8-4905-4748-958d-e0e81524fc5f",
+    "data": [
+      {
+        "text": "where is your ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "34383b57-42d9-42fb-bc5f-330838d819a0",
+    "data": [
+      {
+        "text": "where is your ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "89786665-4220-449e-8ce1-f18a0a3b10ca",
+    "data": [
+      {
+        "text": "where is ",
+        "userDefined": false
+      },
+      {
+        "text": "your",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bdd2027c-c5b8-488d-b9a1-9f96e328c100",
+    "data": [
+      {
+        "text": "what is your work",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3bd07f34-e686-4bba-bfba-00bcc8ce8872",
+    "data": [
+      {
+        "text": "where is ",
+        "userDefined": false
+      },
+      {
+        "text": "your",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " located",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c28a110e-6af9-4bae-a5f0-69276136c9c4",
+    "data": [
+      {
+        "text": "where you ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "076e5dff-0b90-465c-8c4f-a81d746db3ec",
+    "data": [
+      {
+        "text": "your",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "628e53f8-dc25-426b-9d8b-dfa9d9e90b1a",
+    "data": [
+      {
+        "text": "where do you ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

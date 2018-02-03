@@ -1,0 +1,607 @@
+[
+  {
+    "id": "627c7dd4-5788-4cea-9609-bd3dbe174d6b",
+    "data": [
+      {
+        "text": "you know a lot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bd36dfcf-dbc6-45dc-b610-4cff22855611",
+    "data": [
+      {
+        "text": "you\u0027re very ",
+        "userDefined": false
+      },
+      {
+        "text": "smart",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9d504b14-1a3b-42f2-a778-ee1a813dded5",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " qualified",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "87d7aa3c-ac72-4a87-be21-bd0ee6748ff6",
+    "data": [
+      {
+        "text": "you\u0027re qualified",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4f5ada60-f661-4186-a208-c7bd4b444484",
+    "data": [
+      {
+        "text": "you are a genius",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "db57e657-c366-459b-9e4c-20c31567eedd",
+    "data": [
+      {
+        "text": "you\u0027re intelligent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0c526f55-17e8-47ff-b17e-8e9b610e6b7e",
+    "data": [
+      {
+        "text": "how clever you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e13caef6-d95d-4dd4-a93c-8842ec9f948c",
+    "data": [
+      {
+        "text": "you\u0027re clever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0659877c-86d9-4c6d-9f44-e2bda74920b1",
+    "data": [
+      {
+        "text": "you\u0027re pretty ",
+        "userDefined": false
+      },
+      {
+        "text": "smart",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "211b771b-5414-4c9f-93f0-e0aedbb9dc1e",
+    "data": [
+      {
+        "text": "you\u0027re really brainy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "7d4032e4-4f5c-456b-86f4-74d82ef8f756",
+    "data": [
+      {
+        "text": "how brainy you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "05a57337-028b-4f80-ad6a-083c9cf3568f",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " so brainy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "92c23b30-78e3-4f6c-b5ea-b497cb704867",
+    "data": [
+      {
+        "text": "smart",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "60a0fca7-72ad-49d1-a537-2fb3fa908437",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " too ",
+        "userDefined": false
+      },
+      {
+        "text": "smart",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ae3895aa-51ef-4327-b078-ff6a61bd49d6",
+    "data": [
+      {
+        "text": "you\u0027re a genius",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d233427d-0c39-4dc0-bf43-57e5101e2028",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " intelligent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aa758990-0975-41dc-8390-edc356a25c46",
+    "data": [
+      {
+        "text": "how ",
+        "userDefined": false
+      },
+      {
+        "text": "smart",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6088aa84-6f9a-4304-9918-d8a720fce8a2",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " clever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "859db4bb-7ddd-438a-99fa-a4605f0b1042",
+    "data": [
+      {
+        "text": "clever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2680522c-3fc4-4f79-9d71-417e24d80d5b",
+    "data": [
+      {
+        "text": "you\u0027re really ",
+        "userDefined": false
+      },
+      {
+        "text": "smart",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "d408378c-0b0d-4a03-ac68-021316e94632",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " very clever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2a9ff408-60c2-4f11-b090-6286f247a2fe",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " so intelligent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "198bbfef-a040-4062-bc89-e16d58f47f00",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " so ",
+        "userDefined": false
+      },
+      {
+        "text": "smart",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dd8c7e39-c23c-42f2-a65b-e8b34758108a",
+    "data": [
+      {
+        "text": "you have a lot of knowledge",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b941f3fc-f6d6-4611-a1e2-6c1a608ecfc1",
+    "data": [
+      {
+        "text": "why ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " you so ",
+        "userDefined": false
+      },
+      {
+        "text": "smart",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ff655122-4495-4b62-9439-aca730760f55",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " very ",
+        "userDefined": false
+      },
+      {
+        "text": "smart",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a61aa16f-b148-41d9-ab3e-3f198d37b02f",
+    "data": [
+      {
+        "text": "you know a lot of things",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "329a66cf-0f4e-4309-b618-e9ff98d35f20",
+    "data": [
+      {
+        "text": "you know so much",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fc77a00a-0153-46a7-96aa-de8499d0057c",
+    "data": [
+      {
+        "text": "you are so clever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "27b7ebb4-633c-4431-817b-5d2b3700e874",
+    "data": [
+      {
+        "text": "brilliant",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "853f5c97-5855-40ae-9b79-9894c662e181",
+    "data": [
+      {
+        "text": "how ",
+        "userDefined": false
+      },
+      {
+        "text": "brilliant",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "533a3d0a-fde2-4a1a-8e6d-448d36341198",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " very intelligent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "05d5f3e2-0f37-404e-a3d0-7688c38d5ebc",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " really ",
+        "userDefined": false
+      },
+      {
+        "text": "smart",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "ac2dea52-0ef9-4aec-aad6-ac4c7110301b",
+    "data": [
+      {
+        "text": "you\u0027re a ",
+        "userDefined": false
+      },
+      {
+        "text": "smart",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " cookie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

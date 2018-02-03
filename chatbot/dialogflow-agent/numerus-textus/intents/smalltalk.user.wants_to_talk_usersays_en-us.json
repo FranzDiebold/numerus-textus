@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1b370b8d-0282-4cd6-bed3-c2aea9e0a03a",
+    "data": [
+      {
+        "text": "I want to speak with you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bde78f5d-aac6-491d-9db5-9ab694c48b4f",
+    "data": [
+      {
+        "text": "I need to talk to you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aac76422-d172-4151-8476-d7bb1ce74430",
+    "data": [
+      {
+        "text": "can I start speaking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bdea7492-9284-44af-ac95-3a9e55ea6aa7",
+    "data": [
+      {
+        "text": "let\u0027s talk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1877fa55-931f-4d42-9153-6847930ffceb",
+    "data": [
+      {
+        "text": "let\u0027s discuss something",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "4d0f360d-09a0-4fc1-9da2-3dd4fdfcd37f",
+    "data": [
+      {
+        "text": "can we chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "73cd939f-9a28-47ec-a5ac-5e2adeb9240a",
+    "data": [
+      {
+        "text": "I just want to talk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ae9de7e1-2b77-45be-a150-602fb3811e81",
+    "data": [
+      {
+        "text": "can we talk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b34efe7c-82f8-4e80-9534-66c16185306b",
+    "data": [
+      {
+        "text": "I want to talk to you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "16d84f10-71d1-4978-82be-97dc607a5d10",
+    "data": [
+      {
+        "text": "can I speak",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "105f5e4d-ff8a-4460-a746-5eb6058bf098",
+    "data": [
+      {
+        "text": "let\u0027s have a discussion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

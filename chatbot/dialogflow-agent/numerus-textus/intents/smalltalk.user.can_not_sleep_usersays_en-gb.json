@@ -1,0 +1,130 @@
+[
+  {
+    "id": "143db0ba-e91d-47d1-b822-ffaa706f2b5b",
+    "data": [
+      {
+        "text": "I\u0027",
+        "userDefined": false
+      },
+      {
+        "text": "m",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " insomnious",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f46913ae-7b15-4c56-9bf8-8ff127d646a9",
+    "data": [
+      {
+        "text": "I\u0027m insomniac",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3d65baa4-d507-4227-ac5c-b80de8795594",
+    "data": [
+      {
+        "text": "I can\u0027t ",
+        "userDefined": false
+      },
+      {
+        "text": "sleep",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc3b8d0e-ea24-4327-9ab4-96793e8fd87f",
+    "data": [
+      {
+        "text": "I can\u0027t get no sleep",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7a76104c-d205-4177-81bd-18f539aaf6a3",
+    "data": [
+      {
+        "text": "I can\u0027t get any sleep",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1eb29a58-03a7-4b64-bb5e-ad818382d882",
+    "data": [
+      {
+        "text": "I can\u0027t get to sleep",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f97e7140-6053-4771-b8d2-74c332489b77",
+    "data": [
+      {
+        "text": "I can\u0027t ",
+        "userDefined": false
+      },
+      {
+        "text": "fall",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " asleep",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9903ed87-cd92-4ccc-b75f-e169bc812c89",
+    "data": [
+      {
+        "text": "I\u0027",
+        "userDefined": false
+      },
+      {
+        "text": "m",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " sleepless",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

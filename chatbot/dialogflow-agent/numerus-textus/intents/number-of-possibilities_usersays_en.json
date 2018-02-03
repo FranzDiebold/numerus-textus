@@ -1,0 +1,80 @@
+[
+  {
+    "id": "4c462fb3-7900-49c7-8ba2-392118c1d927",
+    "data": [
+      {
+        "text": "number of possible words for ",
+        "userDefined": false
+      },
+      {
+        "text": "318246",
+        "alias": "number",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "73d362a0-74dd-484b-9008-290a6130389c",
+    "data": [
+      {
+        "text": "How many possible words exist for the number ",
+        "userDefined": false
+      },
+      {
+        "text": "296834",
+        "alias": "number",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "35b981de-77c5-468d-8ea4-a8f44c470c08",
+    "data": [
+      {
+        "text": "Number of possibilities for ",
+        "userDefined": false
+      },
+      {
+        "text": "784662",
+        "alias": "number",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1517673605
+  },
+  {
+    "id": "de00d45a-ab0a-4969-863b-cbaf1dfa9538",
+    "data": [
+      {
+        "text": "How many possibilities for ",
+        "userDefined": false
+      },
+      {
+        "text": "478923",
+        "alias": "number",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1517673605
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "id": "07bbe922-7333-4687-8d8f-819349207279",
+  "name": "help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It\u0027s super easy!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Either type a word and I will tell you the corresponding number."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Or type a number you want to get the corresponding texts for."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517430416,
+  "fallbackIntent": false,
+  "events": []
+}

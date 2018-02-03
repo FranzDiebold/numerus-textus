@@ -1,0 +1,192 @@
+[
+  {
+    "id": "982b3530-b404-4f79-bee1-f5bb0b4d3b23",
+    "data": [
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "is nice",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " talking to you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3357ef5c-4286-42e4-b96e-44ee371b37d4",
+    "data": [
+      {
+        "text": "nice",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " to talk to you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "daf89c15-4f50-47a4-9e29-9a66d63caeef",
+    "data": [
+      {
+        "text": "it\u0027s",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "nice",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " to talk to you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aaa376ce-a23e-4df3-ad5b-99971d865448",
+    "data": [
+      {
+        "text": "it\u0027s been so nice to talk to you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "21027d7c-11d1-415d-a774-ecafc80427aa",
+    "data": [
+      {
+        "text": "how ",
+        "userDefined": false
+      },
+      {
+        "text": "nice",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " is to talk to you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e15a1485-747f-4cd8-95d6-cd8a933f0ae1",
+    "data": [
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027",
+        "userDefined": false
+      },
+      {
+        "text": "s",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "been",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "pleasure",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "talking",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "to",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b72b4fc8-2012-41a4-86f5-38ea3fbc7145",
+    "data": [
+      {
+        "text": "nice",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " talking to you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

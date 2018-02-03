@@ -1,0 +1,98 @@
+[
+  {
+    "id": "534fa5d1-25a9-4789-897d-48adc1203c50",
+    "data": [
+      {
+        "text": "I\u0027ll be back",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6cf1da51-25ba-4a63-aa05-facff617e843",
+    "data": [
+      {
+        "text": "be back ",
+        "userDefined": false
+      },
+      {
+        "text": "in",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " minutes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "26a2fd1c-d3be-4c71-9c10-ce97f53b3edf",
+    "data": [
+      {
+        "text": "I\u0027ll be back in a few minutes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8e40f035-05a3-4eaa-b83c-edd9ba6a8f1c",
+    "data": [
+      {
+        "text": "I\u0027ll get back to you ",
+        "userDefined": false
+      },
+      {
+        "text": "in",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a moment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "842c7d37-d35f-4cda-b86a-f65f7dc08ec8",
+    "data": [
+      {
+        "text": "I promise to ",
+        "userDefined": false
+      },
+      {
+        "text": "come",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " back",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,398 @@
+[
+  {
+    "id": "dbadb5b3-e5a0-4249-a9d6-250043ec01bd",
+    "data": [
+      {
+        "text": "ha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "86f4346f-6406-4489-a870-cd27aaf8d21f",
+    "data": [
+      {
+        "text": "hehehe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "60aac8c5-99b8-473b-bf50-435162ddecaf",
+    "data": [
+      {
+        "text": "hahaha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "0377a243-d255-43ce-a397-ab04f1291e98",
+    "data": [
+      {
+        "text": "ahahah",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "73cc9af5-e4b7-4270-a347-e2675a139b88",
+    "data": [
+      {
+        "text": "haha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3ea47bb0-5eb5-4d2d-88f1-f52bf8e66806",
+    "data": [
+      {
+        "text": "ha ha ha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "45163ce6-965d-4388-8314-46799a3f42ee",
+    "data": [
+      {
+        "text": "hah",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2977a910-ec93-4108-b6d6-4432d2536b4f",
+    "data": [
+      {
+        "text": "xd",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "02fb762e-038b-4fdb-8627-408444fca277",
+    "data": [
+      {
+        "text": "haha haha haha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "68261ff6-df3a-4545-96e6-637846863528",
+    "data": [
+      {
+        "text": "ahahaha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "70b74f42-d4f3-44c1-b2f1-53b077681e80",
+    "data": [
+      {
+        "text": "ah",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a444ae7f-ab90-4c10-a77e-22c91b190a47",
+    "data": [
+      {
+        "text": "lol",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "71b1c34c-56f3-460e-982e-a82fbd0914a5",
+    "data": [
+      {
+        "text": "LMAO",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "7693e1f6-ffcc-44f2-a0bc-d928a8a05dbc",
+    "data": [
+      {
+        "text": "hahaha very ",
+        "userDefined": false
+      },
+      {
+        "text": "funny",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8f120365-296f-4df8-b199-49bb8dae29bb",
+    "data": [
+      {
+        "text": "that\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "funny",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "019a5637-72ca-4f9e-9319-c6831cd7979a",
+    "data": [
+      {
+        "text": "huh",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "17540d6d-1f20-4a4e-aae0-24ca2bbc810c",
+    "data": [
+      {
+        "text": "haha very ",
+        "userDefined": false
+      },
+      {
+        "text": "funny",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3b42b5aa-eb6d-44e5-b6ef-b6a5b2226d17",
+    "data": [
+      {
+        "text": "haha ",
+        "userDefined": false
+      },
+      {
+        "text": "funny",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9e265e37-6ea9-49f1-b7fa-b2be26697534",
+    "data": [
+      {
+        "text": "ha ha ha ha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "87cf7d33-c51b-45cf-8905-4d3717c26f97",
+    "data": [
+      {
+        "text": "ahah",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c7dcba1c-f455-4489-bf85-731b8a54b848",
+    "data": [
+      {
+        "text": "laughing out ",
+        "userDefined": false
+      },
+      {
+        "text": "loud",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bc3e74ad-8795-4c55-8fd4-f3efa0d60afc",
+    "data": [
+      {
+        "text": "haha that\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "funny",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c85e3270-4f54-4a27-962a-5a94373a05d8",
+    "data": [
+      {
+        "text": "ahaha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8f4d6d8f-44d5-4f29-85c3-89bb0fe96af3",
+    "data": [
+      {
+        "text": "he",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "010611ad-2cca-4add-874d-1832e7e3b2c3",
+    "data": [
+      {
+        "text": "lmao",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c9b3183e-8b5a-434a-9bfc-a57c4730d59c",
+    "data": [
+      {
+        "text": "hahaha ",
+        "userDefined": false
+      },
+      {
+        "text": "funny",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bd835515-6ff9-440d-ba87-919511c91eb2",
+    "data": [
+      {
+        "text": "ahah lol",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c074e0f6-d1e7-4996-9cf4-621e76b32fd5",
+    "data": [
+      {
+        "text": "ha ha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "190af271-9ec5-4fe4-8b65-95cad940ee0c",
+    "data": [
+      {
+        "text": "hehe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9dff4bc4-a024-4b03-b801-667506186241",
+    "data": [
+      {
+        "text": "ah ah ah",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "f42caa2e-d9b2-4f78-b07f-e46d5b06155d",
+    "data": [
+      {
+        "text": "I grow weary",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b9b36271-bad3-4852-8980-c180a2994421",
+    "data": [
+      {
+        "text": "I\u0027ve overworked",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "08239281-90a4-41e1-9810-bfda0fe68857",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "feel",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eba3e672-8bce-4f1d-a309-8c1294fa2891",
+    "data": [
+      {
+        "text": "I\u0027m worn out",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "205a084d-52d5-4bc0-9f2a-879f43c68054",
+    "data": [
+      {
+        "text": "I am tired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b78cccbf-7c4b-4f8e-91f6-a9854956fb08",
+    "data": [
+      {
+        "text": "I\u0027m getting tired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ce3180ba-bf71-4b19-9bcd-3f1092d7c570",
+    "data": [
+      {
+        "text": "I\u0027m drained",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "12110a17-22a3-477d-801d-a62d602c522c",
+    "data": [
+      {
+        "text": "I\u0027m exhausted",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

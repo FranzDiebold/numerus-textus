@@ -1,0 +1,288 @@
+[
+  {
+    "id": "d5a9096a-e393-4942-a980-9917a96fac94",
+    "data": [
+      {
+        "text": "what should I do",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "df12b43b-37c9-4957-90a9-a07deacb3b64",
+    "data": [
+      {
+        "text": "any",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " advice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c18c72bd-bac1-4c57-8d29-25d0fc5ae1a2",
+    "data": [
+      {
+        "text": "I need advice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "817ee379-88e9-4cfc-9fb0-ff8c1788873d",
+    "data": [
+      {
+        "text": "I could use some advice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cf31a890-a700-4236-b680-925e15516243",
+    "data": [
+      {
+        "text": "can you offer any advice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "803fab14-02b1-4d5d-b507-1bba089ee4af",
+    "data": [
+      {
+        "text": "advise me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5249e55c-15b9-4c73-a5db-f8a7f41aea2b",
+    "data": [
+      {
+        "text": "can you advise me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f749342e-f621-4636-b8d4-1075f0a80c89",
+    "data": [
+      {
+        "text": "what do you recommend",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c939488c-52cc-474b-b376-2ed0a6b753d5",
+    "data": [
+      {
+        "text": "give me some good advice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "f5a1894a-df41-40cc-a2d3-6cb70f994b8d",
+    "data": [
+      {
+        "text": "any suggestions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f5b89504-0254-4cf5-bcd6-78ed983ffb7a",
+    "data": [
+      {
+        "text": "I need an advice from you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc3d13cf-ae31-4423-8381-2c7942ac6f82",
+    "data": [
+      {
+        "text": "do you have any advice for me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5d6a1a34-5e35-425a-8b4c-e981d103a921",
+    "data": [
+      {
+        "text": "guide ",
+        "userDefined": false
+      },
+      {
+        "text": "me",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e37a3ea4-252a-4057-9200-5227d66d279d",
+    "data": [
+      {
+        "text": "help me with advice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0e4198c2-7bd9-44b0-8014-469f1add7712",
+    "data": [
+      {
+        "text": "can you give me advice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "31c38fde-3e16-48a8-a9a8-e3a553983255",
+    "data": [
+      {
+        "text": "what should I do about it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "1a0bea27-414f-4eb8-86fe-c6e4a5bb38a4",
+    "data": [
+      {
+        "text": "I seek your advice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f98b5c0a-8aa1-4c23-8fa2-38e77c64acde",
+    "data": [
+      {
+        "text": "give me a wise advice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "49a7ea00-4fca-4f3c-a57d-9200eeba80be",
+    "data": [
+      {
+        "text": "what can you recommend",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "d0dd08ab-36ce-4462-877e-f15dbfeb6e4f",
+    "data": [
+      {
+        "text": "can I ask for your advice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0462af2f-7611-4903-bb21-00a64c4b680e",
+    "data": [
+      {
+        "text": "what do you suggest",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "a51bd370-0d7f-4160-9737-912e584cd59e",
+    "data": [
+      {
+        "text": "what is your advice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "7a86304d-859b-45e5-9e1a-a2eb332352b2",
+    "data": [
+      {
+        "text": "give me some advice about",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

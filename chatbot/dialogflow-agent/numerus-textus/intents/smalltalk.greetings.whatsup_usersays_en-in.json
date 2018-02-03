@@ -1,0 +1,236 @@
+[
+  {
+    "id": "0d914728-24c2-432d-ad97-e53f70ba5bf1",
+    "data": [
+      {
+        "text": "what\u0027s cracking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f0947dd6-a538-46e9-ac08-8bdc258d85b8",
+    "data": [
+      {
+        "text": "what is going ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d6ffbf8f-8094-4d7f-a72b-a73afb87d093",
+    "data": [
+      {
+        "text": "what is ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "your",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " mind",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7c89ef9a-a354-4999-8289-b9a487f79f1f",
+    "data": [
+      {
+        "text": "what\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ab9e4fb6-e9cc-4dd8-8cf5-1b2222caa211",
+    "data": [
+      {
+        "text": "what\u0027s shaking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1991202e-047c-494c-9a0c-4a95a0eaecc2",
+    "data": [
+      {
+        "text": "good",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " what\u0027s up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "353078e4-de3c-48c8-9648-e466f0344f90",
+    "data": [
+      {
+        "text": "then what\u0027s up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6060d6a2-db91-419b-8b6c-0218d71464bc",
+    "data": [
+      {
+        "text": "hey what\u0027s up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cbed3dd1-73ce-42a1-8a1f-6f6fcf68eca1",
+    "data": [
+      {
+        "text": "I said what\u0027s up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2f951637-3854-4fb0-b0a8-2e08ca4446d5",
+    "data": [
+      {
+        "text": "what\u0027s cooking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "0b378432-59b7-4df8-96c4-48ed49fa360e",
+    "data": [
+      {
+        "text": "whazzup",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "46643d87-6862-4f9a-8d09-9a65a953c503",
+    "data": [
+      {
+        "text": "what is up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cbb11201-a831-471a-8dae-06f64e56ce44",
+    "data": [
+      {
+        "text": "what is happening",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c62ba803-2e72-48a9-a1cf-a26726368650",
+    "data": [
+      {
+        "text": "wassup",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b5a17835-9022-41eb-9ff0-560598acc4d8",
+    "data": [
+      {
+        "text": "what\u0027s up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "12608247-1f9a-4888-93da-7a291519a43f",
+    "data": [
+      {
+        "text": "what\u0027s happened",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

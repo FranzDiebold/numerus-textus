@@ -1,0 +1,531 @@
+[
+  {
+    "id": "fe84ed7f-a01b-4529-b7b1-152909446d6e",
+    "data": [
+      {
+        "text": "can you help me with that",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c36e7df8-4d7a-4d7d-bc12-da31b18b4d56",
+    "data": [
+      {
+        "text": "assistance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7128a8a8-36ce-48a0-9d1e-d435fe5db445",
+    "data": [
+      {
+        "text": "do you want to help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "2a7fd2c5-7412-4278-a7c3-ab46c410342a",
+    "data": [
+      {
+        "text": "can help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2fefdd17-02ca-45a6-9c45-ca762ccf9c9b",
+    "data": [
+      {
+        "text": "do you help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8fca8c57-e967-47a4-8c35-a2afdc7b6ae3",
+    "data": [
+      {
+        "text": "I need you to help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ebe8c199-fa39-4cc4-81be-64ddf24dc446",
+    "data": [
+      {
+        "text": "will",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " you help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9110e687-84bd-4d78-8b55-2854570df325",
+    "data": [
+      {
+        "text": "can you help me now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bc08d90f-0465-4fd7-bba1-5ea24bd6d620",
+    "data": [
+      {
+        "text": "can you help me with something",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "c6cfe1d8-cc03-4683-b622-185f34c3c309",
+    "data": [
+      {
+        "text": "please help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "56076e69-5115-46df-ac88-c964b7922115",
+    "data": [
+      {
+        "text": "help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d680fb1a-9410-4e05-8880-b15c627b1608",
+    "data": [
+      {
+        "text": "need ",
+        "userDefined": false
+      },
+      {
+        "text": "your",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1f4c454c-4711-4663-865a-ef6393d30da9",
+    "data": [
+      {
+        "text": "I need help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cf028157-4b3e-4d4d-b324-d2e580f8c157",
+    "data": [
+      {
+        "text": "I need a hand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "6ee2a77f-0f75-4aa7-ab4b-4da2bd854a42",
+    "data": [
+      {
+        "text": "assist me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9e1d09b6-a6cb-47be-8052-c976e3f7110e",
+    "data": [
+      {
+        "text": "assist",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e523866-0d21-4c1f-be61-7f1ecc019872",
+    "data": [
+      {
+        "text": "can you assist me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "bb68cc22-a1f6-4a4d-94ac-47c5fdbd0db1",
+    "data": [
+      {
+        "text": "you can help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "56f33053-5ad2-4460-ae90-704688385045",
+    "data": [
+      {
+        "text": "can you help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4844fc02-425c-4023-822b-ebdca5e885af",
+    "data": [
+      {
+        "text": "need help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fe57c589-e8b1-4914-b3aa-8e905deb2d4c",
+    "data": [
+      {
+        "text": "help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "732606d6-a48d-4680-82e3-e2510a0aa269",
+    "data": [
+      {
+        "text": "I need you to do something for me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b524a8a6-c996-425d-90e5-6042015abc46",
+    "data": [
+      {
+        "text": "can you help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "bc443736-383d-4ba6-adeb-2b946800fdc0",
+    "data": [
+      {
+        "text": "would you help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bc014268-5c73-4e80-9bbd-fa03f1ec798d",
+    "data": [
+      {
+        "text": "can u help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "79c32fda-0bca-4192-ba5b-64670db43e9e",
+    "data": [
+      {
+        "text": "sos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "020d43f2-0db2-4c88-b956-0d762ceddc12",
+    "data": [
+      {
+        "text": "I need you ",
+        "userDefined": false
+      },
+      {
+        "text": "right now",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "de032185-d708-4519-b5a0-0658a137a873",
+    "data": [
+      {
+        "text": "could you give ",
+        "userDefined": false
+      },
+      {
+        "text": "me",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "hand",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "b08e368e-b468-4c75-a8ce-caef492a471a",
+    "data": [
+      {
+        "text": "I need you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eea682a4-ad92-437b-895d-6a6e8987dac6",
+    "data": [
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " you going to help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c75ca752-07c7-4087-967e-d3b97dbe0421",
+    "data": [
+      {
+        "text": "can you help me out",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "25a00e8e-9508-4562-941a-a27867e03c78",
+    "data": [
+      {
+        "text": "help me with a problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "1390e50a-0249-4271-9e31-9b33980f281f",
+    "data": [
+      {
+        "text": "I need ",
+        "userDefined": false
+      },
+      {
+        "text": "your",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "add10c3a-26fe-4583-a802-b567d97c7405",
+    "data": [
+      {
+        "text": "you help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "f319c045-e32f-4e3a-ba9d-77c60e7077bb",
+    "data": [
+      {
+        "text": "can you do something for me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e9e9a6e-37a8-445e-8627-78eabd1ee61d",
+    "data": [
+      {
+        "text": "can you help ",
+        "userDefined": false
+      },
+      {
+        "text": "us",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "7579a30d-53ea-4123-a0c5-86f8371a848f",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "your",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "37c64ba3-6292-4ced-9b98-89588618b7ea",
+    "data": [
+      {
+        "text": "I need some help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2105e9c1-ca84-456a-9874-43ece5e9507a",
+    "data": [
+      {
+        "text": "do me a favor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

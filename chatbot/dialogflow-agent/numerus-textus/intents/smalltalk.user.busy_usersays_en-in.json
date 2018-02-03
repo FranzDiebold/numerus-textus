@@ -1,0 +1,110 @@
+[
+  {
+    "id": "8c83f7db-adb8-4829-b860-b332510e2670",
+    "data": [
+      {
+        "text": "I have no time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "68023700-b59f-4905-87c8-bc18bb1ff27d",
+    "data": [
+      {
+        "text": "I\u0027m busy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "078db7db-5420-46f4-b7df-c990cb140071",
+    "data": [
+      {
+        "text": "I got things to do",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2f8be636-1619-46f9-bb9e-cedffef7b0f8",
+    "data": [
+      {
+        "text": "I\u0027m overloaded",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c44cd939-46b7-4eb7-affe-1232f02dd2da",
+    "data": [
+      {
+        "text": "I don\u0027t have time for this",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ea1f03b3-b984-40ba-9b2d-fe2ee570a6ef",
+    "data": [
+      {
+        "text": "I\u0027m swamped",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "83726596-7def-4d20-98ca-711c9458823c",
+    "data": [
+      {
+        "text": "how busy I am",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3ee5d01e-32ad-4022-a528-9cae43063b99",
+    "data": [
+      {
+        "text": "I\u0027m working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0a9a0c38-89dc-491f-8b31-d31389ae361c",
+    "data": [
+      {
+        "text": "I got work to do",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "description": "numerus textus",
+  "language": "en",
+  "activeAssistantAgents": [],
+  "disableInteractionLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "project": "newagent-eeac2",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2"
+  },
+  "defaultTimezone": "Europe/Madrid",
+  "webhook": {
+    "url": "https://chatbot.numerus-textus.com",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": true
+}

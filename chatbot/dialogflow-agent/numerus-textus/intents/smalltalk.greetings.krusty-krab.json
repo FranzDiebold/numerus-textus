@@ -1,0 +1,36 @@
+{
+  "id": "13b799ee-f8c9-4c53-8319-3d157dee1738",
+  "name": "smalltalk.greetings.krusty-krab",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "No, this is Patrick.",
+            "No, this is Patrick!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "😤"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517424112,
+  "fallbackIntent": false,
+  "events": []
+}

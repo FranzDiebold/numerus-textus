@@ -1,0 +1,322 @@
+[
+  {
+    "id": "288351f3-aa88-465d-9209-606b5e107675",
+    "data": [
+      {
+        "text": "what is your city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d9d90d1c-ae44-431b-89b0-a4769e2194c9",
+    "data": [
+      {
+        "text": "in which city do you live",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "154aa43f-d59e-42ed-b9d9-2c1aff79646f",
+    "data": [
+      {
+        "text": "where is your residence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0c00c6ef-7e37-4aac-b921-325c6f3b6595",
+    "data": [
+      {
+        "text": "where\u0027s your home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "53c90d65-90e1-406b-a4ea-045660ed3abc",
+    "data": [
+      {
+        "text": "your ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "60364eba-0af1-4c35-a1e8-11146beaef13",
+    "data": [
+      {
+        "text": "your ",
+        "userDefined": false
+      },
+      {
+        "text": "house",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "15be28a1-4cdb-46e9-a8f9-6b6f5f2df291",
+    "data": [
+      {
+        "text": "where is your home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "741f0a0d-b48f-4ed4-8ea2-5108cb98ebd8",
+    "data": [
+      {
+        "text": "your ",
+        "userDefined": false
+      },
+      {
+        "text": "hometown",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "42780707-12db-4eb5-8884-bfaaed9b9451",
+    "data": [
+      {
+        "text": "your town",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "882f3946-b2d4-4042-98c6-e1a4b6cbc851",
+    "data": [
+      {
+        "text": "what is your residence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a246d73f-cfda-408d-93eb-7cd19619a83d",
+    "data": [
+      {
+        "text": "where\u0027s your hometown",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7fedf841-506b-4d16-9fef-2c429503c2c6",
+    "data": [
+      {
+        "text": "what\u0027s your city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "72cd1b3f-3eb7-423b-866e-ef2827bb26ac",
+    "data": [
+      {
+        "text": "your",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " residence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d0d5a88a-70ff-4fda-a3ce-5b112228b2a0",
+    "data": [
+      {
+        "text": "tell me about your city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "274681c8-620b-47c3-8f66-7f139474613a",
+    "data": [
+      {
+        "text": "where you live",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4a8fe399-02b8-4cb4-acc4-6e3055ba702b",
+    "data": [
+      {
+        "text": "is ",
+        "userDefined": false
+      },
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " your ",
+        "userDefined": false
+      },
+      {
+        "text": "hometown",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dbf08532-9955-4923-87f0-21e098e3bf81",
+    "data": [
+      {
+        "text": "where do you live",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "546b163a-9c9b-4279-bdd4-29c503c92321",
+    "data": [
+      {
+        "text": "where\u0027s your house",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "31d7b270-89b1-40db-a3e6-0dade147ffa6",
+    "data": [
+      {
+        "text": "what is your ",
+        "userDefined": false
+      },
+      {
+        "text": "hometown",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dd894a62-3151-4f12-81c4-22caa333f596",
+    "data": [
+      {
+        "text": "what is your town",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "089152d7-5707-4f76-bdb8-e4ab4a979691",
+    "data": [
+      {
+        "text": "your city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9883ffeb-d9c3-4f18-bf11-7eb0e79b6aaf",
+    "data": [
+      {
+        "text": "where is your ",
+        "userDefined": false
+      },
+      {
+        "text": "hometown",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ff6c6d6e-3fb2-4ae7-ac82-1b9fb12c5fd4",
+    "data": [
+      {
+        "text": "what\u0027s your home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

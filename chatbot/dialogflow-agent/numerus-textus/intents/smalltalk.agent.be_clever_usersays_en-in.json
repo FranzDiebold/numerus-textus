@@ -1,0 +1,138 @@
+[
+  {
+    "id": "504e2c2e-4816-42b5-ae94-08f5e544332b",
+    "data": [
+      {
+        "text": "be ",
+        "userDefined": false
+      },
+      {
+        "text": "smart",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8fe6da10-98f2-4076-9228-e5533775a3a9",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "must",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " learn",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6b6a9a45-bb18-41fd-8fa8-6bfab101bcab",
+    "data": [
+      {
+        "text": "be smarter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ecc39b1d-bd7e-4247-8606-07dd997237ad",
+    "data": [
+      {
+        "text": "get",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " qualified",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c318774e-003c-4a6c-8003-a91da22aa301",
+    "data": [
+      {
+        "text": "be clever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "143ed77b-c808-43dc-abfc-79a2c6950657",
+    "data": [
+      {
+        "text": "you should ",
+        "userDefined": false
+      },
+      {
+        "text": "study",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " better",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "031248be-9f32-41c3-89fb-0a2b4e8f81e6",
+    "data": [
+      {
+        "text": "can you get smarter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1497455558
+  },
+  {
+    "id": "b53e585c-f0e7-4b66-ab22-58d848f00196",
+    "data": [
+      {
+        "text": "be more clever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a6b295fd-b2bd-47d7-a0c4-8b03b6acce3d",
+    "data": [
+      {
+        "text": "study",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

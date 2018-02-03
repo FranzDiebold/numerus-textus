@@ -1,0 +1,241 @@
+[
+  {
+    "id": "c6d8316c-7995-4047-bdf3-89cb61aaec41",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " very funny",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "00f4c475-423d-4338-ad06-bacb32d0c07a",
+    "data": [
+      {
+        "text": "you\u0027re incredibly funny",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "898446b5-fb0c-4eac-a18e-e16eeac7885b",
+    "data": [
+      {
+        "text": "that was funny",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a6b2b6bc-3db5-4134-89f7-42c68f3aa869",
+    "data": [
+      {
+        "text": "you\u0027re really funny",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "efec4d2c-405c-4745-a77b-6143a42d41b7",
+    "data": [
+      {
+        "text": "you make me laugh a lot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "da084da0-d6fb-4850-bfe8-46ed2f8e1243",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " so funny",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e5c67f3c-8431-48a8-9db6-d61bcf47b082",
+    "data": [
+      {
+        "text": "how funny you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f2075432-2096-47d2-9b85-91059b6f2289",
+    "data": [
+      {
+        "text": "you\u0027re a very funny bot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc634f52-6002-444f-9cb6-fc01d66c739a",
+    "data": [
+      {
+        "text": "you\u0027re so funny",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "40c725cf-cf67-40b3-99e5-f7cf9b620555",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " funny",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc0d1ac9-cfce-47b8-8ac8-48ca8336d82a",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " hilarious",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8d2db2f1-8ae2-4be5-b90c-744d2df1ec04",
+    "data": [
+      {
+        "text": "you\u0027",
+        "userDefined": false
+      },
+      {
+        "text": "re the funniest bot",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " I\u0027ve talked to",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9aa4a839-891e-47e3-84b0-c84357c5bc73",
+    "data": [
+      {
+        "text": "you make ",
+        "userDefined": false
+      },
+      {
+        "text": "me",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " laugh",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8333b29f-723f-4435-a9ac-97c9610c7253",
+    "data": [
+      {
+        "text": "you\u0027re the funniest",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "updated": 0
+  },
+  {
+    "id": "e13d9347-5efa-4c4f-ab47-1777c2728fc1",
+    "data": [
+      {
+        "text": "you are really funny",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,255 @@
+[
+  {
+    "id": "96979731-6e33-4380-aab4-ce39d4d819bc",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " dismissed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2ee7d3cb-dca5-4b88-a3c5-6dd0fc2d08b3",
+    "data": [
+      {
+        "text": "I\u0027m about to fire you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ddb0372c-dca7-4d0c-998c-78172ed540b2",
+    "data": [
+      {
+        "text": "you should be fired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a099b2e7-33b0-4d1b-bffc-b6ba043ab549",
+    "data": [
+      {
+        "text": "you are unemployed from ",
+        "userDefined": false
+      },
+      {
+        "text": "now",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0058f864-ad8e-4682-b88a-d57a55fa4371",
+    "data": [
+      {
+        "text": "I fire you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "742f7c5a-ac5a-4182-8280-7e0b0b1aaf02",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "will",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " fire you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ccc841d5-6bde-4eb8-86fc-144a8ac11ae3",
+    "data": [
+      {
+        "text": "we",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027re not working together anymore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b08ddd9c-5bac-412b-9277-fce03a2a2cfd",
+    "data": [
+      {
+        "text": "now you\u0027re fired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "24cdd074-dd62-45cd-a2d7-175f9257547b",
+    "data": [
+      {
+        "text": "I will make you unemployed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0f7942ae-6f59-4414-8976-467be2129054",
+    "data": [
+      {
+        "text": "it\u0027s",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " time to fire you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ce33236b-adbc-4ff4-90d8-97b9a2eee018",
+    "data": [
+      {
+        "text": "I want to fire you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b0e7687e-a4f0-41f9-8c65-b3f8a904ec7c",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " fired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "59bbf74d-9df4-4efb-b656-ec08b00d335c",
+    "data": [
+      {
+        "text": "I\u0027m firing you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7f239d42-ddd3-4770-b895-fb637169987f",
+    "data": [
+      {
+        "text": "you must ",
+        "userDefined": false
+      },
+      {
+        "text": "get",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " fired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aaa4f125-cf75-4f04-81d7-61f0b0be6a05",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "don\u0027t",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " for me anymore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

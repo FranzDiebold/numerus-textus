@@ -1,0 +1,48 @@
+{
+  "id": "c440d450-9d89-4ced-b8d7-dc4cc5c34b8b",
+  "name": "text2number",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "text2number",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9de12983-9587-402d-b0ef-24460d90025f",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "text",
+          "value": "$text",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For which text?"
+            },
+            {
+              "lang": "en",
+              "value": "For which word(s)?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517423742,
+  "fallbackIntent": false,
+  "events": []
+}
