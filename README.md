@@ -42,6 +42,14 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 
 
+## :speech_balloon: numerus textus chatbot
+
+<img src="./chatbot/images/readme/chatbot_telegram_screenshot.jpg" width="35%" style="max-width:100%;" alt="numerus textus chatbot screenshot">
+
+:fast_forward: [numerus textus chatbot](./chatbot) - Node.js chatbot backend webhook
+
+
+
 ## :house: Architecture & :rocket: Deployment
 
 <img src="./deployment/images/readme/numerus-textus-architecture.jpg" width="40%" style="max-width:100%;" alt="numerus textus architecture">
@@ -57,4 +65,4 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 
 ## :ballot_box_with_check:️ TODOs
-- [ ] Add chatbot
+- [x] Add chatbot
