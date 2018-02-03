@@ -73,7 +73,7 @@ The subword combination `['works', 'ad']` is scored highest and thus evaluated a
 
 ## :dart: API endpoints
 
-#### number-to-words
+### number-to-words
 Get possible words for a given number `<NUMBER>` in a given language `<LANGUAGE_CODE>`. The provided number may be splitted manually using `-` or `/`.
 
 **Request**
@@ -106,7 +106,7 @@ For `en` and `69-8398`:
 ```
 
 
-#### number-of-possibilities
+### number-of-possibilities
 Get the theoretical number of possible words for a given number.
 
 ![\#PN = \prod_{i}{ \Big( 2^{|n_i| - 1} \prod_{j}{| \kappa(n_{ij}) |} \Big) }](http://latex.codecogs.com/gif.latex?%5C%23PN%20%3D%20%5Cprod_%7Bi%7D%7B%20%5CBig%28%202%5E%7B%7Cn_i%7C%20-%201%7D%20%5Cprod_%7Bj%7D%7B%7C%20%5Ckappa%28n_%7Bij%7D%29%20%7C%7D%20%5CBig%29%20%7D)
