@@ -136,7 +136,7 @@ For <a href="https://api.numerus-textus.com/num-pos/69-8398/" target="_blank">`6
 The Django admin interface can be accessed via <a href="https://api.numerus-textus.com/admin/" target="_blank">`https://api.numerus-textus.com/admin/</a>.
 The associated code can be found in [number2text/app/admin.py](./number2text/app/admin.py).
 
-``
+
 
 ## :rocket: Deployment
 The app is deployed using Docker ([Dockerfile](./Dockerfile)).
