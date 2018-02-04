@@ -6,7 +6,7 @@
 <a href="https://www.numerus-textus.com" target="_blank"><img src="https://img.shields.io/badge/demo-online-2196F3.svg" alt="demo: online"></a>
 [![license: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE.md)
 
-numerus textus server is the backend API for the **number to text** part of the numerus textus app. It is a [Django](https://github.com/django/django) v2 app 😎.
+numerus textus server is the backend API for the **number to text** part of the numerus textus app. It is a internationalized [Django](https://github.com/django/django) v2 app 😎.
 
 
 ## Number to text conversion
@@ -74,7 +74,7 @@ The subword combination `['works', 'ad']` is scored highest and thus evaluated a
 ## :dart: API endpoints
 
 ### number-to-words
-Get possible words for a given number `<NUMBER>` in a given language `<LANGUAGE_CODE>`. The provided number may be splitted manually using `-` or `/`.
+Get possible words for a given number `<NUMBER>` in a given language `<LANGUAGE_CODE>`. The provided number may be splitted manually using `-` or `/` in order to specify a desired splitting.
 
 **Request**
 

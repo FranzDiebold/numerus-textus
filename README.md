@@ -30,7 +30,7 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 <img src="./api/images/readme/api_screenshot.jpg" width="45%" style="max-width:100%;" alt="number2text API screenshot">
 
-:fast_forward: [number2text API](./api) - Django API backend
+:fast_forward: [number2text API](./api) - Internationalized Django API backend
 
 
 
