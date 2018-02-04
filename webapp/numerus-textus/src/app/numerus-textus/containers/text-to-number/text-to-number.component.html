@@ -4,7 +4,7 @@
       <div class="text-input">
         <input
           type="text"
-          placeholder="Type a text"
+          i18n-placeholder placeholder="Type a text"
           [formControl]="textInput"
           autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
           maxlength="32">
@@ -16,7 +16,7 @@
       </div>
       <div class="social-sharing container has-text-centered"
         *ngIf="numberOutput$ | async as numberOutput">
-        <a title="share it!"
+        <a i18n-title title="share it!"
           *ngIf="numberOutput.length"
           (click)="showSocialSharingModal()">
           <span class="icon">

@@ -1,6 +1,6 @@
 <div class="share-card">
   <div class="share-title">
-    <h2 class="is-size-2 is-size-3-tablet is-size-4-mobile">❤️ Like it? <span class="emphasize">Share it! 👍</span></h2>
+    <h2 class="is-size-2 is-size-3-tablet is-size-4-mobile">❤️ <ng-container i18n>Like it?</ng-container> <span class="emphasize" i18n>Share it! 👍</span></h2>
   </div>
   <div class="share-url">
     <input [value]="sharingData.url" disabled>
@@ -10,7 +10,8 @@
       *ngFor="let sharingOption of sharingOptions"
       [href]="getFullEncodedUrl(sharingOption)"
       target="_blank"
-      class="button is-rounded share-button">
+      class="button is-rounded share-button"
+      [title]="sharingOption.name">
       <span class="icon">
         <svg style="width:24px;height:24px" viewBox="0 0 24 24">
           <path [attr.fill]="sharingOption.color" [attr.d]="sharingOption.icon" />
