@@ -88,7 +88,11 @@ If you want to add a new language, i.e. french:
 
 1. Run `ng xi18n --outputPath src/locale --locale en`.
 2. Copy newly generated file `src/locale/messages.xlf` to `src/locale/messages.fr.xlf` and add `<target>...</target>` for each `<source>...</source>`.
-3. Serve for test: `ng serve --aot --locale fr --i18n-format xlf --i18n-file src/locale/messages.fr.xlf`
+3. Serve for test: `ng serve --aot --locale fr --i18n-format xlf --i18n-file src/locale/messages.fr.xlf`.
+4. Add the language identifier `fr` to:
+    - the `build-prod-i18n` script in [/numerus-textus/package.json](./numerus-textus/package.json)
+    - the language lists (`map` and `location`s in `www.numerus-textus.com` server) in [nginx.conf](./nginx.conf)
+    - the [backend API](../api) :grin:
 
 
 
