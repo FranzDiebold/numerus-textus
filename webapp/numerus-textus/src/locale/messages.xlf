@@ -55,15 +55,15 @@
           <context context-type="linenumber">66</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="f547864a0b7496eae53a07cb3451cafffe5a9114" datatype="html">
-        <source>Like it?</source>
+      <trans-unit id="3c78b53bca33467190c0b7a01320bc093a2b1427" datatype="html">
+        <source>Privacy</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/social-sharing/components/social-sharing/social-sharing.component.ts</context>
-          <context context-type="linenumber">3</context>
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="bc6de742c74b3c497ff56e9a508ef44703481c80" datatype="html">
-        <source>Share it! 👍</source>
+      <trans-unit id="d9e0a3701c79f037c3974266a8376cf0805ae1f5" datatype="html">
+        <source>❤️ Like it? <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Share it! 👍<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/social-sharing/components/social-sharing/social-sharing.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -127,6 +127,13 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
           <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="47fd8f3c16ad49e1520c63d468ae4a9656f5b77a" datatype="html">
+        <source>Example <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>number2text<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="456418395c41b2b5b81c618b35d34b45db312cc9" datatype="html">
@@ -210,8 +217,15 @@
           <context context-type="linenumber">107</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6fe7c4cd968404f5455eed3772286bfbbe124809" datatype="html">
-        <source>Service provided by:</source>
+      <trans-unit id="c7d57e72efa4b0246317be97c87e1f5e90145d82" datatype="html">
+        <source>Legal Information</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/legal/legal.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1b2941dd4a3a8b9ed9d70d5151ed693990bedb15" datatype="html">
+        <source>Service provided by</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/numerus-textus/containers/legal/legal.component.ts</context>
           <context context-type="linenumber">7</context>
@@ -236,6 +250,27 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/numerus-textus/containers/privacy-statement/privacy-statement.component.ts</context>
           <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="369ef85c5a89437fdba94e833f7df19eee8f9ec9" datatype="html">
+        <source>Only digits (0-9), dashes (-) and slashes (/).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/components/possible-words/possible-words.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="022fb2332bcd29cfd6edf4a523dda769bc9b196b" datatype="html">
+        <source>Puh, that was too much for the backend. Try again with a shorter number.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/components/possible-words/possible-words.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92767379d6ac72c26c9bd8dca2cec30455310c0a" datatype="html">
+        <source>Sorry, but something went wrong. Try again later or with different number.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/components/possible-words/possible-words.component.ts</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
     </body>

@@ -2,9 +2,23 @@
   <span class="loader"></span>
   <div class="icon slow-shake-animation">🤔</div>
 </div>
-<div *ngIf="error" class="error">
-  <div class="icon">🙈</div>
-  {{ error }}
+<div *ngIf="error" class="error" [ngSwitch]="error">
+  <ng-container *ngSwitchCase="'ERROR_ONLY_DIGITS'">
+      <div class="icon">🙊</div>
+      <ng-container i18n>Only digits (0-9), dashes (-) and slashes (/).</ng-container>
+  </ng-container>
+  <ng-container *ngSwitchCase="'ERROR_TIMEOUT'">
+      <div class="icon">😥</div>
+      <ng-container i18n>Puh, that was too much for the backend. Try again with a shorter number.</ng-container>
+  </ng-container>
+  <ng-container *ngSwitchCase="'ERROR_OTHER'">
+      <div class="icon">🤕</div>
+      <ng-container i18n>Sorry, but something went wrong. Try again later or with different number.</ng-container>
+  </ng-container>
+  <ng-container *ngSwitchDefault>
+      <div class="icon">🙈</div>
+      {{ error }}
+  </ng-container>
 </div>
 <div *ngIf="!isLoading && !error" class="possible-words" [ngClass]="{ 'small': inputLength > 9 }">
   <div *ngFor="let possibleWord of possibleWords" class="word">

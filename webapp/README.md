@@ -82,6 +82,16 @@ The numerus textus client Angular app is built and served using the [multi-stage
 2. For serving the app (stage 2) a [nginx](https://nginx.org) webserver is employed. The nginx configuration can be found in [`nginx.conf`](./nginx.conf).
 
 
+
+## :earth_africa: i18n
+If you want to add a new language, i.e. french:
+
+1. Run `ng xi18n --outputPath src/locale --locale en`.
+2. Copy newly generated file `src/locale/messages.xlf` to `src/locale/messages.fr.xlf` and add `<target>...</target>` for each `<source>...</source>`.
+3. Serve for test: `ng serve --aot --locale fr --i18n-format xlf --i18n-file src/locale/messages.fr.xlf`
+
+
+
 ## :ballot_box_with_check:️ TODOs
 - [ ] Add german language
 - [ ] Use Bulma v0.6.3 when published (warning messages in build process, [Bulma issue #1190](https://github.com/jgthms/bulma/issues/1190)).

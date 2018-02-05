@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, LOCALE_ID, Inject } from '@angular/core';
 
 @Component({
   selector: 'app-about',
@@ -28,20 +28,50 @@ export class AboutComponent {
           {'digit': '#', 'characters': ''}
       ]
   ];
-  numberOutputExample = [
-    {
-        digit: '2',
-        character: 'c',
-    },
-    {
-        digit: '2',
-        character: 'a',
-    },
-    {
-        digit: '7',
-        character: 'r',
-    },
-  ];
 
-  constructor() { }
+  constructor(
+    @Inject(LOCALE_ID) private locale: string,
+  ) {}
+
+  get languageIdentifier(): string {
+    return this.locale.substring(0, 2);
+  }
+
+  get numberOutputExample(): { [name: string]: string}[] {
+    const numberOutputExample_en = [
+        {
+            digit: '2',
+            character: 'c',
+        },
+        {
+            digit: '2',
+            character: 'a',
+        },
+        {
+            digit: '7',
+            character: 'r',
+        },
+      ];
+
+    const numberOutputExample_de = [
+        {
+            digit: '2',
+            character: 'b',
+        },
+        {
+            digit: '2',
+            character: 'a',
+        },
+        {
+            digit: '8',
+            character: 'u',
+        },
+      ];
+
+    if (this.languageIdentifier === 'de') {
+        return numberOutputExample_de;
+    } else {
+        return numberOutputExample_en;
+    }
+  }
 }

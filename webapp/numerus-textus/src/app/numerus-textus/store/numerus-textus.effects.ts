@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, LOCALE_ID, Inject } from '@angular/core';
 import { UrlSegment, ActivatedRouteSnapshot, RouterStateSnapshot, Router } from '@angular/router';
 import { Location } from '@angular/common';
 
@@ -44,7 +44,7 @@ export class NumerusTextusEffects {
             return new LoadNumberToPossibleWordsAction(numberInputPayload.number);
           }
         } else {
-          return new SetNumberInputErrorAction('The number must not contain any non-digit characters (except for split chars)!');
+          return new SetNumberInputErrorAction('ERROR_ONLY_DIGITS');
         }
       }),
     );
@@ -56,16 +56,16 @@ export class NumerusTextusEffects {
       map((action: LoadNumberToPossibleWordsAction) => action.payload),
       switchMap((number: string) =>
         this.numberToTextService
-          .loadPossibleWordsForNumber(number, 'en') // TODO
+          .loadPossibleWordsForNumber(number, this.languageIdentifier)
           .pipe(
             map((numberToTextResponse: NumberToTextResponse) => new LoadNumberToPossibleWordsSucceededAction(numberToTextResponse)),
             catchError((errorResponse: any) => {
                 let errorMessage: string = errorResponse.error.error;
                 if (!errorMessage) {
                   if (errorResponse.status === 504) {
-                    errorMessage = '😥 Puh, that was too much for the backend. Try again with a shorter number.';
+                    errorMessage = 'ERROR_TIMEOUT';
                   } else {
-                    errorMessage = '🤕 Sorry, but something went wrong. Try again later or with different number.';
+                    errorMessage = 'ERROR_OTHER';
                   }
                 }
                 return of(new LoadNumberToPossibleWordsFailedAction(errorMessage));
@@ -165,5 +165,10 @@ export class NumerusTextusEffects {
     private textToNumberService: TextToNumberService,
     private location: Location,
     private router: Router,
+    @Inject(LOCALE_ID) private locale: string,
   ) {}
+
+  get languageIdentifier(): string {
+    return (this.locale || '').substring(0, 2);
+  }
 }
