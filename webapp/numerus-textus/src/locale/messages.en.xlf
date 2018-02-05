@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="0d7a6c4a7b9e1d6eab6c2435d54ead11d5692461" datatype="html">
+        <source>
+          number2text
+        </source>
+        <target>number2text</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="55bc575ece9fe717da4dc634cffbbaab9899cdef" datatype="html">
+        <source>
+          text2number
+        </source>
+        <target>text2number</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fd6f3ecf871e78a360863d918cc9893ab00a8d78" datatype="html">
+        <source>more info</source>
+        <target>more info</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fd27d9cfe4681d139c2a38a9f45ec2dcd88dd1b5" datatype="html">
+        <source>Like it? Share it!</source>
+        <target>Like it? Share it!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="30ee9859ce1e281d5d92683c70352f193f316b7e" datatype="html">
+        <source>numerus textus is open source!</source>
+        <target>numerus textus is open source!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2fa9b8a589eec168f6b40a9b4739e4cfc2663224" datatype="html">
+        <source>made with ❤ by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Franz Diebold<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>made with ❤ by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Franz Diebold<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9a91783e9c0f790ed49edae730f9156070ed9dd5" datatype="html">
+        <source>Legal</source>
+        <target>Legal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3c78b53bca33467190c0b7a01320bc093a2b1427" datatype="html">
+        <source>Privacy</source>
+        <target>Privacy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d9e0a3701c79f037c3974266a8376cf0805ae1f5" datatype="html">
+        <source>❤️ Like it? <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Share it! 👍<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>❤️ Like it? <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Share it! 👍<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/social-sharing/components/social-sharing/social-sharing.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f374aab7d971008d8dc1bfdf29d20e687e0633e2" datatype="html">
+        <source>Type a number</source>
+        <target>Type a number</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/number-to-text/number-to-text.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ff27e8a2a40d3afaa3c883a4105b39b98c0ad045" datatype="html">
+        <source>share it!</source>
+        <target>share it!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/number-to-text/number-to-text.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/text-to-number/text-to-number.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fecc37e39cd97d15c383f9c3a19fd0bc7f5cf9ae" datatype="html">
+        <source>Type a text</source>
+        <target>Type a text</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/text-to-number/text-to-number.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fa6ff5eff8c16eb7388a3ad28a6cdf3f895ed992" datatype="html">
+        <source>numerus textus logo</source>
+        <target>numerus textus logo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="51c48f58e6bca9f99d1ea0d2d3e40d93841f6933" datatype="html">
+        <source>numerus textus is all about <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>numbers<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> and its <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>corresponding texts<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 🤓</source>
+        <target>numerus textus is all about <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>numbers<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> and its <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>corresponding texts<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 🤓</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1a3db2a695ad12b0b16b088309e9e3c1195e7f61" datatype="html">
+        <source>Every digit corresponds to several characters:</source>
+        <target>Every digit corresponds to several characters:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f4935f192fe38882e4771bb145577b1a8f22e9c9" datatype="html">
+        <source>Why <x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>?</source>
+        <target>Why <x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a3682890ce77be65f6d07664076b14dd47cee7d4" datatype="html">
+        <source>The character <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>R<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> corresonds to the digit <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>7<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. That&apos;s why 😎.</source>
+        <target>The character <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>R<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> corresonds to the digit <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>7<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. That&apos;s why 😎.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="47fd8f3c16ad49e1520c63d468ae4a9656f5b77a" datatype="html">
+        <source>Example <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>number2text<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Example <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>number2text<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="456418395c41b2b5b81c618b35d34b45db312cc9" datatype="html">
+        <source>Probably many texts exist for a number.</source>
+        <target>Probably many texts exist for a number.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="be1f8e32252c5f7b8c6d3ededf702a82338add2e" datatype="html">
+        <source>227</source>
+        <target>227</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <note priority="1" from="description">nubmer2text input</note>
+      </trans-unit>
+      <trans-unit id="c86a852e3f24e2adb2a2b6ac20f8750534193a18" datatype="html">
+        <source>
+              car
+            </source>
+        <target>car</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+        <note priority="1" from="description">first number2text output</note>
+      </trans-unit>
+      <trans-unit id="3094de74b000dac5f0d260e860ee029ce1e0f0f2" datatype="html">
+        <source>
+              bar
+            </source>
+        <target>bar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+        <note priority="1" from="description">second number2text output</note>
+      </trans-unit>
+      <trans-unit id="fef113a78164f567d21887c6e0d6f64b7901bafc" datatype="html">
+        <source>
+              cap
+            </source>
+        <target>cap</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+        <note priority="1" from="description">third number2text output</note>
+      </trans-unit>
+      <trans-unit id="82e815aaaef17e3a8a8b79e518f963c8d36955f5" datatype="html">
+        <source>Example <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>text2number<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Example <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>text2number<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ba2311e313c854ab9b014ff0b3fd2af38e2d45ca" datatype="html">
+        <source>Indeed, several texts may lead to the same number since several characters correspond to the same digit.</source>
+        <target>Indeed, several texts may lead to the same number since several characters correspond to the same digit.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="605bbb7384e14342f39a3016fa90f8b4860e82b1" datatype="html">
+        <source>car</source>
+        <target>car</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <note priority="1" from="description">text2number input</note>
+      </trans-unit>
+      <trans-unit id="5193497d5144c5f74caad7a266c8a6da48e6d926" datatype="html">
+        <source>numerus textus is <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>open source<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 🙃</source>
+        <target>numerus textus is <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>open source<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 🙃</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52e737b06ce769f348e4f2acb1290223dfc20e83" datatype="html">
+        <source>Report issues, fork or suggest edits on <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>GitHub<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
+        <target>Report issues, fork or suggest edits on <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>GitHub<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/about/about.component.ts</context>
+          <context context-type="linenumber">107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c7d57e72efa4b0246317be97c87e1f5e90145d82" datatype="html">
+        <source>Legal Information</source>
+        <target>Legal Information</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/legal/legal.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1b2941dd4a3a8b9ed9d70d5151ed693990bedb15" datatype="html">
+        <source>Service provided by</source>
+        <target>Service provided by</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/legal/legal.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="460ae9c7eb084b8528d216cac608790200878680" datatype="html">
+        <source>GERMANY</source>
+        <target>GERMANY</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/legal/legal.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34746fb1c7f3d2194d99652bdff89e6e14c9c4f4" datatype="html">
+        <source>Contact</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/legal/legal.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4a679abc3e3c177261fc3f86b3bc495abc9b35e9" datatype="html">
+        <source>Privacy Statement</source>
+        <target>Privacy Statement</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/containers/privacy-statement/privacy-statement.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="369ef85c5a89437fdba94e833f7df19eee8f9ec9" datatype="html">
+        <source>Only digits (0-9), dashes (-) and slashes (/).</source>
+        <target>Only digits (0-9), dashes (-) and slashes (/).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/components/possible-words/possible-words.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="022fb2332bcd29cfd6edf4a523dda769bc9b196b" datatype="html">
+        <source>Puh, that was too much for the backend. Try again with a shorter number.</source>
+        <target>Puh, that was too much for the backend. Try again with a shorter number.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/components/possible-words/possible-words.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92767379d6ac72c26c9bd8dca2cec30455310c0a" datatype="html">
+        <source>Sorry, but something went wrong. Try again later or with different number.</source>
+        <target>Sorry, but something went wrong. Try again later or with different number.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/numerus-textus/components/possible-words/possible-words.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

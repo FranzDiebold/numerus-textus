@@ -65,4 +65,4 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 
 ## :ballot_box_with_check:️ TODOs
-- [x] Add chatbot
+- [ ] Enjoy your day!

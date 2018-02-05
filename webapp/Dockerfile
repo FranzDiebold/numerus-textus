@@ -10,7 +10,7 @@ WORKDIR /ng-app
 
 COPY numerus-textus/ .
 
-RUN $(npm bin)/ng build --prod
+RUN npm run build-prod-i18n
 
 
 

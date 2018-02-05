@@ -6,23 +6,44 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>https://www.numerus-textus.com/text-to-number</loc>
+        <loc>https://www.numerus-textus.com/en/text-to-number</loc>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://www.numerus-textus.com/number-to-text</loc>
+        <loc>https://www.numerus-textus.com/en/number-to-text</loc>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://www.numerus-textus.com/about</loc>
+        <loc>https://www.numerus-textus.com/en/about</loc>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://www.numerus-textus.com/legal</loc>
+        <loc>https://www.numerus-textus.com/en/legal</loc>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://www.numerus-textus.com/privacy</loc>
+        <loc>https://www.numerus-textus.com/en/privacy</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://www.numerus-textus.com/de/text-to-number</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.numerus-textus.com/de/number-to-text</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.numerus-textus.com/de/about</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.numerus-textus.com/de/legal</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.numerus-textus.com/de/privacy</loc>
         <changefreq>weekly</changefreq>
     </url>
 </urlset>

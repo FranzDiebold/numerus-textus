@@ -78,7 +78,7 @@ Your app is then running at [`http://localhost:4200`](http://localhost:4200).
 
 ## :rocket: Deployment
 The numerus textus client Angular app is built and served using the [multi-stage build](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) Docker feature. Check out the respective [Dockerfile](./Dockerfile):
-1. For building the Angular app (stage 1) via `ng build` a Node.js Alpine Docker image is used.
+1. For building the Angular app (stage 1) via `npm run build-prod-i18n` a Node.js Alpine Docker image is used.
 2. For serving the app (stage 2) a [nginx](https://nginx.org) webserver is employed. The nginx configuration can be found in [`nginx.conf`](./nginx.conf).
 
 
@@ -93,5 +93,4 @@ If you want to add a new language, i.e. french:
 
 
 ## :ballot_box_with_check:️ TODOs
-- [ ] Add german language
 - [ ] Use Bulma v0.6.3 when published (warning messages in build process, [Bulma issue #1190](https://github.com/jgthms/bulma/issues/1190)).
