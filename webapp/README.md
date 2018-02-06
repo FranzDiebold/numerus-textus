@@ -92,6 +92,7 @@ If you want to add a new language, i.e. french:
 4. Add the language identifier `fr` to:
     - the `build-prod-i18n` script in [/numerus-textus/package.json](./numerus-textus/package.json)
     - the language lists (`map` and `location`s in `www.numerus-textus.com` server) in [nginx.conf](./nginx.conf)
+    - the `languages` in [/numerus-textus/src/app/app.component.ts](./numerus-textus/src/app/app.component.ts)
     - the [backend API](../api) :grin:
 
 

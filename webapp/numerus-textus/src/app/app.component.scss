@@ -1,3 +1,5 @@
+@import "../variables";
+
 $item-color: rgba(255, 255, 255, 0.75);
 $item-active-color: #ffffff;
 
@@ -18,6 +20,60 @@ nav.navbar {
         &.is-active {
             color: $item-active-color;
             background-color: transparent;
+        }
+    }
+
+    div.navbar-item.has-dropdown {
+        > a.navbar-link {
+            color: $item-color;
+            padding-right: 2.2rem;
+
+            &::after {
+                border-color: $item-color;
+            }
+        }
+
+        div.navbar-dropdown {
+            a.navbar-item {
+                padding-right: 1rem;
+
+                span.icon.check {
+                    margin-left: 0.9rem;
+
+                    svg {
+                        $size: 0.9rem;
+                        width: $size;
+                        height: $size;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            > a.navbar-link {
+                color: $item-active-color;
+                background-color: rgba(255, 255, 255, 0.3);
+
+                &::after {
+                    border-color: $item-active-color;
+                }
+            }
+
+            div.navbar-dropdown {
+                background-color: rgba(255, 255, 255, 0.85);
+
+                a.navbar-item {
+                    color: $color-gray;
+
+                    &:hover {
+                        color: $color-primary;
+                    }
+
+                    span.icon.check {
+                        color: rgba($color-gray, 0.8);
+                    }
+                }
+            }
         }
     }
 

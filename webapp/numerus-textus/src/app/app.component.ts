@@ -1,7 +1,7 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, Inject, LOCALE_ID } from '@angular/core';
 import { Router, RouterEvent, NavigationEnd } from '@angular/router';
 import { Observable } from 'rxjs/Observable';
-import { DOCUMENT } from '@angular/platform-browser';
+import { DOCUMENT } from '@angular/common';
 
 import { LayoutStoreService } from './layout/store/layout-store.service';
 import { SocialSharingStoreService } from './social-sharing/store/social-sharing-store.service';
@@ -14,12 +14,23 @@ import { SocialSharingStoreService } from './social-sharing/store/social-sharing
 })
 export class AppComponent implements OnInit {
   showMobileNavbar$: Observable<boolean>;
+  languages = [
+    {
+      id: 'en',
+      name: 'english',
+    },
+    {
+      id: 'de',
+      name: 'deutsch',
+    },
+  ];
 
   constructor(
     private layoutStoreService: LayoutStoreService,
     private socialSharingStoreService: SocialSharingStoreService,
     private router: Router,
     @Inject(DOCUMENT) private document: Document,
+    @Inject(LOCALE_ID) private locale: string,
   ) {}
 
   ngOnInit() {
@@ -47,5 +58,9 @@ export class AppComponent implements OnInit {
       title: 'numerus textus',
       description: 'numerus textus is all about numbers and its corresponding texts',
     });
+  }
+
+  get languageIdentifier(): string {
+    return (this.locale || '').substring(0, 2);
   }
 }
