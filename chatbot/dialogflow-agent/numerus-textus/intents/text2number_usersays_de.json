@@ -1,0 +1,135 @@
+[
+  {
+    "id": "71249eee-e978-40a4-b2f4-de319a8c9fdd",
+    "data": [
+      {
+        "text": "\"",
+        "userDefined": false
+      },
+      {
+        "text": "Hallo Welt",
+        "alias": "text",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "\" zu Zahl",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ef2002bc-1a65-4f63-9715-9fd45a052522",
+    "data": [
+      {
+        "text": "Bitte ",
+        "userDefined": false
+      },
+      {
+        "text": "großer Bildschirm",
+        "alias": "text",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " in Zahl umwandeln.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5c2dc691-0990-49ec-ab2a-b08c41336153",
+    "data": [
+      {
+        "text": "Hallo Welt",
+        "alias": "text",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " als Zahl",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "549b35c6-3ee5-4296-bc01-b1ed6911b217",
+    "data": [
+      {
+        "text": "\"",
+        "userDefined": false
+      },
+      {
+        "text": "blaues Auto",
+        "alias": "text",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "\" in Nummer umwandeln",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e05fea70-6bc7-45a3-a24e-4d33b9e403a9",
+    "data": [
+      {
+        "text": "\u0027",
+        "userDefined": false
+      },
+      {
+        "text": "meine firma",
+        "alias": "text",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "\u0027 zu Nummer, bitte",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8fdab696-a7da-4c9c-b888-d8688b0f37db",
+    "data": [
+      {
+        "text": "Wandle ",
+        "userDefined": false
+      },
+      {
+        "text": "test",
+        "alias": "text",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " in nummer um",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2cd31bac-5542-4c97-b6ba-a01b1357f717",
+    "data": [
+      {
+        "text": "Text zu Nummer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

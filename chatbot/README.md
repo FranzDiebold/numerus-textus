@@ -9,7 +9,7 @@
 
 <img src="./images/readme/chatbot_telegram_screenshot.jpg" width="35%" style="max-width:100%;" alt="numerus textus chatbot screenshot">
 
-numerus textus chatbot is the backend API for the **chatbot** for the numerus textus app. It is a [Node.js](https://nodejs.org) app using the following packages:
+numerus textus chatbot is the backend API for the **chatbot** for the numerus textus app. It is a *internationalized* [Node.js](https://nodejs.org) app using the following packages:
 - [restify](https://github.com/restify/node-restify) for providing the RESTful interface.
 - [restify-clients](https://github.com/restify/clients) for making requests to the numerus textus [number2text API](../api).
 - [restify-errors](https://github.com/restify/errors) for handling HTTP errors.
@@ -53,6 +53,7 @@ With the body:
     "responseId": '<...>',
     "queryResult": {
         "queryText": "43556",
+        "languageCode": "en",
         "action": "number2text",
         "parameters": {
             "number": 43556
@@ -132,6 +133,6 @@ The app is deployed using Docker ([Dockerfile](./Dockerfile)).
 
 
 ## :ballot_box_with_check:️ Problems/TODOs
-- [ ] Add german language
+- [ ] Add german small talk
 - [ ] A Dialogflow webhook call has a timeout of just 5 seconds, which is too short for complex number2text calls. Maybe this could be done asynchronously?
 - [ ] Add a joke intent :grin:

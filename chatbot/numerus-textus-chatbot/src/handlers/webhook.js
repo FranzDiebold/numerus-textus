@@ -12,22 +12,23 @@ function handleRequest(req) {
         if (req.body) {
             if (req.body.queryResult) {
                 const action = (req.body.queryResult.action) ? req.body.queryResult.action : 'default';
+                const languageIdentifier = req.body.queryResult.languageCode || 'en';
                 const parameters = req.body.queryResult.parameters || {};
     
                 let messages;
     
                 if (action === 'number2text') {
-                    number2text(parameters)
+                    number2text(parameters, languageIdentifier)
                         .then((messages) => resolve(messagesUtil.getFulfillmentMessages(messages)))
                         .catch((error) => reject(error));;
                 }
                 else if (action === 'text2number') {
-                    text2number(parameters)
+                    text2number(parameters, languageIdentifier)
                         .then((messages) => resolve(messagesUtil.getFulfillmentMessages(messages)))
                         .catch((error) => reject(error));
                 }
                 else if (action === 'number-of-possibilities') {
-                    numberOfPossibilities(parameters)
+                    numberOfPossibilities(parameters, languageIdentifier)
                         .then((messages) => resolve(messagesUtil.getFulfillmentMessages(messages)))
                         .catch((error) => reject(error));
                 }

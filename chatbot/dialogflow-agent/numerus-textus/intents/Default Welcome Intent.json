@@ -12,6 +12,15 @@
       "messages": [
         {
           "type": 0,
+          "lang": "de",
+          "speech": [
+            "Hallo!",
+            "Guten Tag!",
+            "Ich grüße dich!"
+          ]
+        },
+        {
+          "type": 0,
           "lang": "en",
           "speech": [
             "Hi!",

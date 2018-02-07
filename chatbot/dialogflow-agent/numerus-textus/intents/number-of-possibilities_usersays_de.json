@@ -1,9 +1,9 @@
 [
   {
-    "id": "5708da30-9960-4540-b5da-2b2b41d6ef7c",
+    "id": "1f88b600-3586-4768-aa29-4a57409034cd",
     "data": [
       {
-        "text": "number of possible texts",
+        "text": "anzahl mögliche worte",
         "userDefined": false
       }
     ],
@@ -11,10 +11,10 @@
     "count": 0
   },
   {
-    "id": "d23f8945-bc98-4f29-abbe-432095a7e410",
+    "id": "8b5a8d2e-3954-46fe-ad60-e7913944f5c6",
     "data": [
       {
-        "text": "number of possible words",
+        "text": "Anzahl Möglichkeiten",
         "userDefined": false
       }
     ],
@@ -22,42 +22,14 @@
     "count": 0
   },
   {
-    "id": "d98ac16a-7e4c-48bb-ad28-14675e618582",
+    "id": "96916cbb-901e-46c2-88a3-3f842ca2f6cd",
     "data": [
       {
-        "text": "number of possibilities",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "5c8c7bcc-ebe3-40e7-b00b-a29a715b42fa",
-    "data": [
-      {
-        "text": "number of possible words for ",
+        "text": "Wie viele mögliche Texte gibt es für die Zahl ",
         "userDefined": false
       },
       {
-        "text": "318246",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "52d4a700-38fb-4c9e-95e0-a4ad58c1ff8c",
-    "data": [
-      {
-        "text": "How many possible words exist for the number ",
-        "userDefined": false
-      },
-      {
-        "text": "296834",
+        "text": "27389",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": true
@@ -71,32 +43,65 @@
     "count": 0
   },
   {
-    "id": "80ababeb-5348-46f2-b0a2-3dd3fc37410a",
+    "id": "bc66c8cc-306a-428e-8d8c-462b66e7dc12",
     "data": [
       {
-        "text": "Number of possibilities for ",
+        "text": "Möglichkeiten für ",
         "userDefined": false
       },
       {
-        "text": "784662",
+        "text": "98723",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": true
       }
     ],
     "isTemplate": false,
-    "count": 0,
-    "updated": 1517673605
+    "count": 0
   },
   {
-    "id": "c07d62d4-e222-46db-90b7-fce9cf6d2854",
+    "id": "747ef3bd-b560-4f10-9f59-610b2ab9e1c4",
     "data": [
       {
-        "text": "How many possibilities for ",
+        "text": "Anzahl mögliche Worte für ",
         "userDefined": false
       },
       {
-        "text": "478923",
+        "text": "5637153",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a79e2700-6434-474d-acca-6e7ae0b11f68",
+    "data": [
+      {
+        "text": "Anzahl Möglichkeiten für ",
+        "userDefined": false
+      },
+      {
+        "text": "759863",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bc11bce0-d3b1-4750-b1d9-e40ba8f20e2d",
+    "data": [
+      {
+        "text": "Wie viele Möglichkeiten gibt es für die Nummer ",
+        "userDefined": false
+      },
+      {
+        "text": "47289752",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": true
@@ -107,7 +112,6 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
-    "updated": 1517673605
+    "count": 0
   }
 ]

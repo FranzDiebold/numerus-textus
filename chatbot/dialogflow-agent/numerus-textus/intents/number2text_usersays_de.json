@@ -1,0 +1,244 @@
+[
+  {
+    "id": "d1980385-5ac4-4b95-9346-9fadc7d731bb",
+    "data": [
+      {
+        "text": "Nummer umwandeln",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c660ba04-03fe-48c9-b2eb-ba2e3c1b903b",
+    "data": [
+      {
+        "text": "Nummer zu Text",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1e34b42e-2712-47fd-bbda-bb5585d96038",
+    "data": [
+      {
+        "text": "Zahl umwandeln",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9d8e8c81-b429-4493-a1bb-6ccad2ced099",
+    "data": [
+      {
+        "text": "mögliche Worte für ",
+        "userDefined": false
+      },
+      {
+        "text": "62452",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6f331b4b-715b-4460-b409-35f2bb1af278",
+    "data": [
+      {
+        "text": "Wandle bitte ",
+        "userDefined": false
+      },
+      {
+        "text": "9275837",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " in Worte um.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c226d331-5e45-4df8-b1e7-a97b638b8467",
+    "data": [
+      {
+        "text": "Was sind mögliche Worte für ",
+        "userDefined": false
+      },
+      {
+        "text": "478924",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d91eab18-58e4-451a-b92c-0fb6d88b1df0",
+    "data": [
+      {
+        "text": "Texte für ",
+        "userDefined": false
+      },
+      {
+        "text": "56385",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8c3413c2-b932-4a84-b106-1fcabfb38c57",
+    "data": [
+      {
+        "text": "Worte für ",
+        "userDefined": false
+      },
+      {
+        "text": "37483",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1d2f796f-dfde-4522-a9bc-5d8dba19f425",
+    "data": [
+      {
+        "text": "Was könnte ",
+        "userDefined": false
+      },
+      {
+        "text": "963756",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " bedeuten?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "99f6c650-223d-4970-abb3-9a9e6c6d1646",
+    "data": [
+      {
+        "text": "479345",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " in Text umwandeln",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "01ab0432-ff17-49e6-be56-c1e958936556",
+    "data": [
+      {
+        "text": "72985",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e0b3d975-5844-4496-96d0-ab1771f1ead7",
+    "data": [
+      {
+        "text": "67845",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "86ed0441-90c4-48d0-9507-5041d5f64108",
+    "data": [
+      {
+        "text": "67894534",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f6508649-e9b6-421b-ad14-dc41e4348eaa",
+    "data": [
+      {
+        "text": "7987345",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f81e45d2-4771-47cd-a7d0-caeaf96cf58a",
+    "data": [
+      {
+        "text": "987654321",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f6328fbc-aca8-49b4-8798-725695b8597a",
+    "data": [
+      {
+        "text": "123456789",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

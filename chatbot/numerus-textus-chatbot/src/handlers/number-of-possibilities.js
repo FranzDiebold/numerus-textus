@@ -4,6 +4,7 @@ const clients = require('restify-clients');
 const errors = require('restify-errors');
 
 const config = require('../config');
+const translations = require('./locale/translations');
 
 const REQUEST_TIMEOUT = 3 * 1000;
 const client = clients.createJsonClient({
@@ -11,23 +12,19 @@ const client = clients.createJsonClient({
     requestTimeout: REQUEST_TIMEOUT
 });
 
-function numberOfPossibilities(inputNumber) {
+function numberOfPossibilities(inputNumber, languageIdentifier) {
     return new Promise((resolve, reject) => {
         client.get(`/num-pos/${inputNumber}/`, function(err, req, res, obj) {
             let messages;
             if (res.statusCode !== 200) {
                 // Error
                 console.error(err);
-                messages = [
-                    'Hm...',
-                    'Something went wrong.',
-                    ':-('
-                ];
+                messages = translations[languageIdentifier]['ERROR_UNKNOWN'];
             }
             else {
                 const numberOfPossibilities = obj.number_of_possibilities;
                 if (numberOfPossibilities) {
-                    messages = [`There are ${numberOfPossibilities} possible words for the number ${inputNumber}.`];
+                    messages = translations[languageIdentifier]['NUMBER_OF_POSSIBILITIES'](numberOfPossibilities, inputNumber);
                 }
                 else {
                     messages = ['??'];
@@ -38,11 +35,11 @@ function numberOfPossibilities(inputNumber) {
     });
 }
 
-function handleNumberOfPossibilitiesRequest(parameters) {
+function handleNumberOfPossibilitiesRequest(parameters, languageIdentifier) {
     return new Promise((resolve, reject) =>  {
         if ('number' in parameters) {
             const inputNumber = parameters['number'];
-            numberOfPossibilities(inputNumber)
+            numberOfPossibilities(inputNumber, languageIdentifier)
                 .then((messages) => resolve(messages))
                 .catch((error) => reject(error));
         }

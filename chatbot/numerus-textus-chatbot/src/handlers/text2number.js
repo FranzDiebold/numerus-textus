@@ -2,6 +2,8 @@
 
 const errors = require('restify-errors');
 
+const translations = require('./locale/translations');
+
 function text2number(inputText) {
     const textToNumberDict = [
         '',
@@ -32,11 +34,12 @@ function text2number(inputText) {
         .join('');
 }
 
-function handleText2NumberRequest(parameters) {
+function handleText2NumberRequest(parameters, languageIdentifier) {
     return new Promise((resolve, reject) => {
         if ('text' in parameters) {
             const inputText = parameters['text'];
-            resolve([`"${inputText}" means ${text2number(inputText)}`]);
+            const outputNumber = text2number(inputText);
+            resolve(translations[languageIdentifier]['TEXT_TO_NUMBER'](inputText, outputNumber));
         }
         else {
             reject(new errors.BadRequestError('Bad request: parameter "text" missing.'));

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "037c4a24-e1cc-464d-9c6d-d1182be05c42",
+    "data": [
+      {
+        "text": "??",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6b7c086b-f7db-4323-a064-3e0aeb86661f",
+    "data": [
+      {
+        "text": "Ich weiß nicht, wie das hier funktioniert.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0008bd6c-d9de-4e29-ab04-b48e63cfb3dd",
+    "data": [
+      {
+        "text": "Ich brauche Hilfe.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1c5d491f-eeda-4ab9-b4ad-7ed3ac188a83",
+    "data": [
+      {
+        "text": "Was kann ich sagen?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "49674744-c81d-480c-a509-8989d11e3246",
+    "data": [
+      {
+        "text": "Was kann ich fragen?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ba211c8a-b3dc-4c1b-87c1-cde2edf84e64",
+    "data": [
+      {
+        "text": "Hilfe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b39e9069-04da-4378-bdd9-8739ac9d27b9",
+    "data": [
+      {
+        "text": "Anleitung",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4462fd9c-6d58-4e98-9655-d96aba1377dd",
+    "data": [
+      {
+        "text": "Tutorial",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c19f127f-3d34-44b1-96e1-d6e422a4cc74",
+    "data": [
+      {
+        "text": "Wie funktioniert das Ganze?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

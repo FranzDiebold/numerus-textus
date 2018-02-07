@@ -10,12 +10,28 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "f13a93fd-7b8a-43f5-82d2-7bc5f3039091",
+          "id": "e334e1cc-bb4b-4108-81d1-0d6a730496f6",
           "required": true,
-          "dataType": "@sys.number-integer",
+          "dataType": "@sys.number",
           "name": "number",
           "value": "$number",
           "prompts": [
+            {
+              "lang": "de",
+              "value": "Welche Nummer?"
+            },
+            {
+              "lang": "de",
+              "value": "Ok, für welche Nummer?"
+            },
+            {
+              "lang": "de",
+              "value": "Welche Zahl?"
+            },
+            {
+              "lang": "de",
+              "value": "Für welche Zahl?"
+            },
             {
               "lang": "en",
               "value": "For which number?"

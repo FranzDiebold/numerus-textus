@@ -12,6 +12,17 @@
       "messages": [
         {
           "type": 0,
+          "lang": "de",
+          "speech": [
+            "Ich verstehe deine Frage leider nicht.",
+            "Entschuldige bitte, ich habe deine Frage nicht verstanden.",
+            "Ich bin nicht so sicher, ob ich dich richtig verstanden habe.",
+            "Leider kann ich nicht verstehen, was du von mir möchtest.",
+            "Kannst du das noch mal anders formulieren?"
+          ]
+        },
+        {
+          "type": 0,
           "lang": "en",
           "speech": [
             "I didn\u0027t get that. Can you say it again?",

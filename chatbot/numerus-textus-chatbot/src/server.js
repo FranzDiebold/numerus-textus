@@ -19,6 +19,7 @@ server.get('/', function (req, res, next) {
 });
 
 server.post('/', function (req, res, next) {
+    res.charSet('utf-8');
     webhook(req)
         .then((response) => {
             res.send(response);

@@ -4,8 +4,8 @@ const clients = require('restify-clients');
 const errors = require('restify-errors');
 
 const config = require('../config');
+const translations = require('./locale/translations');
 
-const LANG = 'en';
 const REQUEST_TIMEOUT = 15 * 1000;
 const client = clients.createJsonClient({
     url: config.apiHost,
@@ -14,11 +14,11 @@ const client = clients.createJsonClient({
 const MAX_LENGTH = 16;
 const MAX_NUM_RESULTS = 5;
 
-function resultsToMessages(possibleWords) {
+function resultsToMessages(possibleWords, languageIdentifier) {
     const maxLen = Math.max(...possibleWords.map((possibleWord) => possibleWord.length));
 
     const numResults = Math.min(maxLen, MAX_NUM_RESULTS);
-    let messages = ['Possible words are:'];
+    let messages = translations[languageIdentifier]['POSSIBLE_WORDS'];
     for (let i = 0; i < numResults; i++) {
         let message = [];
         for (let j = 0, len = possibleWords.length; j < len; j++) {
@@ -32,42 +32,30 @@ function resultsToMessages(possibleWords) {
     return messages;
 }
 
-function number2text(inputNumber) {
+function number2text(inputNumber, languageIdentifier) {
     return new Promise((resolve, reject) => {
         if (inputNumber.length > MAX_LENGTH) {
-            resolve([
-                'Phew!',
-                'That\'s too long for me.'
-            ]);
+            resolve(translations[languageIdentifier]['NUMBER_TOO_LONG']);
             return;
         }
 
-        client.get(`/${LANG}/${inputNumber}/`, function(err, req, res, obj) {
+        client.get(`/${languageIdentifier}/${inputNumber}/`, function(err, req, res, obj) {
             let messages;
             if (res.statusCode !== 200) {
                 if (res.statusCode === 408) {
                     // 408: Request timeout
-                    messages = [
-                        'Phew!!!',
-                        'That was too complicated for me.',
-                        'Maybe you try a shorter number...',
-                        '... or come back later :D'
-                    ];
+                    messages = translations[languageIdentifier]['ERROR_REQUEST_TIMEOUT'];
                 }
                 else {
                     // Other error
                     console.error(err);
-                    messages = [
-                        'Hm...',
-                        'Something went wrong.',
-                        ':-('
-                    ];
+                    messages = translations[languageIdentifier]['ERROR_UNKNOWN'];
                 }
             }
             else {
                 const possibleWords = obj.possible_words;
                 if (possibleWords != null && possibleWords.length > 0) {
-                    messages = resultsToMessages(possibleWords);
+                    messages = resultsToMessages(possibleWords, languageIdentifier);
                 }
                 else {
                     messages = ['??'];
@@ -78,11 +66,11 @@ function number2text(inputNumber) {
     });
 }
 
-function handleNumber2TextRequest(parameters) {
+function handleNumber2TextRequest(parameters, languageIdentifier) {
     return new Promise((resolve, reject) =>  {
         if ('number' in parameters) {
             const inputNumber = parameters['number'];
-            number2text(inputNumber)
+            number2text(inputNumber, languageIdentifier)
                 .then((messages) => resolve(messages))
                 .catch((error) => reject(error));
         }

@@ -23,6 +23,31 @@
           "type": 0,
           "lang": "en",
           "speech": "Or type a number you want to get the corresponding texts for."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "😎"
+        },
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Es ist ganz einfach!"
+        },
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Nenne mir entweder ein Wort und ich nenne dir die zugehörige Zahl."
+        },
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Oder tippe eine Zahl ein und ich nenne dir mögliche zugehörige Worte."
+        },
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "😎"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -30,7 +55,7 @@
     }
   ],
   "priority": 750000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "lastUpdate": 1517430416,
   "fallbackIntent": false,

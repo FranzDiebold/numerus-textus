@@ -12,10 +12,18 @@
         {
           "id": "b93aa792-2965-43aa-a4fe-6a2358071be5",
           "required": true,
-          "dataType": "@sys.number-integer",
+          "dataType": "@sys.number",
           "name": "number",
           "value": "$number",
           "prompts": [
+            {
+              "lang": "de",
+              "value": "Für welche Zahl?"
+            },
+            {
+              "lang": "de",
+              "value": "Ok, welche Nummer?"
+            },
             {
               "lang": "en",
               "value": "For which number?"

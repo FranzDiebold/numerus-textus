@@ -11,6 +11,15 @@
       "messages": [
         {
           "type": 0,
+          "lang": "de",
+          "speech": [
+            "Nein, hier ist Patrick.",
+            "Oh nein, hier ist Patrick!",
+            "Nein, hier ist Patrick!"
+          ]
+        },
+        {
+          "type": 0,
           "lang": "en",
           "speech": [
             "No, this is Patrick.",
