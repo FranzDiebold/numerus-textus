@@ -38,7 +38,7 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 <img src="./webapp/images/readme/number2text_screenshot.jpg" width="45%" style="max-width:100%;" alt="number2text screenshot">
 
-:fast_forward: [numerus textus client](./webapp) - Angular client app
+:fast_forward: [numerus textus client](./webapp) - Internationalized Angular client app
 
 
 
@@ -46,7 +46,7 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 <img src="./chatbot/images/readme/chatbot_telegram_screenshot.jpg" width="35%" style="max-width:100%;" alt="numerus textus chatbot screenshot">
 
-:fast_forward: [numerus textus chatbot](./chatbot) - Node.js chatbot backend webhook
+:fast_forward: [numerus textus chatbot](./chatbot) - Internationalized Node.js chatbot backend webhook
 
 
 
