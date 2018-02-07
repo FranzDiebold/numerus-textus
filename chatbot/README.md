@@ -132,6 +132,14 @@ The app is deployed using Docker ([Dockerfile](./Dockerfile)).
 
 
 
+## :earth_africa: i18n
+If you want to add a new language, i.e. french, in [/numerus-textus-chatbot/src/handlers/locale](./numerus-textus-chatbot/src/handlers/locale):
+1. Duplicate the english translations file [translations.en.js](./numerus-textus-chatbot/src/handlers/locale/translations.en.js) and name the new file `translations.fr.js`.
+2. Translate to french :grin:.
+3. Add the new translation to [translations.js](./numerus-textus-chatbot/src/handlers/locale/translations.js).
+
+
+
 ## :ballot_box_with_check:️ Problems/TODOs
 - [ ] Add german small talk
 - [ ] A Dialogflow webhook call has a timeout of just 5 seconds, which is too short for complex number2text calls. Maybe this could be done asynchronously?
