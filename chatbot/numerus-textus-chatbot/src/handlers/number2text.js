@@ -16,11 +16,10 @@ const MAX_NUM_RESULTS = 5;
 
 function resultsToMessages(possibleWords, languageIdentifier) {
     const maxLen = Math.max(...possibleWords.map((possibleWord) => possibleWord.length));
-
     const numResults = Math.min(maxLen, MAX_NUM_RESULTS);
-    let messages = translations[languageIdentifier]['POSSIBLE_WORDS'];
+    const messages = Object.assign([], translations[languageIdentifier]['POSSIBLE_WORDS']);
     for (let i = 0; i < numResults; i++) {
-        let message = [];
+        const message = [];
         for (let j = 0, len = possibleWords.length; j < len; j++) {
             message.push(possibleWords[j][i % possibleWords[j].length].join(' '));
         }
