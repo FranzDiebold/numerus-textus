@@ -9,3 +9,7 @@ The primary color is ![#2196F3](https://placehold.it/20/2196F3/000000?text=+) `#
 ## Logo
 The font used in the logo is [FARRAY FONT](https://www.behance.net/gallery/14844917/FARRAY-FONT-FREE-DOWNLOAD-SOON) by [Adrien Coquet](http://adrien-coquet.com).
 The logo design adheres to the [Material Design](https://material.io) design language.
+
+
+## Preview image for social networks
+![numerus textus preview image](./numerus-textus-preview-image.png)
