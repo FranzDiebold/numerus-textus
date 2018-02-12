@@ -27,7 +27,6 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 
 ## :computer: number2text API
-
 <img src="./api/images/readme/api_screenshot.jpg" width="45%" style="max-width:100%;" alt="number2text API screenshot">
 
 :fast_forward: [number2text API](./api) - Internationalized Django API backend
@@ -35,7 +34,6 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 
 ## :iphone: numerus textus client
-
 <img src="./webapp/images/readme/number2text_screenshot.jpg" width="45%" style="max-width:100%;" alt="number2text screenshot">
 
 :fast_forward: [numerus textus client](./webapp) - Internationalized Angular client app
@@ -43,7 +41,6 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 
 ## :speech_balloon: numerus textus chatbot
-
 <img src="./chatbot/images/readme/chatbot_telegram_screenshot.jpg" width="35%" style="max-width:100%;" alt="numerus textus chatbot screenshot">
 
 :fast_forward: [numerus textus chatbot](./chatbot) - Internationalized Node.js chatbot backend webhook
@@ -51,7 +48,6 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 
 ## :house: Architecture & :rocket: Deployment
-
 <img src="./deployment/images/readme/numerus-textus-architecture.jpg" width="40%" style="max-width:100%;" alt="numerus textus architecture">
 
 :fast_forward: [numerus textus architecture & deployment](./deployment) - Architecture and deployment scripts
@@ -59,7 +55,6 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 
 ## :balloon: numerus textus Design
-
 :fast_forward: [numerus textus Design](./Design) - Colors and logo
 
 
