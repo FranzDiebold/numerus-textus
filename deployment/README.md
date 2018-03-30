@@ -47,10 +47,7 @@ In the [AWS console](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1
 ### External
 
 #### [Let’s Encrypt](https://letsencrypt.org)
-The SSL certificate used for numerus textus is issued by [Let’s Encrypt](https://letsencrypt.org) and thus free! It was generated using the [quay.io/letsencrypt/letsencrypt](https://quay.io/repository/letsencrypt/letsencrypt) Docker image:
-```bash
-docker run -it --rm -p 443:443 -p 80:80 --name letsencrypt -v "/etc/letsencrypt:/etc/letsencrypt" -v "/var/lib/letsencrypt:/var/lib/letsencrypt" quay.io/letsencrypt/letsencrypt:latest auth
-```
+The SSL certificate used for numerus textus is issued by [Let’s Encrypt](https://letsencrypt.org) and thus free! It was generated using the official [certbot/certbot](https://hub.docker.com/r/certbot/certbot/) Docker image.
 
 
 #### [Cloudflare](https://www.cloudflare.com)
@@ -86,6 +83,11 @@ The following preparations must be completed before deploying the application:
 ```bash
 sh deployment/0_build_docker_machine_aws.sh
 sh deployment/1_set_docker_machine_aws.sh
+```
+
+#### Get certificates
+```bash
+sh deployment/8_get_certificates.sh
 ```
 
 #### Build and start Docker containers and migrate and load data for the API backend

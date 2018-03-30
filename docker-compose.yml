@@ -11,13 +11,11 @@ services:
 
   api:
     build: ./api
-    ports:
-      - "8000:8000"
     depends_on:
       - database
       - cache
     volumes:
-      - app_data:/app
+      - "app_data:/app"
     env_file: ./api/environment-variables.env
 
   webapp:
@@ -26,18 +24,27 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - app_data:/app
+      - "app_data:/app"
+      - "certificates_data:/etc/ssl/:ro"
     depends_on:
       - api
     env_file: ./webapp/prerender_credentials.txt
 
   chatbot:
     build: ./chatbot
-    ports:
-      - "8001:8001"
     depends_on:
       - api
+
+  letsencrypt-certbot:
+    image: "certbot/certbot:latest"
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - "certificates_data:/etc/letsencrypt/"
+    command: "certonly -n --standalone -m info@numerus-textus.com --agree-tos --no-eff-email -d numerus-textus.com -d www.numerus-textus.com -d api.numerus-textus.com -d chatbot.numerus-textus.com"
 
 volumes:
   app_data:
   database_data:
+  certificates_data:
