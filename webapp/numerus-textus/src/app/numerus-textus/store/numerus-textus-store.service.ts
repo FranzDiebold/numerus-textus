@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
 import { createFeatureSelector, createSelector, Store } from '@ngrx/store';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { combineLatest } from 'rxjs/operators';
 
 import { StoreService } from '../../app-store/app-store.service';

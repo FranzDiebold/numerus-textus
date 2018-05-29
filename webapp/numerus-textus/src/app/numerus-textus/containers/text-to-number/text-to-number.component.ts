@@ -2,7 +2,7 @@ import { Component, OnInit, Inject } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
 import { DOCUMENT } from '@angular/platform-browser';
 
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { take } from 'rxjs/operators';
 
 import { NumerusTextusStoreService } from '../../store/numerus-textus-store.service';

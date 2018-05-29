@@ -1,6 +1,6 @@
 import { Component, OnInit, Inject, LOCALE_ID } from '@angular/core';
 import { Router, RouterEvent, NavigationEnd } from '@angular/router';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { DOCUMENT } from '@angular/common';
 
 import { LayoutStoreService } from './layout/store/layout-store.service';

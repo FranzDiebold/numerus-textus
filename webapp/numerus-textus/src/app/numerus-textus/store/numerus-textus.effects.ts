@@ -2,10 +2,9 @@ import { Injectable, LOCALE_ID, Inject } from '@angular/core';
 import { UrlSegment, ActivatedRouteSnapshot, RouterStateSnapshot, Router } from '@angular/router';
 import { Location } from '@angular/common';
 
-import { Observable } from 'rxjs/Observable';
+import { Observable, of } from 'rxjs';
 import { map, switchMap, debounceTime, withLatestFrom,
   filter, catchError, tap, distinctUntilChanged, take } from 'rxjs/operators';
-import { of } from 'rxjs/observable/of';
 
 import { Action } from '@ngrx/store';
 import { Actions, Effect } from '@ngrx/effects';

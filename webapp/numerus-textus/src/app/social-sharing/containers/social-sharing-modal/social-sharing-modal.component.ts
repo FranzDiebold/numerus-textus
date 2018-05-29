@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 
 import { SocialSharingData } from '../../store/social-sharing.payloads';
 import { SocialSharingStoreService } from '../../store/social-sharing-store.service';

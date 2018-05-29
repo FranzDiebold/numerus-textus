@@ -2,7 +2,7 @@
 
 # numerus textus client app
 
-[![Angular: v5](https://img.shields.io/badge/Angular-v5-DD0031.svg)](./numerus-textus/package.json)
+[![Angular: v6](https://img.shields.io/badge/Angular-v6-DD0031.svg)](./numerus-textus/package.json)
 <a href="https://www.numerus-textus.com" target="_blank"><img src="https://img.shields.io/badge/demo-online-2196F3.svg" alt="demo: online"></a>
 [![license: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE.md)
 
@@ -10,11 +10,11 @@
 
 <img src="./images/readme/number2text_screenshot.jpg" width="60%" style="max-width:100%;" alt="number2text screenshot">
 
-[Angular v5](https://github.com/angular/angular) app using the reactive libraries [@ngrx](https://github.com/ngrx/platform) and the [Bulma](https://bulma.io) CSS framework.
+[Angular v6](https://github.com/angular/angular) app using the reactive libraries [@ngrx](https://github.com/ngrx/platform) and the [Bulma](https://bulma.io) CSS framework.
 
 Angular concepts/techniques used:
 - [Reactive Forms](https://angular.io/guide/reactive-forms)
-- [RxJS v5.5](https://github.com/ReactiveX/rxjs) for advanced asynchronous programming with observable streams using the newly introduced (v5.5) ["pipeable operators"](https://github.com/ReactiveX/rxjs/blob/master/doc/pipeable-operators.md).
+- [RxJS v6](https://github.com/ReactiveX/rxjs) for advanced asynchronous programming with observable streams using the newly introduced (v5.5) ["pipeable operators"](https://github.com/ReactiveX/rxjs/blob/master/doc/pipeable-operators.md).
 
 [@ngrx](https://github.com/ngrx/platform) features used:
 - [@ngrx/store](https://github.com/ngrx/platform/blob/master/docs/store/README.md) for state management
