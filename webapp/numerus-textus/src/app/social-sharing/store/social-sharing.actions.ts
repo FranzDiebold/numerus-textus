@@ -2,7 +2,6 @@ import { NgRxAction } from '../../app-store/ngrx-action';
 
 import { SocialSharingData } from './social-sharing.payloads';
 
-
 export enum SocialSharingActions {
     SHOW_SOCIAL_SHARING_MODAL = '[Social Sharing] Show Modal',
     HIDE_SOCIAL_SHARING_MODAL = '[Social Sharing] Hide Modal',

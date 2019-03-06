@@ -1,5 +1,3 @@
-import { Dictionary } from '@ngrx/entity/src/models';
-
 import {
   NumerusTextusAppState, initialNumerusTextusAppState,
 } from './numerus-textus.state';
@@ -8,8 +6,6 @@ import {
   NumberToTextActions,
   TextToNumberActions,
 } from './numerus-textus.actions';
-import { NumberToTextResponse } from '../services/number-to-text/number-to-text-response.model';
-
 
 export function numerusTextusReducer(
   state: NumerusTextusAppState = initialNumerusTextusAppState,

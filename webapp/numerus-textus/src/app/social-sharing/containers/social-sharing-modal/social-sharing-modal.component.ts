@@ -1,10 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-
 import { Observable } from 'rxjs';
+
+import { Component, OnInit } from '@angular/core';
 
 import { SocialSharingData } from '../../store/social-sharing.payloads';
 import { SocialSharingStoreService } from '../../store/social-sharing-store.service';
-
 
 @Component({
   selector: 'app-social-sharing-modal',

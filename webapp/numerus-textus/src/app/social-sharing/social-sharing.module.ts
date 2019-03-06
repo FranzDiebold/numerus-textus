@@ -6,7 +6,6 @@ import { SocialSharingStoreService } from './store/social-sharing-store.service'
 import { SocialSharingComponent } from './components/social-sharing/social-sharing.component';
 import { SocialSharingModalComponent } from './containers/social-sharing-modal/social-sharing-modal.component';
 
-
 @NgModule({
     imports: [
         CommonModule,

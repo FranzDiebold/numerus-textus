@@ -3,7 +3,6 @@ import { Component, Input } from '@angular/core';
 import { SocialSharingData } from '../../store/social-sharing.payloads';
 import { SharingOption } from './sharing-option.model';
 
-
 // inspired by https://github.com/MurhafSousli/ngx-sharebuttons
 @Component({
   selector: 'app-social-sharing',

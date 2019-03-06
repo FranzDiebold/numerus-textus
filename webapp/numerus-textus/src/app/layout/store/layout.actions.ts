@@ -1,6 +1,5 @@
 import { NgRxAction } from '../../app-store/ngrx-action';
 
-
 export enum LayoutActions {
     TOGGLE_MOBILE_NAVBAR = '[Layout] Toggle Mobile Navbar',
     HIDE_MOBILE_NAVBAR = '[Layout] Hide Mobile Navbar',

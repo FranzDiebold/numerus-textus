@@ -1,7 +1,7 @@
-import { Injectable } from '@angular/core';
-
-import { createFeatureSelector, createSelector, Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
+import { createFeatureSelector, createSelector, Store } from '@ngrx/store';
+
+import { Injectable } from '@angular/core';
 
 import { StoreService } from '../../app-store/app-store.service';
 
@@ -14,18 +14,15 @@ import {
   ToggleMobileNavbarAction, HideMobileNavbarAction,
 } from './layout.actions';
 
-
 @Injectable()
 export class LayoutStoreService extends StoreService {
   private layoutState = createFeatureSelector<LayoutState>(layoutFeatureName);
 
   private showMobileNavbar = createSelector(this.layoutState, selectShowMobileNavbar);
 
-
   constructor(protected store: Store<AppState>) {
     super();
   }
-
 
   dispatchToggleMobileNavbarAction(): void {
     this.dispatchAction(new ToggleMobileNavbarAction());
@@ -34,7 +31,6 @@ export class LayoutStoreService extends StoreService {
   dispatchHideMobileNavbarAction(): void {
     this.dispatchAction(new HideMobileNavbarAction());
   }
-
 
   getShowMobileNavbar(): Observable<boolean> {
     return this.store.select<boolean>(this.showMobileNavbar);

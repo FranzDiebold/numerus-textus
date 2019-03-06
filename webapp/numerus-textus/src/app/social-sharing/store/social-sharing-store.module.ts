@@ -1,11 +1,10 @@
-import { NgModule } from '@angular/core';
-
 import { StoreModule } from '@ngrx/store';
+
+import { NgModule } from '@angular/core';
 
 import { socialSharingFeatureName } from './social-sharing.state';
 import { socialSharingReducer } from './social-sharing.reducers';
 import { SocialSharingStoreService } from './social-sharing-store.service';
-
 
 @NgModule({
   imports: [

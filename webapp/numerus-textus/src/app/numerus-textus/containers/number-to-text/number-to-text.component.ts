@@ -1,14 +1,12 @@
+import { Observable, zip } from 'rxjs';
+import { map, take } from 'rxjs/operators';
+
 import { Component, OnInit, Inject } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
-import { DOCUMENT } from '@angular/platform-browser';
-
-import { Observable } from 'rxjs';
-import { map, take, zip } from 'rxjs/operators';
+import { DOCUMENT } from '@angular/common';
 
 import { NumerusTextusStoreService } from '../../store/numerus-textus-store.service';
-import { SetNumberInputPayload } from '../../store/numerus-textus.payloads';
 import { SocialSharingStoreService } from '../../../social-sharing/store/social-sharing-store.service';
-
 
 @Component({
   selector: 'app-number-to-text',
@@ -41,17 +39,18 @@ export class NumberToTextComponent implements OnInit {
     const numberInputIsValid$: Observable<boolean> = this.numberInput.statusChanges.pipe(
       map((numberInputStatus: string) => numberInputStatus === 'VALID')
     );
-    numberInputValue$.pipe(
-        zip(numberInputIsValid$)
-      )
-      .subscribe(
-        ([numberInputValue, numberInputIsValid]) => {
-          this.numerusTextusStoreService.dispatchSetNumberInputAction({
-            number: numberInputValue,
-            isValid: numberInputIsValid,
-          });
-        }
-      );
+    zip(
+      numberInputValue$,
+      numberInputIsValid$
+    )
+    .subscribe(
+      ([numberInputValue, numberInputIsValid]) => {
+        this.numerusTextusStoreService.dispatchSetNumberInputAction({
+          number: numberInputValue,
+          isValid: numberInputIsValid,
+        });
+      }
+    );
 
     this.isLoading$ = this.numerusTextusStoreService.getIsLoading();
     this.possibleWords$ = this.numerusTextusStoreService.getPossibleWords();

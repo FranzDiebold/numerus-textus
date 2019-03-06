@@ -1,7 +1,6 @@
 import { LayoutState, initialLayoutState } from './layout.state';
 import { LayoutAction, LayoutActions } from './layout.actions';
 
-
 export function layoutReducer(
     state: LayoutState = initialLayoutState,
     action: LayoutAction

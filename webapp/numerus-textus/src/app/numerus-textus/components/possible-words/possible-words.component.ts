@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
 
-
 @Component({
   selector: 'app-possible-words',
   templateUrl: './possible-words.component.html',

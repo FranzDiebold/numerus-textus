@@ -1,8 +1,8 @@
-import { Injectable } from '@angular/core';
-
+import { Observable, combineLatest } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { createFeatureSelector, createSelector, Store } from '@ngrx/store';
-import { Observable } from 'rxjs';
-import { combineLatest } from 'rxjs/operators';
+
+import { Injectable } from '@angular/core';
 
 import { StoreService } from '../../app-store/app-store.service';
 
@@ -21,7 +21,6 @@ import {
 import { SetNumberInputPayload } from './numerus-textus.payloads';
 import { TextToNumberResult } from '../services/text-to-number/text-to-number-result.model';
 
-
 @Injectable()
 export class NumerusTextusStoreService extends StoreService {
   private numerusTextusAppState = createFeatureSelector<NumerusTextusAppState>(numerusTextusFeatureName);
@@ -34,11 +33,9 @@ export class NumerusTextusStoreService extends StoreService {
   private textInput = createSelector(this.numerusTextusAppState, selectTextInput);
   private numberOutput = createSelector(this.numerusTextusAppState, selectNumberOutput);
 
-
   constructor(protected store: Store<AppState>) {
     super();
   }
-
 
   dispatchSetNumberInputAction(numberInputPayload: SetNumberInputPayload): void {
     this.dispatchAction(new SetNumberInputAction(numberInputPayload));
@@ -55,7 +52,6 @@ export class NumerusTextusStoreService extends StoreService {
   dispatchSetTextInputAction(textInput: string): void {
     this.dispatchAction(new SetTextInputAction(textInput));
   }
-
 
   getNumberInput(): Observable<string> {
     return this.store.select<string>(this.numberInput);
@@ -74,15 +70,16 @@ export class NumerusTextusStoreService extends StoreService {
   }
 
   getPossibleWords(): Observable<string[][][]> {
-    return this.getNumberInput().pipe(
-        combineLatest(
-          this.getNumbersToPossibleWords(),
-          (numberInput: string, numbersToPossibleWords: { [number: string]: string[][][] }) =>
-            numbersToPossibleWords[numberInput]
+    return combineLatest(
+      this.getNumberInput(),
+      this.getNumbersToPossibleWords()
+    )
+      .pipe(
+        map(([numberInput, numbersToPossibleWords]: [string, { [number: string]: string[][][] }]) =>
+          numbersToPossibleWords[numberInput]
         )
       );
   }
-
 
   getTextInput(): Observable<string> {
     return this.store.select<string>(this.textInput);

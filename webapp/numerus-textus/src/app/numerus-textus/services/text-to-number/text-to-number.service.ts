@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 
 import { TextToNumberResult } from './text-to-number-result.model';
 
-
 @Injectable()
 export class TextToNumberService {
   private textToNumberDict: { [char: string]: string };
@@ -22,7 +21,7 @@ export class TextToNumberService {
     ].reduce((textToNumberDict: { [char: string]: string }, currentChars: string, currentIndex: number) => {
       const currentIndexString = String(currentIndex);
       textToNumberDict[currentIndexString] = currentIndexString;
-      for (let currentChar of Array.from(currentChars.toLowerCase().trim())) {
+      for (const currentChar of Array.from(currentChars.toLowerCase().trim())) {
         textToNumberDict[currentChar] = currentIndexString;
       }
       return textToNumberDict;

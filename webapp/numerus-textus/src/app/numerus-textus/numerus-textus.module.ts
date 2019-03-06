@@ -16,7 +16,6 @@ import { PossibleWordsComponent } from './components/possible-words/possible-wor
 import { NumberOutputComponent } from './components/number-output/number-output.component';
 import { PrivacyStatementComponent } from './containers/privacy-statement/privacy-statement.component';
 
-
 @NgModule({
   imports: [
     CommonModule,

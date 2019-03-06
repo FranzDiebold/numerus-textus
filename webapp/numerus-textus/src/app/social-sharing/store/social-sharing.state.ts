@@ -1,7 +1,4 @@
-import { createSelector } from '@ngrx/store';
-
 import { SocialSharingData } from './social-sharing.payloads';
-
 
 export interface SocialSharingState {
     showSocialSharingModal: boolean;
@@ -13,9 +10,7 @@ export const initialSocialSharingState: SocialSharingState = {
     socialSharingData: undefined,
 };
 
-
 export const socialSharingFeatureName = 'social-sharing';
-
 
 export const selectShowSocialSharingModal = (state: SocialSharingState) => state.showSocialSharingModal;
 

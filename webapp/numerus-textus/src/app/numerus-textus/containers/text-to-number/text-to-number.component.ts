@@ -1,14 +1,13 @@
-import { Component, OnInit, Inject } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
-import { DOCUMENT } from '@angular/platform-browser';
-
 import { Observable } from 'rxjs';
 import { take } from 'rxjs/operators';
+
+import { Component, OnInit, Inject } from '@angular/core';
+import { FormControl, Validators } from '@angular/forms';
+import { DOCUMENT } from '@angular/common';
 
 import { NumerusTextusStoreService } from '../../store/numerus-textus-store.service';
 import { TextToNumberResult, TextToNumberPart } from '../../services/text-to-number/text-to-number-result.model';
 import { SocialSharingStoreService } from '../../../social-sharing/store/social-sharing-store.service';
-
 
 @Component({
   selector: 'app-text-to-number',

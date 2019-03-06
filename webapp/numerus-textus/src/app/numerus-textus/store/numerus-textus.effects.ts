@@ -1,14 +1,13 @@
-import { Injectable, LOCALE_ID, Inject } from '@angular/core';
-import { UrlSegment, ActivatedRouteSnapshot, RouterStateSnapshot, Router } from '@angular/router';
-import { Location } from '@angular/common';
-
 import { Observable, of } from 'rxjs';
 import { map, switchMap, debounceTime, withLatestFrom,
   filter, catchError, tap, distinctUntilChanged, take } from 'rxjs/operators';
-
 import { Action } from '@ngrx/store';
-import { Actions, Effect } from '@ngrx/effects';
+import { Actions, Effect, ofType } from '@ngrx/effects';
 import { ROUTER_NAVIGATION, RouterNavigationAction, RouterNavigationPayload } from '@ngrx/router-store';
+
+import { Injectable, LOCALE_ID, Inject } from '@angular/core';
+import { UrlSegment, ActivatedRouteSnapshot, RouterStateSnapshot, Router } from '@angular/router';
+import { Location } from '@angular/common';
 
 import { NumerusTextusStoreService } from './numerus-textus-store.service';
 import {
@@ -24,13 +23,12 @@ import { NumberToTextResponse } from '../services/number-to-text/number-to-text-
 import { TextToNumberService } from '../services/text-to-number/text-to-number.service';
 import { TextToNumberResult } from '../services/text-to-number/text-to-number-result.model';
 
-
 @Injectable()
 export class NumerusTextusEffects {
   @Effect()
   numberInputToLoadNumber$: Observable<Action> = this.actions$
-    .ofType(NumberToTextActions.SET_NUMBER_INPUT)
     .pipe(
+      ofType(NumberToTextActions.SET_NUMBER_INPUT),
       debounceTime(450),
       map((action: SetNumberInputAction) => action.payload),
       withLatestFrom(this.numerusTextusStoreService.getNumbersToPossibleWords()),
@@ -50,8 +48,8 @@ export class NumerusTextusEffects {
 
   @Effect()
   loadNumberToPossibleWords$: Observable<Action> = this.actions$
-    .ofType(NumberToTextActions.LOAD_NUMBER_TO_POSSIBLE_WORDS)
     .pipe(
+      ofType(NumberToTextActions.LOAD_NUMBER_TO_POSSIBLE_WORDS),
       map((action: LoadNumberToPossibleWordsAction) => action.payload),
       switchMap((number: string) =>
         this.numberToTextService
@@ -76,8 +74,8 @@ export class NumerusTextusEffects {
 
   @Effect()
   textInputToNumberOutput$: Observable<Action> = this.actions$
-    .ofType(TextToNumberActions.SET_TEXT_INPUT)
     .pipe(
+      ofType(TextToNumberActions.SET_TEXT_INPUT),
       map((action: SetTextInputAction) => action.payload),
       map((inputText: string) => this.textToNumberService.textToNumber(inputText)),
       map((textToNumberResult: TextToNumberResult) => new SetNumberOutputAction(textToNumberResult))
@@ -85,8 +83,8 @@ export class NumerusTextusEffects {
 
   @Effect({ dispatch: false })
   updateNumberToTextRoute$: Observable<any> = this.actions$
-    .ofType(NumberToTextActions.SET_NUMBER_INPUT)
     .pipe(
+      ofType(NumberToTextActions.SET_NUMBER_INPUT),
       map((action: SetNumberInputAction) => action.payload),
       distinctUntilChanged(),
       tap((numberInputPayload: SetNumberInputPayload) => this.location.go(`/number-to-text/${numberInputPayload.number}`)),
@@ -94,16 +92,16 @@ export class NumerusTextusEffects {
 
   @Effect({ dispatch: false })
   updateTextToNumberRoute$: Observable<any> = this.actions$
-    .ofType(TextToNumberActions.SET_TEXT_INPUT)
     .pipe(
+      ofType(TextToNumberActions.SET_TEXT_INPUT),
       map((action: TextToNumberAction) => action.payload),
       distinctUntilChanged(),
       tap((textInput: string) => this.location.go(`/text-to-number/${textInput}`)),
     );
 
   routerNavigationUpdate$: Observable<UrlSegment[]> = this.actions$
-    .ofType(ROUTER_NAVIGATION)
     .pipe(
+      ofType(ROUTER_NAVIGATION),
       map((action: RouterNavigationAction) => action.payload),
       map((routerNavigationPayload: RouterNavigationPayload<RouterStateSnapshot>) => routerNavigationPayload.routerState),
       map((routerState: RouterStateSnapshot) => routerState.root.firstChild),

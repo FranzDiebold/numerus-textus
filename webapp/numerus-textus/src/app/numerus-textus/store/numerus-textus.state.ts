@@ -2,7 +2,6 @@ import { createSelector } from '@ngrx/store';
 
 import { TextToNumberResult } from '../services/text-to-number/text-to-number-result.model';
 
-
 export interface NumberToTextState {
     numberInput: string;
     isLoading: boolean;
@@ -16,7 +15,6 @@ export const initialNumberToTextState: NumberToTextState = {
     numbersToPossibleWords: {},
 };
 
-
 export interface TextToNumberState {
     textInput: string;
     numberOutput: TextToNumberResult;
@@ -26,7 +24,6 @@ export const initalTextToNumberState: TextToNumberState = {
     textInput: '',
     numberOutput: undefined,
 };
-
 
 export interface NumerusTextusAppState {
     numberToText: NumberToTextState;
@@ -38,9 +35,7 @@ export const initialNumerusTextusAppState: NumerusTextusAppState = {
     textToNumber: initalTextToNumberState,
 };
 
-
 export const numerusTextusFeatureName = 'numerus-textus';
-
 
 export const selectNumberToText = (state: NumerusTextusAppState) => state.numberToText;
 
@@ -55,7 +50,6 @@ export const selectNumbersToPossibleWords = createSelector(selectNumberToText, s
 
 const selectErrorFromNumberToTextState = (state: NumberToTextState) => state.error;
 export const selectError = createSelector(selectNumberToText, selectErrorFromNumberToTextState);
-
 
 export const selectTextToNumber = (state: NumerusTextusAppState) => state.textToNumber;
 

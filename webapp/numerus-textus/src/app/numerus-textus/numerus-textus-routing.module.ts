@@ -7,7 +7,6 @@ import { AboutComponent } from './containers/about/about.component';
 import { LegalComponent } from './containers/legal/legal.component';
 import { PrivacyStatementComponent } from './containers/privacy-statement/privacy-statement.component';
 
-
 const routes: Routes = [
   {
     path: 'number-to-text/:number',
@@ -42,7 +41,6 @@ const routes: Routes = [
     redirectTo: 'number-to-text',
   },
 ];
-
 
 @NgModule({
   imports: [

@@ -4,7 +4,6 @@ export interface SharingOptionMetaTags {
     via?: string;
 }
 
-
 export interface SharingOption {
     name: string;
     color: string;

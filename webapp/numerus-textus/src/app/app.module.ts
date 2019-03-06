@@ -8,7 +8,6 @@ import { AppStoreModule } from './app-store/app-store.module';
 import { LayoutModule } from './layout/layout.module';
 import { SocialSharingModule } from './social-sharing/social-sharing.module';
 
-
 @NgModule({
   declarations: [
     AppComponent,

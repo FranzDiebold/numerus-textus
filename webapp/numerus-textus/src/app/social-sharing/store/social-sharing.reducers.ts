@@ -6,7 +6,6 @@ import {
   SocialSharingAction, SocialSharingActions,
 } from './social-sharing.actions';
 
-
 export function socialSharingReducer(
   state: SocialSharingState = initialSocialSharingState,
   action: SocialSharingAction

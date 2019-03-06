@@ -4,7 +4,6 @@ import { SetNumberInputPayload } from './numerus-textus.payloads';
 import { NumberToTextResponse } from '../services/number-to-text/number-to-text-response.model';
 import { TextToNumberResult } from '../services/text-to-number/text-to-number-result.model';
 
-
 export enum NumberToTextActions {
     SET_NUMBER_INPUT = '[NumberToText] Set Number Input',
     SET_NUMBER_INPUT_ERROR = '[NumberToText] Set Number Input Error',
@@ -41,7 +40,6 @@ export class LoadNumberToPossibleWordsFailedAction extends NgRxAction<string> {
 export type NumberToTextAction = SetNumberInputAction | SetNumberInputErrorAction | ClearNumberInputErrorAction |
     LoadNumberToPossibleWordsAction | LoadNumberToPossibleWordsSucceededAction | LoadNumberToPossibleWordsFailedAction;
 
-
 export enum TextToNumberActions {
     SET_TEXT_INPUT = '[TextToNumber] Set Text Input',
     SET_NUMBER_OUTPUT = '[TextToNumber] Set Number Output',
@@ -56,6 +54,5 @@ export class SetNumberOutputAction extends NgRxAction<TextToNumberResult> {
 }
 
 export type TextToNumberAction = SetTextInputAction | SetNumberOutputAction;
-
 
 export type NumerusTextusAction = NumberToTextAction | TextToNumberAction;
