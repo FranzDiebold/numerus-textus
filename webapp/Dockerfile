@@ -1,6 +1,6 @@
 ### STAGE 1: Build ###
 
-FROM node:9.11-alpine as builder
+FROM node:11.10.1-alpine as builder
 
 COPY numerus-textus/package.json ./
 
@@ -16,7 +16,7 @@ RUN npm run build-prod-i18n
 
 ### STAGE 2: Setup ###
 
-FROM nginx:1.15.6-alpine
+FROM nginx:1.15.9-alpine
 
 RUN rm -f /etc/nginx/sites-enabled/default
 COPY nginx.conf /etc/nginx/nginx.conf

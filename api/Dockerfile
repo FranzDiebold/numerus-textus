@@ -1,4 +1,4 @@
-FROM python:3.6.7-alpine3.8
+FROM python:3.7.2-alpine3.9
 
 # Required packages for psycopg2
 RUN apk update \
