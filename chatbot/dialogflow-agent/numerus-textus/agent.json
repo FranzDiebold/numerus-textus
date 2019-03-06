@@ -20,7 +20,7 @@
   },
   "defaultTimezone": "Europe/Madrid",
   "webhook": {
-    "url": "https://chatbot.numerus-textus.com",
+    "url": "https://chatbot.numerus-textus.ml",
     "headers": {
       "": ""
     },

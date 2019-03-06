@@ -3,7 +3,7 @@
 # numerus textus server
 
 [![Django: v2](https://img.shields.io/badge/Django-v2-44B78B.svg)](./number2text/requirements.txt)
-<a href="https://www.numerus-textus.com" target="_blank"><img src="https://img.shields.io/badge/demo-online-2196F3.svg" alt="demo: online"></a>
+<a href="https://www.numerus-textus.ml" target="_blank"><img src="https://img.shields.io/badge/demo-online-2196F3.svg" alt="demo: online"></a>
 [![license: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE.md)
 
 numerus textus server is the backend API for the **number to text** part of the numerus textus app. It is a internationalized [Django](https://github.com/django/django) v2 app 😎.
@@ -15,8 +15,8 @@ Due to [letter mapping](https://en.wikipedia.org/wiki/Telephone_keypad#Letter_ma
 
 <img src="../images/readme/keypad.jpg" width="22%" style="max-width:100%;" alt="keypad">
 
-For example the word <a href="https://www.numerus-textus.com/text-to-number/car" target="_blank">`car`</a> corresponds to the number `227`. But since the digits are mapped to several characters the *reverse mapping* from *number to text* is not unique.
-Hence, the number <a href="https://www.numerus-textus.com/number-to-text/227" target="_blank">`227`</a> also represents the words `bar` and `cap`.
+For example the word <a href="https://www.numerus-textus.ml/text-to-number/car" target="_blank">`car`</a> corresponds to the number `227`. But since the digits are mapped to several characters the *reverse mapping* from *number to text* is not unique.
+Hence, the number <a href="https://www.numerus-textus.ml/number-to-text/227" target="_blank">`227`</a> also represents the words `bar` and `cap`.
 
 Let the function ![\kappa](http://latex.codecogs.com/gif.latex?%5Ckappa) map numbers to characters, i.e. ![\kappa(3)=\left\{ \text{d}, \text{e}, \text{f} \right\}](http://latex.codecogs.com/gif.latex?%5Ckappa%283%29%3D%5Cleft%5C%7B%20%5Ctext%7Bd%7D%2C%20%5Ctext%7Be%7D%2C%20%5Ctext%7Bf%7D%20%5Cright%5C%7D).
 
@@ -78,13 +78,13 @@ Get possible words for a given number `<NUMBER>` in a given language `<LANGUAGE_
 
 **Request**
 
-`GET` `https://api.numerus-textus.com/<LANGUAGE_CODE>/<NUMBER>/`
+`GET` `https://api.numerus-textus.ml/<LANGUAGE_CODE>/<NUMBER>/`
 
 Due to Django's [design philosophies](https://docs.djangoproject.com/en/dev/misc/design-philosophies/#definitive-urls) all URLs have a trailing slash.
 
 **Response**
 
-For <a href="https://api.numerus-textus.com/en/69-8398/" target="_blank">`en` and `69-8398`</a>:
+For <a href="https://api.numerus-textus.ml/en/69-8398/" target="_blank">`en` and `69-8398`</a>:
 ```json
 {
     "number": "69-8398",
@@ -114,11 +114,11 @@ where ![n_i](http://latex.codecogs.com/gif.latex?n_i) denotes the `i`th sub numb
 
 **Request**
 
-`GET` `https://api.numerus-textus.com/num-pos/<NUMBER>/`
+`GET` `https://api.numerus-textus.ml/num-pos/<NUMBER>/`
 
 **Response**
 
-For <a href="https://api.numerus-textus.com/num-pos/69-8398/" target="_blank">`69-8398`</a>:
+For <a href="https://api.numerus-textus.ml/num-pos/69-8398/" target="_blank">`69-8398`</a>:
 ```json
 {
     "number": "69-8398",
@@ -133,7 +133,7 @@ For <a href="https://api.numerus-textus.com/num-pos/69-8398/" target="_blank">`6
 ## Admin interface
 <img src="./images/readme/admin_screenshot.jpg" width="40%" style="max-width:100%;" alt="Admin interface screenshot">
 
-The Django admin interface can be accessed via <a href="https://api.numerus-textus.com/admin/" target="_blank">`https://api.numerus-textus.com/admin/</a>.
+The Django admin interface can be accessed via <a href="https://api.numerus-textus.ml/admin/" target="_blank">`https://api.numerus-textus.ml/admin/</a>.
 The associated code can be found in [number2text/app/admin.py](./number2text/app/admin.py).
 
 

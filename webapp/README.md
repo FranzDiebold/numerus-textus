@@ -2,15 +2,15 @@
 
 # numerus textus client app
 
-[![Angular: v6](https://img.shields.io/badge/Angular-v6-DD0031.svg)](./numerus-textus/package.json)
-<a href="https://www.numerus-textus.com" target="_blank"><img src="https://img.shields.io/badge/demo-online-2196F3.svg" alt="demo: online"></a>
+[![Angular: v7](https://img.shields.io/badge/Angular-v7-DD0031.svg)](./numerus-textus/package.json)
+<a href="https://www.numerus-textus.ml" target="_blank"><img src="https://img.shields.io/badge/demo-online-2196F3.svg" alt="demo: online"></a>
 [![license: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE.md)
 
-> Check out the [live demo](https://www.numerus-textus.com)!
+> Check out the [live demo](https://www.numerus-textus.ml)!
 
 <img src="./images/readme/number2text_screenshot.jpg" width="60%" style="max-width:100%;" alt="number2text screenshot">
 
-[Angular v6](https://github.com/angular/angular) app using the reactive libraries [@ngrx](https://github.com/ngrx/platform) and the [Bulma](https://bulma.io) CSS framework.
+[Angular v7](https://github.com/angular/angular) app using the reactive libraries [@ngrx](https://github.com/ngrx/platform) and the [Bulma](https://bulma.io) CSS framework.
 
 Angular concepts/techniques used:
 - [Reactive Forms](https://angular.io/guide/reactive-forms)
@@ -43,7 +43,7 @@ In `src/environments/environment.[prod].ts` you may change the `apiEndpoint` of 
 ```typescript
 export const environment = {
   ...,
-  apiEndpoint: 'https://api.numerus-textus.com',
+  apiEndpoint: 'https://api.numerus-textus.ml',
   twitterAccount: 'numerustextus',
 };
 ```
@@ -91,7 +91,7 @@ If you want to add a new language, i.e. french:
 3. Serve for test: `ng serve --aot --i18n-locale fr --i18n-format=xlf --i18n-file=src/locale/messages.fr.xlf`.
 4. Add the language identifier `fr` to:
     - the `build-prod-i18n` script in [/numerus-textus/package.json](./numerus-textus/package.json)
-    - the language lists (`map` and `location`s in `www.numerus-textus.com` server) in [nginx.conf](./nginx.conf)
+    - the language lists (`map` and `location`s in `www.numerus-textus.ml` server) in [nginx.conf](./nginx.conf)
     - the `languages` in [/numerus-textus/src/app/app.component.ts](./numerus-textus/src/app/app.component.ts)
     - the [backend API](../api) :grin:
 
