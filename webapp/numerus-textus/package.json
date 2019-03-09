@@ -11,21 +11,21 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
-    "build-prod-i18n": "for lang in en de; do ng build --output-path=dist/$lang --prod --base-href=/$lang/ --i18n-file=src/locale/messages.$lang.xlf --i18n-format=xlf --i18n-locale=$lang; done",
+    "build-prod-i18n": "for lang in en de; do node --max_old_space_size=8192 ./node_modules/.bin/ng build --output-path=dist/$lang --prod --base-href=/$lang/ --i18n-file=src/locale/messages.$lang.xlf --i18n-format=xlf --i18n-locale=$lang; done",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
   "private": false,
   "dependencies": {
-    "@angular/common": "^7.2.7",
-    "@angular/compiler": "^7.2.7",
-    "@angular/core": "^7.2.7",
-    "@angular/forms": "^7.2.7",
-    "@angular/http": "^7.2.7",
-    "@angular/platform-browser": "^7.2.7",
-    "@angular/platform-browser-dynamic": "^7.2.7",
-    "@angular/router": "^7.2.7",
+    "@angular/common": "^7.2.8",
+    "@angular/compiler": "^7.2.8",
+    "@angular/core": "^7.2.8",
+    "@angular/forms": "^7.2.8",
+    "@angular/http": "^7.2.8",
+    "@angular/platform-browser": "^7.2.8",
+    "@angular/platform-browser-dynamic": "^7.2.8",
+    "@angular/router": "^7.2.8",
     "@ngrx/effects": "^7.3.0",
     "@ngrx/entity": "^7.3.0",
     "@ngrx/router-store": "^7.3.0",
@@ -37,12 +37,12 @@
     "zone.js": "^0.8.29"
   },
   "devDependencies": {
-    "@angular/cli": "^7.3.4",
-    "@angular/compiler-cli": "^7.2.7",
-    "@angular/language-service": "^7.2.7",
+    "@angular/cli": "^7.3.5",
+    "@angular/compiler-cli": "^7.2.8",
+    "@angular/language-service": "^7.2.8",
     "@types/jasmine": "~3.3.9",
     "@types/jasminewd2": "~2.0.6",
-    "@types/node": "~11.10.4",
+    "@types/node": "~11.11.0",
     "codelyzer": "^4.5.0",
     "jasmine-core": "~3.3.0",
     "jasmine-spec-reporter": "~4.2.1",
@@ -56,6 +56,6 @@
     "ts-node": "~8.0.2",
     "tslint": "~5.13.1",
     "typescript": "~3.2.4",
-    "@angular-devkit/build-angular": "~0.13.4"
+    "@angular-devkit/build-angular": "~0.13.5"
   }
 }

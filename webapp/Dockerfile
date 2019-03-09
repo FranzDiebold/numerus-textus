@@ -1,6 +1,6 @@
 ### STAGE 1: Build ###
 
-FROM node:11.10.1-alpine as builder
+FROM node:11.11.0-alpine as builder
 
 COPY numerus-textus/package.json ./
 
