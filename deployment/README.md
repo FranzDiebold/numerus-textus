@@ -72,7 +72,6 @@ The deployment process is simplified and automated by using several shell script
 ### :clapper: Preparations
 
 The following preparations must be completed before deploying the application:
-- Copy your SSL certificate's `fullchain.pem` and `privkey.pem` files in the folder [webapp/certs](../webapp/certs).
 - In [`deployment/aws_credentials.txt`](./aws_credentials.txt) enter your AWS `ACCESS_KEY`, `SECRET_KEY` and `VPC_ID` ([Managing Access Keys for IAM Users](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html)).
 - In [`api/environment-variables.env`](../api/environment-variables.env) enter the `DJANGO_SECRET_KEY` and `DB_PASSWORD` that should be used.
 - In [`api/number2text/fixtures/admin_user.json`](../api/number2text/fixtures/admin_user.json) enter the `password` hash for the admin user ([Password management in Django](https://docs.djangoproject.com/en/2.0/topics/auth/passwords/s)).
