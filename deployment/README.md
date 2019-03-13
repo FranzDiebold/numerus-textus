@@ -2,7 +2,7 @@
 
 # numerus textus architecture & deployment
 
-## :house: Architecture
+## Architecture
 
 The architecture and interplay of components and (external) services is illustrated in the following image:
 
@@ -10,7 +10,7 @@ The architecture and interplay of components and (external) services is illustra
 
 ### Internal
 
-#### :whale: [Docker](https://www.docker.com)
+#### [Docker](https://www.docker.com)
 
 The individual components of the numerus textus application are containerized using [Docker](https://github.com/docker/docker-ce).
 These containers are represented by the blue boxes in the above architecture illustration.
@@ -65,11 +65,11 @@ The service [Prerender.io](https://prerender.io) is used to serve the prerendere
 
 
 
-## :rocket: Deployment
+## Deployment
 
 The deployment process is simplified and automated by using several shell scripts. These scripts must be run from the root folder.
 
-### :clapper: Preparations
+### Preparations
 
 The following preparations must be completed before deploying the application:
 - In [`deployment/aws_credentials.txt`](./aws_credentials.txt) enter your AWS `ACCESS_KEY`, `SECRET_KEY` and `VPC_ID` ([Managing Access Keys for IAM Users](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html)).
@@ -111,7 +111,7 @@ sh deployment/2_build_and_start_docker.sh
 sh deployment/9_rebuild_service.sh <SERVICE_NAME>
 ```
 
-#### :mag: Inspect containers
+#### Inspect containers
 ```bash
 docker-compose run --rm <CONTAINER_NAME> bash
 ```
@@ -123,5 +123,5 @@ docker-compose logs <CONTAINER_NAME>
 ```
 
 
-## :ballot_box_with_check:️ TODOs
+## TODOs
 - [ ] Use [Docker Cloud](https://cloud.docker.com) on AWS

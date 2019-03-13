@@ -33,12 +33,12 @@ The process of the number to text conversion works as follows (see [`number2text
 
 
 
-### :grey_question: Existence check
+### Existence check
 All existing words of a language are listed in a *dictionary* (`*.txt` files in [`number2text/app/fixtures/`](./number2text/app/fixtures), containing `82808` german and `81879` english words), which are saved in a database. 
 Since database lookups are expensive, a custom-designed type of caching is used: the **hierarchical prefix caching**.
 
 
-#### :tada: Hierarchical prefix caching
+#### Hierarchical prefix caching
 
 The **hierarchical prefix caching** uses prefix caches in a hierarchical structure (see [`number2text/app/core/language_manager.py`](./number2text/app/core/language_manager.py)).
 The main idea is to first check if words with a given prefix are existing at all, before regarding the remaining characters after the prefix.
@@ -71,7 +71,7 @@ The subword combination `['works', 'ad']` is scored highest and thus evaluated a
 
 
 
-## :dart: API endpoints
+## API endpoints
 
 ### number-to-words
 Get possible words for a given number `<NUMBER>` in a given language `<LANGUAGE_CODE>`. The provided number may be splitted manually using `-` or `/` in order to specify a desired splitting.
@@ -138,14 +138,14 @@ The associated code can be found in [number2text/app/admin.py](./number2text/app
 
 
 
-## :rocket: Deployment
+## Deployment
 The app is deployed using Docker ([Dockerfile](./Dockerfile)).
 The Django application is running in a [Gunicorn WSGI server](https://github.com/benoitc/gunicorn) in a Docker container named `api`.
 The underlying database is a [PostgreSQL](https://www.postgresql.org) database and for the cache a [memcached](https://github.com/memcached/memcached) cache is used. Both the database and the cache run in their own Docker container, which the `api` container depends on.
 
 
 
-## :earth_africa: Adding Translations
+## Adding Translations
 If you want to add a new language, i.e. french:
 ```sh
 django-admin.py makemessages -l fr

@@ -59,5 +59,5 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 
 
-## :ballot_box_with_check:️ TODOs
+## TODOs
 - [ ] Enjoy your day!

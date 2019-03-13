@@ -38,7 +38,7 @@ Since the conversion from text to number is a trivial task it is done by the [`T
 User-centric description of the numerus textus project.
 
 
-## 🎛 Configuration
+## Configuration
 In `src/environments/environment.[prod].ts` you may change the `apiEndpoint` of the corresponding backend and the `twitterAccount`:
 ```typescript
 export const environment = {
@@ -55,7 +55,7 @@ $color-secondary: #21f37e;
 ```
 
 
-## :pray: Tests
+## Tests
 For running the tests:
 ```bash
 npm install
@@ -76,14 +76,14 @@ and run [Chrome](https://www.google.com/chrome/) in *disabled web security* mode
 Your app is then running at [`http://localhost:4200`](http://localhost:4200).
 
 
-## :rocket: Deployment
+## Deployment
 The numerus textus client Angular app is built and served using the [multi-stage build](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) Docker feature. Check out the respective [Dockerfile](./Dockerfile):
 1. For building the Angular app (stage 1) via `npm run build-prod-i18n` a Node.js Alpine Docker image is used.
 2. For serving the app (stage 2) a [nginx](https://nginx.org) webserver is employed. The nginx configuration can be found in [`nginx.conf`](./nginx.conf).
 
 
 
-## :earth_africa: i18n
+## I18n
 If you want to add a new language, i.e. french:
 
 1. Run `ng xi18n --outputPath src/locale --i18n-locale en`.
@@ -97,5 +97,5 @@ If you want to add a new language, i.e. french:
 
 
 
-## :ballot_box_with_check:️ TODOs
+## TODOs
 - [ ] ...

@@ -37,7 +37,7 @@ For the `number2text`, `text2number` and `number-of-possibilities` actions the f
 
 
 
-## :dart: API endpoint
+## API endpoint
 In order to comply with the requirements of the Dialogflow [webhook](https://dialogflow.com/docs/fulfillment) (v2) the following API endpoint is defined:
 
 ### webhook
@@ -119,7 +119,7 @@ With the body:
 
 
 
-## 🎛 Configuration
+## Configuration
 In [`src/config.js`](./numerus-textus-chatbot/src/config.js) you may change the `apiHost` of the corresponding backend:
 ```js
 config.apiHost = 'http://api:8000';
@@ -127,12 +127,12 @@ config.apiHost = 'http://api:8000';
 Please keep in mind that the API host is reachable within the Docker host.
 
 
-## :rocket: Deployment
+## Deployment
 The app is deployed using Docker ([Dockerfile](./Dockerfile)).
 
 
 
-## :earth_africa: i18n
+## I18n
 If you want to add a new language, i.e. french, in [/numerus-textus-chatbot/src/handlers/locale](./numerus-textus-chatbot/src/handlers/locale):
 1. Duplicate the english translations file [translations.en.js](./numerus-textus-chatbot/src/handlers/locale/translations.en.js) and name the new file `translations.fr.js`.
 2. Translate to french :grin:.
@@ -140,7 +140,7 @@ If you want to add a new language, i.e. french, in [/numerus-textus-chatbot/src/
 
 
 
-## :ballot_box_with_check:️ Problems/TODOs
+## Problems/TODOs
 - [ ] Add german small talk
 - [ ] A Dialogflow webhook call has a timeout of just 5 seconds, which is too short for complex number2text calls. Maybe this could be done asynchronously?
 - [ ] Add a joke intent :grin:
