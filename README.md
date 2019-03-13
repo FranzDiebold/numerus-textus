@@ -26,35 +26,35 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 
 
-## :computer: number2text API
+## API (number2text)
 <img src="./api/images/readme/api_screenshot.jpg" width="45%" style="max-width:100%;" alt="number2text API screenshot">
 
 :fast_forward: [number2text API](./api) - Internationalized Django API backend
 
 
 
-## :iphone: numerus textus client
+## Client
 <img src="./webapp/images/readme/number2text_screenshot.jpg" width="45%" style="max-width:100%;" alt="number2text screenshot">
 
 :fast_forward: [numerus textus client](./webapp) - Internationalized Angular client app
 
 
 
-## :speech_balloon: numerus textus chatbot
+## Chatbot
 <img src="./chatbot/images/readme/chatbot_telegram_screenshot.jpg" width="35%" style="max-width:100%;" alt="numerus textus chatbot screenshot">
 
 :fast_forward: [numerus textus chatbot](./chatbot) - Internationalized Node.js chatbot backend webhook
 
 
 
-## :house: Architecture & :rocket: Deployment
+## Architecture & Deployment
 <img src="./deployment/images/readme/numerus-textus-architecture.jpg" width="40%" style="max-width:100%;" alt="numerus textus architecture">
 
 :fast_forward: [numerus textus architecture & deployment](./deployment) - Architecture and deployment scripts
 
 
 
-## :balloon: numerus textus Design
+## Design
 :fast_forward: [numerus textus Design](./Design) - Colors and logo
 
 
