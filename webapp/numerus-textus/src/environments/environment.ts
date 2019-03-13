@@ -5,6 +5,6 @@
 
 export const environment = {
   production: false,
-  apiEndpoint: 'https://api.numerus-textus.ml',
+  apiEndpoint: 'https://api.numerus-textus.tk',
   twitterAccount: 'numerustextus',
 };
