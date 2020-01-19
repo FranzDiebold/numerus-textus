@@ -28,7 +28,6 @@ services:
       - "certificates_data:/etc/ssl/:ro"
     depends_on:
       - api
-    env_file: ./webapp/prerender_credentials.txt
 
   chatbot:
     build: ./chatbot

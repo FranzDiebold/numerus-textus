@@ -60,11 +60,6 @@ The following DNS settings should be used.
 The IP of the AWS EC2 instance can be obtained from the [AWS console](https://console.aws.amazon.com/ec2/v2/home).
 
 
-#### [Prerender.io](https://prerender.io)
-The service [Prerender.io](https://prerender.io) is used to serve the prerendered HTML of the Angular app to search engines (Google, Bing, etc.) and social networks (Facebook, Twitter, etc.) for SEO.
-
-
-
 ## Deployment
 
 The deployment process is simplified and automated by using several shell scripts. These scripts must be run from the root folder.
@@ -75,7 +70,6 @@ The following preparations must be completed before deploying the application:
 - In [`deployment/aws_credentials.txt`](./aws_credentials.txt) enter your AWS `ACCESS_KEY`, `SECRET_KEY` and `VPC_ID` ([Managing Access Keys for IAM Users](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html)).
 - In [`api/environment-variables.env`](../api/environment-variables.env) enter the `DJANGO_SECRET_KEY` and `DB_PASSWORD` that should be used.
 - In [`api/number2text/fixtures/admin_user.json`](../api/number2text/fixtures/admin_user.json) enter the `password` hash for the admin user ([Password management in Django](https://docs.djangoproject.com/en/2.0/topics/auth/passwords/s)).
-- In [`webapp/prerender_credentials.txt`](../webapp/prerender_credentials.txt) enter your Prerender.io `PRERENDER_TOKEN`.
 
 
 #### Build and set Docker Machine
