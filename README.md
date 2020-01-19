@@ -20,10 +20,8 @@ On a classical phone keypad every digit is mapped to several characters:
 
 This digit to character and character to digit mapping is the **foundation** of **numerus textus**.
 
-
 ### Why R/7?
 The character **R** corresonds to the digit **7**. That's why :sunglasses:.
-
 
 
 ## API (number2text)
@@ -32,12 +30,10 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 :fast_forward: [number2text API](./api) - Internationalized Django API backend
 
 
-
 ## Client
 <img src="./webapp/images/readme/number2text_screenshot.jpg" width="45%" style="max-width:100%;" alt="number2text screenshot">
 
 :fast_forward: [numerus textus client](./webapp) - Internationalized Angular client app
-
 
 
 ## Chatbot
@@ -46,17 +42,14 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 :fast_forward: [numerus textus chatbot](./chatbot) - Internationalized Node.js chatbot backend webhook
 
 
-
 ## Architecture & Deployment
 <img src="./deployment/images/readme/numerus-textus-architecture.jpg" width="40%" style="max-width:100%;" alt="numerus textus architecture">
 
 :fast_forward: [numerus textus architecture & deployment](./deployment) - Architecture and deployment scripts
 
 
-
 ## Design
 :fast_forward: [numerus textus Design](./Design) - Colors and logo
-
 
 
 ## TODOs
