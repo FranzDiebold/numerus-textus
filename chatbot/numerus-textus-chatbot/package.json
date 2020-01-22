@@ -16,8 +16,8 @@
     "url": "https://github.com/FranzDiebold/numerus-textus/issues"
   },
   "dependencies": {
-    "restify": "^6.3.4",
-    "restify-clients": "^1.5.2",
-    "restify-errors": "^5.0.0"
+    "restify": "^8.5.1",
+    "restify-clients": "^2.6.8",
+    "restify-errors": "^8.0.2"
   }
 }
