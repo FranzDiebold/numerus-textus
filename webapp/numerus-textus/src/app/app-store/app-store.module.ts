@@ -12,7 +12,7 @@ import { reducers } from './app.reducers';
   imports: [
     StoreModule.forRoot(reducers),
     EffectsModule.forRoot([]),
-    StoreRouterConnectingModule,
+    StoreRouterConnectingModule.forRoot(),
     !environment.production ? StoreDevtoolsModule.instrument({ maxAge: 10 }) : [],
   ],
   declarations: []
