@@ -67,9 +67,10 @@ The deployment process is simplified and automated by using several shell script
 ### Preparations
 
 The following preparations must be completed before deploying the application:
-- In [`deployment/aws_credentials.txt`](./aws_credentials.txt) enter your AWS `ACCESS_KEY`, `SECRET_KEY` and `VPC_ID` ([Managing Access Keys for IAM Users](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html)).
+
 - In [`api/environment-variables.env`](../api/environment-variables.env) enter the `DJANGO_SECRET_KEY` and `DB_PASSWORD` that should be used.
-- In [`api/number2text/fixtures/admin_user.json`](../api/number2text/fixtures/admin_user.json) enter the `password` hash for the admin user ([Password management in Django](https://docs.djangoproject.com/en/2.0/topics/auth/passwords/s)).
+- In [`api/number2text/fixtures/admin_user.json`](../api/number2text/fixtures/admin_user.json) enter the `password` hash for the admin user ([Password management in Django](https://docs.djangoproject.com/en/2.0/topics/auth/passwords/)).
+- In [`deployment/aws_credentials.txt`](./aws_credentials.txt) enter your AWS `ACCESS_KEY`, `SECRET_KEY` and `VPC_ID` ([Managing Access Keys for IAM Users](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html)). You may create a user `numerus-textus` with *Programmatic access* for that, attaching the `AmazonEC2FullAccess` policy.
 
 
 #### Build and set Docker Machine
@@ -115,7 +116,3 @@ docker-compose run --rm <CONTAINER_NAME> bash
 docker-compose logs
 docker-compose logs <CONTAINER_NAME>
 ```
-
-
-## TODOs
-- [ ] Use [Docker Cloud](https://cloud.docker.com) on AWS
