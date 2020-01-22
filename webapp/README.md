@@ -2,7 +2,7 @@
 
 # numerus textus client app
 
-[![Angular: v7](https://img.shields.io/badge/Angular-v7-DD0031.svg)](./numerus-textus/package.json)
+[![Angular: v8](https://img.shields.io/badge/Angular-v8-DD0031.svg)](./numerus-textus/package.json)
 <a href="https://www.numerus-textus.tk" target="_blank"><img src="https://img.shields.io/badge/demo-online-2196F3.svg" alt="demo: online"></a>
 [![license: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE.md)
 
@@ -10,7 +10,7 @@
 
 <img src="./images/readme/number2text_screenshot.jpg" width="60%" style="max-width:100%;" alt="number2text screenshot">
 
-[Angular v7](https://github.com/angular/angular) app using the reactive libraries [@ngrx](https://github.com/ngrx/platform) and the [Bulma](https://bulma.io) CSS framework.
+[Angular v8](https://github.com/angular/angular) app using the reactive libraries [@ngrx](https://github.com/ngrx/platform) and the [Bulma](https://bulma.io) CSS framework.
 
 Angular concepts/techniques used:
 - [Reactive Forms](https://angular.io/guide/reactive-forms)
@@ -94,8 +94,3 @@ If you want to add a new language, i.e. french:
     - the language lists (`map` and `location`s in `www.numerus-textus.tk` server) in [nginx.conf](./nginx.conf)
     - the `languages` in [/numerus-textus/src/app/app.component.ts](./numerus-textus/src/app/app.component.ts)
     - the [backend API](../api) :grin:
-
-
-
-## TODOs
-- [ ] ...
