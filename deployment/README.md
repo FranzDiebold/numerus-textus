@@ -46,10 +46,6 @@ In the [AWS console](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1
 
 ### External
 
-#### [Let’s Encrypt](https://letsencrypt.org)
-The SSL certificate used for numerus textus is issued by [Let’s Encrypt](https://letsencrypt.org) and thus free! It was generated using the official [certbot/certbot](https://hub.docker.com/r/certbot/certbot/) Docker image.
-
-
 #### [Cloudflare](https://www.cloudflare.com)
 In order to speed up performance the reverse proxy and content delivery network (CDN) services by Cloudflare are used. However, it is only used for the static content via the `www` subdomain.
 The API traffic via the `api` subdomain is directly routed to AWS EC2 instance.
@@ -58,6 +54,11 @@ The following DNS settings should be used.
 <img src="./images/readme/cloudflare_dns_settings.jpg" width="65%" style="max-width:100%;" alt="Cloudflare DNS settings">
 
 The IP of the AWS EC2 instance can be obtained from the [AWS console](https://console.aws.amazon.com/ec2/v2/home).
+
+Switch to *Full* SSL/TLS encryption mode to prevent infinite redirect loops.
+
+#### [Let’s Encrypt](https://letsencrypt.org)
+The SSL certificate used for numerus textus is issued by [Let’s Encrypt](https://letsencrypt.org) and thus free! It is generated using the official [certbot/certbot](https://hub.docker.com/r/certbot/certbot/) Docker image. During SSL certificate creation you should disable proxying (*Proxied*) in Cloudflare and use *DNS only* instead.
 
 
 ## Deployment
