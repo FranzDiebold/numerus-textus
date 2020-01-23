@@ -144,5 +144,5 @@ typings/
 ## numerus textus custom
 images/
 numerus-textus/node_modules/
-numerus-textus/dist/
+#numerus-textus/dist/
 README.md
