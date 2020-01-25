@@ -61,8 +61,8 @@ export class NumerusTextusStoreService extends StoreService {
     return this.store.select<boolean>(this.isLoading);
   }
 
-  getNumbersToPossibleWords(): Observable<{ [number: string]: string[][][] }> {
-    return this.store.select<{ [number: string]: string[][][] }>(this.numbersToPossibleWords);
+  getNumbersToPossibleWords(): Observable<{ [num: string]: string[][][] }> {
+    return this.store.select<{ [num: string]: string[][][] }>(this.numbersToPossibleWords);
   }
 
   getError(): Observable<string> {
@@ -75,7 +75,7 @@ export class NumerusTextusStoreService extends StoreService {
       this.getNumbersToPossibleWords()
     )
       .pipe(
-        map(([numberInput, numbersToPossibleWords]: [string, { [number: string]: string[][][] }]) =>
+        map(([numberInput, numbersToPossibleWords]: [string, { [num: string]: string[][][] }]) =>
           numbersToPossibleWords[numberInput]
         )
       );

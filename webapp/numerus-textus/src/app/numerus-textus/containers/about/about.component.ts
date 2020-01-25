@@ -8,24 +8,24 @@ import { Component, LOCALE_ID, Inject } from '@angular/core';
 export class AboutComponent {
   keypad = [
       [
-          {'digit': 1, 'characters': ''},
-          {'digit': 2, 'characters': 'abc'},
-          {'digit': 3, 'characters': 'def'}
+          {digit: 1, characters: ''},
+          {digit: 2, characters: 'abc'},
+          {digit: 3, characters: 'def'}
       ],
       [
-          {'digit': 4, 'characters': 'ghi'},
-          {'digit': 5, 'characters': 'jkl'},
-          {'digit': 6, 'characters': 'mno'}
+          {digit: 4, characters: 'ghi'},
+          {digit: 5, characters: 'jkl'},
+          {digit: 6, characters: 'mno'}
       ],
       [
-          {'digit': 7, 'characters': 'pqrs'},
-          {'digit': 8, 'characters': 'tuv'},
-          {'digit': 9, 'characters': 'wxyz'}
+          {digit: 7, characters: 'pqrs'},
+          {digit: 8, characters: 'tuv'},
+          {digit: 9, characters: 'wxyz'}
       ],
       [
-          {'digit': '*', 'characters': ''},
-          {'digit': 0, 'characters': ''},
-          {'digit': '#', 'characters': ''}
+          {digit: '*', characters: ''},
+          {digit: 0, characters: ''},
+          {digit: '#', characters: ''}
       ]
   ];
 
@@ -38,7 +38,7 @@ export class AboutComponent {
   }
 
   get numberOutputExample(): { [name: string]: string}[] {
-    const numberOutputExample_en = [
+    const numberOutputExampleEN = [
         {
             digit: '2',
             character: 'c',
@@ -53,7 +53,7 @@ export class AboutComponent {
         },
       ];
 
-    const numberOutputExample_de = [
+    const numberOutputExampleDE = [
         {
             digit: '2',
             character: 'b',
@@ -69,9 +69,9 @@ export class AboutComponent {
       ];
 
     if (this.languageIdentifier === 'de') {
-        return numberOutputExample_de;
+        return numberOutputExampleDE;
     } else {
-        return numberOutputExample_en;
+        return numberOutputExampleEN;
     }
   }
 }

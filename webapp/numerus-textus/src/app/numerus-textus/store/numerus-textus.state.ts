@@ -5,7 +5,7 @@ import { TextToNumberResult } from '../services/text-to-number/text-to-number-re
 export interface NumberToTextState {
     numberInput: string;
     isLoading: boolean;
-    numbersToPossibleWords: { [number: string]: string[][][] };
+    numbersToPossibleWords: { [num: string]: string[][][] };
     error?: string;
 }
 

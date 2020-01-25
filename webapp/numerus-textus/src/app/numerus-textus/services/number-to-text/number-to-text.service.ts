@@ -12,8 +12,8 @@ export class NumberToTextService {
 
   constructor(private httpClient: HttpClient) { }
 
-  loadPossibleWordsForNumber(number: string, locale: string): Observable<NumberToTextResponse> {
+  loadPossibleWordsForNumber(num: string, locale: string): Observable<NumberToTextResponse> {
     return this.httpClient
-      .get<NumberToTextResponse>(`${this.API_PATH}/${locale}/${number}/`);
+      .get<NumberToTextResponse>(`${this.API_PATH}/${locale}/${num}/`);
   }
 }

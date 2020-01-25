@@ -51,9 +51,9 @@ export class NumerusTextusEffects {
     .pipe(
       ofType(NumberToTextActions.LOAD_NUMBER_TO_POSSIBLE_WORDS),
       map((action: LoadNumberToPossibleWordsAction) => action.payload),
-      switchMap((number: string) =>
+      switchMap((num: string) =>
         this.numberToTextService
-          .loadPossibleWordsForNumber(number, this.languageIdentifier)
+          .loadPossibleWordsForNumber(num, this.languageIdentifier)
           .pipe(
             map((numberToTextResponse: NumberToTextResponse) => new LoadNumberToPossibleWordsSucceededAction(numberToTextResponse)),
             catchError((errorResponse: any) => {
