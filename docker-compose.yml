@@ -2,12 +2,12 @@ version: "3.4"
 
 services:
   database:
-    image: postgres:10.11-alpine
+    image: postgres:12.1-alpine
     volumes:
       - "database_data:/var/lib/postgresql/data"
 
   cache:
-    image: memcached:1.5.20-alpine
+    image: memcached:1.5.21-alpine
 
   api:
     build: ./api

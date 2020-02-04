@@ -15,7 +15,7 @@
 
 ### STAGE 2: Setup ###
 
-FROM nginx:1.16.1-alpine
+FROM nginx:1.17.8-alpine
 
 RUN rm -f /etc/nginx/sites-enabled/default
 COPY nginx.conf /etc/nginx/nginx.conf
