@@ -3,7 +3,7 @@ from django.utils.translation import ugettext as _
 from .number_to_words import NumberToWords
 
 
-class NumberOfPossibilities(object):
+class NumberOfPossibilities:
     @classmethod
     def get_number_of_possibilities(cls, number: str) -> int:
         number = NumberToWords.sanitize_and_check_number(number)

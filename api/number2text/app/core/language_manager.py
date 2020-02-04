@@ -9,7 +9,7 @@ from app.models.german_language import GermanLanguage
 from app.models.english_language import EnglishLanguage
 
 
-class LanguageManager(object):
+class LanguageManager:
     LANGUAGE_STRING_TO_LANGUAGE = {
         'test': TestLanguage,
         'de': GermanLanguage,

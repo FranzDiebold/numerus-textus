@@ -7,7 +7,7 @@ from django.utils.translation import ugettext as _
 from .language_manager import LanguageManager
 
 
-class NumberToWords(object):
+class NumberToWords:
     SPLIT_CHARS = ['-', '/']
     SPLIT_DIGITS = ['0', '1']
     DIGIT_TO_CHAR = {
