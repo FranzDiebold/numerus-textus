@@ -50,7 +50,3 @@ The character **R** corresonds to the digit **7**. That's why :sunglasses:.
 
 ## Design
 :fast_forward: [numerus textus Design](./Design) - Colors and logo
-
-
-## TODOs
-- [ ] Enjoy your day!
